@@ -16,7 +16,7 @@ git status
 echo.
 
 git add .
-git commit -m "Add vocab mode, N3-N4 content, UI fixes, and word-only sentence builder"
+git commit -m "Fix dark mode kanji visibility and remove broken level scaffold"
 if errorlevel 1 (
   echo.
   echo Nothing to commit, or commit failed. Trying push anyway...
