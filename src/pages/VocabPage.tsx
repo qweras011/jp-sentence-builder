@@ -17,8 +17,8 @@ export function VocabPage({ onHome }: VocabPageProps) {
     reviewCount,
     freshCount,
     feedback,
+    selectedLabel,
     selectChoice,
-    continueNext,
     restart,
   } = useVocabQuiz();
 
@@ -93,13 +93,23 @@ export function VocabPage({ onHome }: VocabPageProps) {
 
         <div className="space-y-2.5">
           {choices.map((choice) => {
+            const isSelected = selectedLabel === choice.label;
             let style =
               "border-slate-200 bg-white text-slate-800 hover:border-emerald-300 hover:bg-emerald-50";
 
             if (answered && choice.isCorrect) {
               style = "border-emerald-400 bg-emerald-50 text-emerald-900";
-            } else if (answered && !choice.isCorrect) {
+            } else if (answered && isSelected && !choice.isCorrect) {
+              style = "border-rose-400 bg-rose-50 text-rose-900";
+            } else if (answered) {
               style = "border-slate-200 bg-slate-50 text-slate-400";
+            }
+
+            let badgeStyle = "bg-slate-100 text-slate-600";
+            if (answered && choice.isCorrect) {
+              badgeStyle = "bg-emerald-100 text-emerald-700";
+            } else if (answered && isSelected && !choice.isCorrect) {
+              badgeStyle = "bg-rose-100 text-rose-700";
             }
 
             return (
@@ -107,10 +117,12 @@ export function VocabPage({ onHome }: VocabPageProps) {
                 key={choice.label}
                 type="button"
                 disabled={answered}
-                onClick={() => selectChoice(choice.isCorrect)}
+                onClick={() => selectChoice(choice.label, choice.isCorrect)}
                 className={`flex w-full items-center gap-3 rounded-xl border px-4 py-4 text-left text-base font-medium transition ${style} disabled:cursor-default`}
               >
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100 text-sm font-bold text-slate-600">
+                <span
+                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold ${badgeStyle}`}
+                >
                   {choice.label}
                 </span>
                 <span>{choice.korean}</span>
@@ -120,22 +132,13 @@ export function VocabPage({ onHome }: VocabPageProps) {
         </div>
 
         {answered && (
-          <div className="space-y-3">
-            <p
-              className={`text-center text-sm font-semibold ${
-                feedback === "correct" ? "text-emerald-600" : "text-rose-600"
-              }`}
-            >
-              {feedback === "correct" ? "정답입니다!" : "틀렸습니다. 다시 복습해요."}
-            </p>
-            <button
-              type="button"
-              onClick={continueNext}
-              className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600"
-            >
-              다음 문제
-            </button>
-          </div>
+          <p
+            className={`text-center text-sm font-semibold ${
+              feedback === "correct" ? "text-emerald-600" : "text-rose-600"
+            }`}
+          >
+            {feedback === "correct" ? "정답입니다!" : "틀렸습니다. 다시 복습해요."}
+          </p>
         )}
       </main>
     </div>

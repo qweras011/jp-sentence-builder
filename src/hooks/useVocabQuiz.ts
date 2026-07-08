@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import vocabData from "../data/vocab.json";
 import type { VocabFeedback, VocabItem } from "../types/vocab";
 import { VOCAB_DAILY_GOAL, getLocalDateString } from "../utils/daily";
@@ -27,6 +27,8 @@ function buildTodaySession() {
   };
 }
 
+const AUTO_ADVANCE_MS = 700;
+
 export function useVocabQuiz() {
   const session = useMemo(() => buildTodaySession(), []);
   const dateLabel = getLocalDateString();
@@ -34,6 +36,7 @@ export function useVocabQuiz() {
   const [queue, setQueue] = useState<VocabItem[]>(() => [...session.initialQueue]);
   const [completedCount, setCompletedCount] = useState(session.initialCompleted);
   const [feedback, setFeedback] = useState<VocabFeedback>("idle");
+  const [selectedLabel, setSelectedLabel] = useState<string | null>(null);
   const [choiceSeed, setChoiceSeed] = useState(0);
   const [reviewCount] = useState(session.reviewCount);
   const [freshCount] = useState(session.freshCount);
@@ -49,9 +52,10 @@ export function useVocabQuiz() {
   );
 
   const selectChoice = useCallback(
-    (isCorrect: boolean) => {
+    (label: string, isCorrect: boolean) => {
       if (!current || feedback !== "idle") return;
 
+      setSelectedLabel(label);
       reviewWord(current.id, isCorrect ? 5 : 1);
       setFeedback(isCorrect ? "correct" : "incorrect");
     },
@@ -76,8 +80,19 @@ export function useVocabQuiz() {
     }
 
     setFeedback("idle");
+    setSelectedLabel(null);
     setChoiceSeed((seed) => seed + 1);
   }, [feedback, vocabIds]);
+
+  useEffect(() => {
+    if (feedback === "idle") return;
+
+    const timer = window.setTimeout(() => {
+      continueNext();
+    }, AUTO_ADVANCE_MS);
+
+    return () => window.clearTimeout(timer);
+  }, [feedback, continueNext]);
 
   const restart = useCallback(() => {
     const { items } = resolveTodayVocab(allPool, VOCAB_DAILY_GOAL);
@@ -85,6 +100,7 @@ export function useVocabQuiz() {
     setCompletedCount(0);
     saveVocabDailyProgress(0, items.map((item) => item.id));
     setFeedback("idle");
+    setSelectedLabel(null);
     setChoiceSeed((seed) => seed + 1);
   }, []);
 
@@ -99,8 +115,8 @@ export function useVocabQuiz() {
     reviewCount,
     freshCount,
     feedback,
+    selectedLabel,
     selectChoice,
-    continueNext,
     restart,
   };
 }
