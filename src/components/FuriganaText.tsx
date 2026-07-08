@@ -7,7 +7,7 @@ interface FuriganaTextProps {
 
 export function FuriganaText({ segments, className = "text-xl" }: FuriganaTextProps) {
   return (
-    <p className={`furigana-text font-jp leading-relaxed text-slate-900 ${className}`}>
+    <p className={`furigana-text font-jp leading-relaxed text-inherit ${className}`}>
       {segments.map((segment, index) =>
         segment.reading ? (
           <ruby key={`${segment.text}-${index}`}>
