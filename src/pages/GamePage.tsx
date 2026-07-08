@@ -21,6 +21,7 @@ export function GamePage({ onHome }: GamePageProps) {
     availablePieces,
     feedback,
     playablePieceCount,
+    pieceMatches,
     selectPiece,
     removePiece,
     checkAnswer,
@@ -89,6 +90,7 @@ export function GamePage({ onHome }: GamePageProps) {
           selectedPieces={selectedPieces}
           feedback={feedback}
           ruby={current.ruby}
+          pieceMatches={pieceMatches}
           layoutPieceCount={layoutPieceCount}
           onRemove={removePiece}
         />

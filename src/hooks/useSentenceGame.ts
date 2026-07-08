@@ -4,6 +4,7 @@ import type { FeedbackState, SentenceItem } from "../types/sentence";
 import { SENTENCE_DAILY_GOAL, getLocalDateString } from "../utils/daily";
 import { loadDailyProgress, resolveTodaySentences, saveDailyProgress } from "../utils/dailyProgress";
 import { getTrackablePieces } from "../utils/selectDaily";
+import { compareSentencePieces } from "../utils/sentenceCompare";
 import { normalizeForAnswer, shuffle } from "../utils/shuffle";
 
 const allPool = data as SentenceItem[];
@@ -58,6 +59,11 @@ export function useSentenceGame() {
     }
     return remaining;
   }, [selectedPieces, shuffledPieces]);
+
+  const pieceMatches = useMemo(() => {
+    if (feedback !== "incorrect" || !current) return null;
+    return compareSentencePieces(selectedPieces, current);
+  }, [feedback, current, selectedPieces]);
 
   const resetAttempt = useCallback(() => {
     setSelectedPieces([]);
@@ -138,6 +144,7 @@ export function useSentenceGame() {
     selectedPieces,
     availablePieces,
     feedback,
+    pieceMatches,
     selectPiece,
     removePiece,
     checkAnswer,

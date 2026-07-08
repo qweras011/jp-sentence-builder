@@ -1,4 +1,5 @@
 import type { FeedbackState, RubySegment } from "../types/sentence";
+import type { PieceMatch } from "../utils/sentenceCompare";
 import { getPieceAreaMinHeight } from "../utils/wordBankLayout";
 import { FuriganaText } from "./FuriganaText";
 
@@ -6,6 +7,7 @@ interface AnswerAreaProps {
   selectedPieces: string[];
   feedback: FeedbackState;
   ruby?: RubySegment[];
+  pieceMatches?: PieceMatch[] | null;
   layoutPieceCount: number;
   onRemove: (index: number) => void;
 }
@@ -14,6 +16,7 @@ export function AnswerArea({
   selectedPieces,
   feedback,
   ruby,
+  pieceMatches,
   layoutPieceCount,
   onRemove,
 }: AnswerAreaProps) {
@@ -35,7 +38,7 @@ export function AnswerArea({
     feedback === "correct"
       ? "정답입니다. 다음 문제로 넘어가세요."
       : feedback === "incorrect"
-        ? "목록 맨 뒤로 넘어갑니다."
+        ? "빨간 단어를 확인하세요."
         : null;
 
   const minHeight = getPieceAreaMinHeight(layoutPieceCount);
@@ -62,18 +65,28 @@ export function AnswerArea({
           ) : selectedPieces.length === 0 ? (
             <p className="text-sm text-slate-400 dark:text-slate-500">단어만 순서대로 눌러 문장을 만드세요.</p>
           ) : (
-            selectedPieces.map((piece, index) => (
-              <button
-                key={`${piece}-${index}`}
-                type="button"
-                onClick={() => feedback === "idle" && onRemove(index)}
-                disabled={feedback !== "idle"}
-                className="rounded-lg border border-indigo-200 bg-white px-2.5 py-1.5 font-jp text-base text-slate-800 shadow-sm transition enabled:hover:border-indigo-400 enabled:hover:bg-indigo-50 disabled:cursor-default dark:border-indigo-700 dark:bg-slate-800 dark:text-slate-100 dark:enabled:hover:bg-indigo-950"
-                title={feedback === "idle" ? "클릭하면 되돌립니다" : undefined}
-              >
-                {piece}
-              </button>
-            ))
+            selectedPieces.map((piece, index) => {
+              const match = pieceMatches?.[index];
+              const pieceStyle =
+                feedback === "incorrect" && match
+                  ? match.state === "correct"
+                    ? "border-emerald-400 bg-emerald-50 text-emerald-900 dark:border-emerald-500 dark:bg-emerald-950 dark:text-emerald-200"
+                    : "border-rose-400 bg-rose-50 text-rose-900 dark:border-rose-500 dark:bg-rose-950 dark:text-rose-200"
+                  : "border-indigo-200 bg-white text-slate-800 dark:border-indigo-700 dark:bg-slate-800 dark:text-slate-100";
+
+              return (
+                <button
+                  key={`${piece}-${index}`}
+                  type="button"
+                  onClick={() => feedback === "idle" && onRemove(index)}
+                  disabled={feedback !== "idle"}
+                  className={`rounded-lg border px-2.5 py-1.5 font-jp text-base shadow-sm transition enabled:hover:border-indigo-400 enabled:hover:bg-indigo-50 disabled:cursor-default dark:enabled:hover:bg-indigo-950 ${pieceStyle}`}
+                  title={feedback === "idle" ? "클릭하면 되돌립니다" : undefined}
+                >
+                  {piece}
+                </button>
+              );
+            })
           )}
         </div>
       </div>
