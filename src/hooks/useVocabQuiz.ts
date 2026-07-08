@@ -38,6 +38,7 @@ export function useVocabQuiz(direction: VocabDirection) {
   const [feedback, setFeedback] = useState<VocabFeedback>("idle");
   const [selectedLabel, setSelectedLabel] = useState<string | null>(null);
   const [choiceSeed, setChoiceSeed] = useState(0);
+  const [activeDirection, setActiveDirection] = useState<VocabDirection>(direction);
   const [reviewCount] = useState(session.reviewCount);
   const [freshCount] = useState(session.freshCount);
   const [vocabIds] = useState(session.vocabIds);
@@ -46,9 +47,13 @@ export function useVocabQuiz(direction: VocabDirection) {
   const current = queue[0];
   const isComplete = completedCount >= VOCAB_DAILY_GOAL || queue.length === 0;
 
+  useEffect(() => {
+    setActiveDirection(direction);
+  }, [current?.id]);
+
   const choices = useMemo(
-    () => (current ? buildVocabChoices(current, allPool, direction) : []),
-    [current, choiceSeed, direction],
+    () => (current ? buildVocabChoices(current, allPool, activeDirection) : []),
+    [current, choiceSeed, activeDirection],
   );
 
   const selectChoice = useCallback(
@@ -112,6 +117,7 @@ export function useVocabQuiz(direction: VocabDirection) {
   return {
     current,
     choices,
+    activeDirection,
     completedCount,
     totalUnique,
     remainingCount: queue.length,

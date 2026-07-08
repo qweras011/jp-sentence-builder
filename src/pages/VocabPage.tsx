@@ -13,6 +13,7 @@ export function VocabPage({ onHome, showFurigana }: VocabPageProps) {
   const {
     current,
     choices,
+    activeDirection,
     completedCount,
     totalUnique,
     isComplete,
@@ -69,7 +70,7 @@ export function VocabPage({ onHome, showFurigana }: VocabPageProps) {
 
   const answered = feedback !== "idle";
   const questionNumber = completedCount + 1;
-  const isReverse = direction === "reverse";
+  const isReverse = activeDirection === "reverse";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-100 to-emerald-50 px-3 pb-4 pt-14 dark:from-slate-950 dark:to-slate-900">
