@@ -1,14 +1,23 @@
+import { JapanesePiece } from "./JapanesePiece";
 import { getWordBankBodyMinHeight } from "../utils/wordBankLayout";
 
 interface WordBankProps {
   pieces: string[];
   disabled: boolean;
   onSelect: (piece: string) => void;
-  /** 문장 시작 시 조각 수 — 줄 수 고정용 */
   layoutPieceCount: number;
+  showFurigana: boolean;
+  pieceReadings?: Map<string, string>;
 }
 
-export function WordBank({ pieces, disabled, onSelect, layoutPieceCount }: WordBankProps) {
+export function WordBank({
+  pieces,
+  disabled,
+  onSelect,
+  layoutPieceCount,
+  showFurigana,
+  pieceReadings,
+}: WordBankProps) {
   const minHeight = getWordBankBodyMinHeight(layoutPieceCount);
 
   return (
@@ -27,9 +36,13 @@ export function WordBank({ pieces, disabled, onSelect, layoutPieceCount }: WordB
               type="button"
               disabled={disabled}
               onClick={() => onSelect(piece)}
-              className="rounded-lg bg-indigo-500 px-3 py-1.5 font-jp text-base font-medium text-white shadow-sm transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
+              className="piece-on-indigo rounded-lg bg-indigo-500 px-3 py-1.5 font-jp text-base font-medium text-white shadow-sm transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              {piece}
+              <JapanesePiece
+                text={piece}
+                reading={pieceReadings?.get(piece)}
+                showFurigana={showFurigana}
+              />
             </button>
           ))
         )}

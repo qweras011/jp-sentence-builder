@@ -1,13 +1,23 @@
+import { FuriganaToggle } from "./FuriganaToggle";
 import { ThemeToggle } from "./ThemeToggle";
 
 interface TopBarProps {
   dark: boolean;
   onToggleTheme: () => void;
+  showFurigana: boolean;
+  onToggleFurigana: () => void;
   showHome?: boolean;
   onHome?: () => void;
 }
 
-export function TopBar({ dark, onToggleTheme, showHome = false, onHome }: TopBarProps) {
+export function TopBar({
+  dark,
+  onToggleTheme,
+  showFurigana,
+  onToggleFurigana,
+  showHome = false,
+  onHome,
+}: TopBarProps) {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur dark:border-slate-700/80 dark:bg-slate-900/95">
       <div className="mx-auto flex max-w-2xl items-center justify-between px-3 py-2.5">
@@ -22,7 +32,10 @@ export function TopBar({ dark, onToggleTheme, showHome = false, onHome }: TopBar
             </button>
           )}
         </div>
-        <ThemeToggle dark={dark} onToggle={onToggleTheme} />
+        <div className="flex items-center gap-2">
+          <FuriganaToggle show={showFurigana} onToggle={onToggleFurigana} />
+          <ThemeToggle dark={dark} onToggle={onToggleTheme} />
+        </div>
       </div>
     </header>
   );

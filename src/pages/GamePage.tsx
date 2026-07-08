@@ -1,14 +1,17 @@
+import { useMemo } from "react";
 import { AnswerArea } from "../components/AnswerArea";
 import { GameHeader } from "../components/GameHeader";
 import { PromptCard } from "../components/PromptCard";
 import { WordBank } from "../components/WordBank";
 import { useSentenceGame } from "../hooks/useSentenceGame";
+import { buildRubyLookup } from "../utils/pieceRuby";
 
 interface GamePageProps {
   onHome: () => void;
+  showFurigana: boolean;
 }
 
-export function GamePage({ onHome }: GamePageProps) {
+export function GamePage({ onHome, showFurigana }: GamePageProps) {
   const {
     current,
     completedCount,
@@ -29,6 +32,11 @@ export function GamePage({ onHome }: GamePageProps) {
     resetAttempt,
     restart,
   } = useSentenceGame();
+
+  const pieceReadings = useMemo(
+    () => (current ? buildRubyLookup(current.ruby) : new Map<string, string>()),
+    [current],
+  );
 
   if (isComplete) {
     return (
@@ -92,6 +100,8 @@ export function GamePage({ onHome }: GamePageProps) {
           ruby={current.ruby}
           pieceMatches={pieceMatches}
           layoutPieceCount={layoutPieceCount}
+          showFurigana={showFurigana}
+          pieceReadings={pieceReadings}
           onRemove={removePiece}
         />
 
@@ -103,6 +113,8 @@ export function GamePage({ onHome }: GamePageProps) {
                 disabled={false}
                 onSelect={selectPiece}
                 layoutPieceCount={layoutPieceCount}
+                showFurigana={showFurigana}
+                pieceReadings={pieceReadings}
               />
               <button
                 type="button"
@@ -119,6 +131,8 @@ export function GamePage({ onHome }: GamePageProps) {
                 disabled
                 onSelect={() => undefined}
                 layoutPieceCount={layoutPieceCount}
+                showFurigana={showFurigana}
+                pieceReadings={pieceReadings}
               />
               <div className="w-full rounded-xl border border-slate-300 py-2.5 text-sm">&nbsp;</div>
             </div>

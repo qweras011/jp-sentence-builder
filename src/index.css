@@ -33,3 +33,7 @@ body {
 .dark .furigana-text ruby rt {
   color: #818cf8;
 }
+
+.piece-on-indigo .furigana-text ruby rt {
+  color: rgb(224 231 255);
+}

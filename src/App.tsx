@@ -1,4 +1,5 @@
 import { useDarkMode } from "./hooks/useDarkMode";
+import { useFurigana } from "./hooks/useFurigana";
 import { useState } from "react";
 import { TopBar } from "./components/TopBar";
 import { GamePage } from "./pages/GamePage";
@@ -9,6 +10,7 @@ type View = "home" | "sentence" | "vocab";
 
 function App() {
   const { dark, toggle } = useDarkMode();
+  const { showFurigana, toggleFurigana } = useFurigana();
   const [view, setView] = useState<View>("home");
 
   return (
@@ -16,6 +18,8 @@ function App() {
       <TopBar
         dark={dark}
         onToggleTheme={toggle}
+        showFurigana={showFurigana}
+        onToggleFurigana={toggleFurigana}
         showHome={view !== "home"}
         onHome={() => setView("home")}
       />
@@ -27,9 +31,13 @@ function App() {
         />
       )}
 
-      {view === "vocab" && <VocabPage onHome={() => setView("home")} />}
+      {view === "vocab" && (
+        <VocabPage showFurigana={showFurigana} onHome={() => setView("home")} />
+      )}
 
-      {view === "sentence" && <GamePage onHome={() => setView("home")} />}
+      {view === "sentence" && (
+        <GamePage showFurigana={showFurigana} onHome={() => setView("home")} />
+      )}
     </>
   );
 }

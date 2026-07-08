@@ -5,9 +5,10 @@ import { useVocabQuiz } from "../hooks/useVocabQuiz";
 
 interface VocabPageProps {
   onHome: () => void;
+  showFurigana: boolean;
 }
 
-export function VocabPage({ onHome }: VocabPageProps) {
+export function VocabPage({ onHome, showFurigana }: VocabPageProps) {
   const { direction, setVocabDirection } = useVocabDirection();
   const {
     current,
@@ -100,6 +101,7 @@ export function VocabPage({ onHome }: VocabPageProps) {
             <FuriganaText
               segments={[{ text: current.word, reading: current.reading }]}
               className="text-4xl font-medium"
+              showFurigana={showFurigana}
             />
           )}
         </div>
@@ -145,6 +147,7 @@ export function VocabPage({ onHome }: VocabPageProps) {
                   <FuriganaText
                     segments={[{ text: choice.word, reading: choice.reading }]}
                     className="text-lg"
+                    showFurigana={showFurigana}
                   />
                 ) : (
                   <span>{choice.korean}</span>

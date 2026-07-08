@@ -2,6 +2,7 @@ import type { FeedbackState, RubySegment } from "../types/sentence";
 import type { PieceMatch } from "../utils/sentenceCompare";
 import { getPieceAreaMinHeight } from "../utils/wordBankLayout";
 import { FuriganaText } from "./FuriganaText";
+import { JapanesePiece } from "./JapanesePiece";
 
 interface AnswerAreaProps {
   selectedPieces: string[];
@@ -9,6 +10,8 @@ interface AnswerAreaProps {
   ruby?: RubySegment[];
   pieceMatches?: PieceMatch[] | null;
   layoutPieceCount: number;
+  showFurigana: boolean;
+  pieceReadings?: Map<string, string>;
   onRemove: (index: number) => void;
 }
 
@@ -18,6 +21,8 @@ export function AnswerArea({
   ruby,
   pieceMatches,
   layoutPieceCount,
+  showFurigana,
+  pieceReadings,
   onRemove,
 }: AnswerAreaProps) {
   const borderColor =
@@ -61,7 +66,7 @@ export function AnswerArea({
       >
         <div className="flex h-full flex-wrap content-start gap-1.5">
           {feedback === "correct" && ruby ? (
-            <FuriganaText segments={ruby} className="text-lg" />
+            <FuriganaText segments={ruby} className="text-lg" showFurigana={showFurigana} />
           ) : selectedPieces.length === 0 ? (
             <p className="text-sm text-slate-400 dark:text-slate-500">단어만 순서대로 눌러 문장을 만드세요.</p>
           ) : (
@@ -83,7 +88,11 @@ export function AnswerArea({
                   className={`rounded-lg border px-2.5 py-1.5 font-jp text-base shadow-sm transition enabled:hover:border-indigo-400 enabled:hover:bg-indigo-50 disabled:cursor-default dark:enabled:hover:bg-indigo-950 ${pieceStyle}`}
                   title={feedback === "idle" ? "클릭하면 되돌립니다" : undefined}
                 >
-                  {piece}
+                  <JapanesePiece
+                    text={piece}
+                    reading={pieceReadings?.get(piece)}
+                    showFurigana={showFurigana}
+                  />
                 </button>
               );
             })
