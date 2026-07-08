@@ -19,18 +19,6 @@ export function saveSrsCards(cards: Record<string, SrsCard>): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(cards));
 }
 
-export function reviewPiecesWithRatings(ratings: Record<string, number>): void {
-  const cards = loadSrsCards();
-  const today = getLocalDateString();
-
-  for (const [piece, quality] of Object.entries(ratings)) {
-    const current = cards[piece] ?? createNewCard(today);
-    cards[piece] = reviewCard(current, quality, today);
-  }
-
-  saveSrsCards(cards);
-}
-
 export function reviewPieces(
   pieces: string[],
   quality: number,

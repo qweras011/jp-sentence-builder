@@ -10,3 +10,12 @@ export function shuffle<T>(items: T[]): T[] {
 export function normalizeJapanese(text: string): string {
   return text.replace(/\s+/g, "");
 }
+
+/** 문장 배열 게임에서 제외하는 구두점 */
+export function stripPunctuation(text: string): string {
+  return text.replace(/[。、？！]/g, "");
+}
+
+export function normalizeForAnswer(text: string): string {
+  return normalizeJapanese(stripPunctuation(text));
+}

@@ -1,4 +1,4 @@
-import { DAILY_GOAL, getLocalDateString } from "./daily";
+import { SENTENCE_DAILY_GOAL, getLocalDateString } from "./daily";
 import type { SentenceItem } from "../types/sentence";
 import { loadSrsCards } from "./vocabSrs";
 import { countReviewAndNew, selectDailySentences } from "./selectDaily";
@@ -43,7 +43,7 @@ export function saveDailyProgress(completed: number, sentenceIds: number[]): voi
 
 export function resolveTodaySentences(
   pool: SentenceItem[],
-  count = DAILY_GOAL,
+  count = SENTENCE_DAILY_GOAL,
 ): { sentences: SentenceItem[]; review: number; fresh: number } {
   const saved = loadDailyProgress();
   const cards = loadSrsCards();

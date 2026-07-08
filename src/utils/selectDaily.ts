@@ -1,6 +1,6 @@
 import type { SentenceItem } from "../types/sentence";
 import type { SrsCard } from "../types/srs";
-import { DAILY_GOAL, getLocalDateString } from "./daily";
+import { SENTENCE_DAILY_GOAL, getLocalDateString } from "./daily";
 import { daysBetween, isDue } from "./srs";
 
 const SKIP_PIECES = new Set(["。", "、", "？", "！"]);
@@ -65,7 +65,7 @@ export function countReviewAndNew(
 export function selectDailySentences(
   pool: SentenceItem[],
   cards: Record<string, SrsCard>,
-  count = DAILY_GOAL,
+  count = SENTENCE_DAILY_GOAL,
   today = getLocalDateString(),
 ): SentenceItem[] {
   const ranked = [...pool].sort((a, b) => {

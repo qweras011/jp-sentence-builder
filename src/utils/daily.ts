@@ -1,4 +1,8 @@
-export const DAILY_GOAL = 5;
+export const SENTENCE_DAILY_GOAL = 5;
+export const VOCAB_DAILY_GOAL = 10;
+
+/** @deprecated Use SENTENCE_DAILY_GOAL or VOCAB_DAILY_GOAL */
+export const DAILY_GOAL = SENTENCE_DAILY_GOAL;
 
 export function getLocalDateString(date = new Date()): string {
   const year = date.getFullYear();
@@ -18,7 +22,7 @@ function hashString(value: string): number {
 
 export function getTodaySentences<T extends { id: number }>(
   allSentences: T[],
-  count = DAILY_GOAL,
+  count = SENTENCE_DAILY_GOAL,
   date = new Date(),
 ): T[] {
   const today = getLocalDateString(date);

@@ -1,18 +1,17 @@
 import { useCallback, useMemo, useState } from "react";
 import data from "../data/data.json";
 import type { FeedbackState, SentenceItem } from "../types/sentence";
-import { DAILY_GOAL, getLocalDateString } from "../utils/daily";
+import { SENTENCE_DAILY_GOAL, getLocalDateString } from "../utils/daily";
 import { loadDailyProgress, resolveTodaySentences, saveDailyProgress } from "../utils/dailyProgress";
-import { getMeaningCheckItems, type MeaningRating } from "../utils/meaningCheck";
-import { normalizeJapanese, shuffle } from "../utils/shuffle";
-import { reviewPiecesWithRatings } from "../utils/vocabSrs";
+import { getTrackablePieces } from "../utils/selectDaily";
+import { normalizeForAnswer, shuffle } from "../utils/shuffle";
 
 const allPool = data as SentenceItem[];
 
 function buildTodaySession() {
-  const { sentences, review, fresh } = resolveTodaySentences(allPool, DAILY_GOAL);
+  const { sentences, review, fresh } = resolveTodaySentences(allPool, SENTENCE_DAILY_GOAL);
   const saved = loadDailyProgress();
-  const alreadyDone = Math.min(saved.completed, DAILY_GOAL);
+  const alreadyDone = Math.min(saved.completed, SENTENCE_DAILY_GOAL);
 
   return {
     todaySentences: sentences,
@@ -33,24 +32,21 @@ export function useSentenceGame() {
   const [selectedPieces, setSelectedPieces] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<FeedbackState>("idle");
   const [shuffleSeed, setShuffleSeed] = useState(0);
-  const [wordRatings, setWordRatings] = useState<Record<string, MeaningRating | undefined>>({});
   const [reviewCount] = useState(session.reviewCount);
   const [freshCount] = useState(session.freshCount);
   const [sentenceIds] = useState(session.sentenceIds);
 
-  const totalUnique = DAILY_GOAL;
+  const totalUnique = SENTENCE_DAILY_GOAL;
   const current = queue[0];
-  const isComplete = completedCount >= DAILY_GOAL || queue.length === 0;
+  const isComplete = completedCount >= SENTENCE_DAILY_GOAL || queue.length === 0;
 
-  const meaningItems = useMemo(
-    () => (current ? getMeaningCheckItems(current.ruby) : []),
+  const playablePieceCount = useMemo(
+    () => (current ? getTrackablePieces(current.shuffled).length : 0),
     [current],
   );
 
-  const allWordsRated = meaningItems.every((item) => wordRatings[item.text] !== undefined);
-
   const shuffledPieces = useMemo(
-    () => shuffle(current?.shuffled ?? []),
+    () => shuffle(current ? getTrackablePieces(current.shuffled) : []),
     [current, shuffleSeed],
   );
 
@@ -66,24 +62,20 @@ export function useSentenceGame() {
   const resetAttempt = useCallback(() => {
     setSelectedPieces([]);
     setFeedback("idle");
-    setWordRatings({});
-    setShuffleSeed((seed) => seed + 1);
   }, []);
 
   const selectPiece = useCallback(
     (piece: string) => {
-      if (feedback === "correct") return;
+      if (feedback !== "idle") return;
       setSelectedPieces((prev) => [...prev, piece]);
-      setFeedback("idle");
     },
     [feedback],
   );
 
   const removePiece = useCallback(
     (index: number) => {
-      if (feedback === "correct") return;
+      if (feedback !== "idle") return;
       setSelectedPieces((prev) => prev.filter((_, i) => i !== index));
-      setFeedback("idle");
     },
     [feedback],
   );
@@ -91,10 +83,9 @@ export function useSentenceGame() {
   const checkAnswer = useCallback(() => {
     if (!current || selectedPieces.length === 0) return;
 
-    const userAnswer = normalizeJapanese(selectedPieces.join(""));
-    const correctAnswer = normalizeJapanese(current.japanese);
+    const userAnswer = normalizeForAnswer(selectedPieces.join(""));
+    const correctAnswer = normalizeForAnswer(current.japanese);
 
-    setWordRatings({});
     if (userAnswer === correctAnswer) {
       setFeedback("correct");
     } else {
@@ -102,15 +93,13 @@ export function useSentenceGame() {
     }
   }, [current, selectedPieces]);
 
-  const rateWord = useCallback((word: string, rating: MeaningRating) => {
-    setWordRatings((prev) => ({ ...prev, [word]: rating }));
-  }, []);
+  const continueNext = useCallback(() => {
+    if (feedback === "idle") return;
 
-  const advanceQueue = useCallback(() => {
     if (feedback === "correct") {
       setQueue((prev) => prev.slice(1));
       setCompletedCount((count) => {
-        const next = Math.min(count + 1, DAILY_GOAL);
+        const next = Math.min(count + 1, SENTENCE_DAILY_GOAL);
         saveDailyProgress(next, sentenceIds);
         return next;
       });
@@ -123,28 +112,16 @@ export function useSentenceGame() {
 
     setSelectedPieces([]);
     setFeedback("idle");
-    setWordRatings({});
     setShuffleSeed((seed) => seed + 1);
   }, [feedback, sentenceIds]);
 
-  const continueAfterMeaning = useCallback(() => {
-    if (!allWordsRated) return;
-
-    const ratings = Object.fromEntries(
-      meaningItems.map((item) => [item.text, wordRatings[item.text] as number]),
-    );
-    reviewPiecesWithRatings(ratings);
-    advanceQueue();
-  }, [advanceQueue, allWordsRated, meaningItems, wordRatings]);
-
   const restart = useCallback(() => {
-    const { sentences } = resolveTodaySentences(allPool, DAILY_GOAL);
+    const { sentences } = resolveTodaySentences(allPool, SENTENCE_DAILY_GOAL);
     setQueue([...sentences]);
     setCompletedCount(0);
     saveDailyProgress(0, sentences.map((s) => s.id));
     setSelectedPieces([]);
     setFeedback("idle");
-    setWordRatings({});
     setShuffleSeed((seed) => seed + 1);
   }, []);
 
@@ -152,22 +129,19 @@ export function useSentenceGame() {
     current,
     completedCount,
     totalUnique,
+    playablePieceCount,
     remainingCount: queue.length,
     isComplete,
     dateLabel,
     reviewCount,
     freshCount,
-    meaningItems,
-    wordRatings,
-    allWordsRated,
     selectedPieces,
     availablePieces,
     feedback,
     selectPiece,
     removePiece,
     checkAnswer,
-    rateWord,
-    continueAfterMeaning,
+    continueNext,
     resetAttempt,
     restart,
   };

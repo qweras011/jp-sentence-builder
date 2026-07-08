@@ -1,10 +1,12 @@
 import type { FeedbackState, RubySegment } from "../types/sentence";
+import { getPieceAreaMinHeight } from "../utils/wordBankLayout";
 import { FuriganaText } from "./FuriganaText";
 
 interface AnswerAreaProps {
   selectedPieces: string[];
   feedback: FeedbackState;
   ruby?: RubySegment[];
+  layoutPieceCount: number;
   onRemove: (index: number) => void;
 }
 
@@ -12,6 +14,7 @@ export function AnswerArea({
   selectedPieces,
   feedback,
   ruby,
+  layoutPieceCount,
   onRemove,
 }: AnswerAreaProps) {
   const borderColor =
@@ -35,6 +38,8 @@ export function AnswerArea({
         ? "목록 맨 뒤로 넘어갑니다."
         : null;
 
+  const minHeight = getPieceAreaMinHeight(layoutPieceCount);
+
   return (
     <section className="space-y-1.5">
       <div className="flex items-center justify-between gap-2">
@@ -48,15 +53,16 @@ export function AnswerArea({
         )}
       </div>
       <div
-        className={`rounded-xl border-2 border-dashed px-3 py-2.5 transition-colors ${borderColor}`}
+        className={`rounded-xl border-2 border-dashed px-3 py-3 transition-colors ${borderColor}`}
+        style={{ minHeight }}
       >
-        {feedback === "correct" && ruby ? (
-          <FuriganaText segments={ruby} className="text-lg" />
-        ) : selectedPieces.length === 0 ? (
-          <p className="text-sm text-slate-400">단어를 순서대로 눌러 문장을 만드세요.</p>
-        ) : (
-          <div className="flex flex-wrap gap-1.5">
-            {selectedPieces.map((piece, index) => (
+        <div className="flex h-full flex-wrap content-start gap-1.5">
+          {feedback === "correct" && ruby ? (
+            <FuriganaText segments={ruby} className="text-lg" />
+          ) : selectedPieces.length === 0 ? (
+              <p className="text-sm text-slate-400">단어만 순서대로 눌러 문장을 만드세요.</p>
+          ) : (
+            selectedPieces.map((piece, index) => (
               <button
                 key={`${piece}-${index}`}
                 type="button"
@@ -67,9 +73,9 @@ export function AnswerArea({
               >
                 {piece}
               </button>
-            ))}
-          </div>
-        )}
+            ))
+          )}
+        </div>
       </div>
     </section>
   );

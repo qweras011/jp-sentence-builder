@@ -1,6 +1,5 @@
 import { AnswerArea } from "../components/AnswerArea";
 import { GameHeader } from "../components/GameHeader";
-import { MeaningCheck } from "../components/MeaningCheck";
 import { PromptCard } from "../components/PromptCard";
 import { WordBank } from "../components/WordBank";
 import { useSentenceGame } from "../hooks/useSentenceGame";
@@ -18,17 +17,14 @@ export function GamePage({ onHome }: GamePageProps) {
     dateLabel,
     reviewCount,
     freshCount,
-    meaningItems,
-    wordRatings,
-    allWordsRated,
     selectedPieces,
     availablePieces,
     feedback,
+    playablePieceCount,
     selectPiece,
     removePiece,
     checkAnswer,
-    rateWord,
-    continueAfterMeaning,
+    continueNext,
     resetAttempt,
     restart,
   } = useSentenceGame();
@@ -76,10 +72,11 @@ export function GamePage({ onHome }: GamePageProps) {
 
   const isIdle = feedback === "idle";
   const canCheck = selectedPieces.length > 0 && isIdle;
+  const layoutPieceCount = playablePieceCount;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 px-3 py-4">
-      <main className="mx-auto flex max-w-2xl flex-col gap-3">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 pb-24">
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-3 py-4">
         <GameHeader
           completed={completedCount}
           dateLabel={dateLabel}
@@ -94,48 +91,63 @@ export function GamePage({ onHome }: GamePageProps) {
           selectedPieces={selectedPieces}
           feedback={feedback}
           ruby={current.ruby}
+          layoutPieceCount={layoutPieceCount}
           onRemove={removePiece}
         />
 
-        {isIdle && (
-          <WordBank pieces={availablePieces} disabled={false} onSelect={selectPiece} />
-        )}
+        <div>
+          {isIdle ? (
+            <div className="space-y-2">
+              <WordBank
+                pieces={availablePieces}
+                disabled={false}
+                onSelect={selectPiece}
+                layoutPieceCount={layoutPieceCount}
+              />
+              <button
+                type="button"
+                onClick={resetAttempt}
+                className="w-full rounded-xl border border-slate-300 bg-white py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+              >
+                다시 배치
+              </button>
+            </div>
+          ) : (
+            <div className="invisible pointer-events-none space-y-2" aria-hidden="true">
+              <WordBank
+                pieces={availablePieces}
+                disabled
+                onSelect={() => undefined}
+                layoutPieceCount={layoutPieceCount}
+              />
+              <div className="w-full rounded-xl border border-slate-300 py-2.5 text-sm">&nbsp;</div>
+            </div>
+          )}
+        </div>
+      </main>
 
-        {!isIdle && (
-          <MeaningCheck items={meaningItems} ratings={wordRatings} onRate={rateWord} />
-        )}
-
-        <div className="flex flex-wrap gap-2 pt-1">
+      <div className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-white/95 px-3 py-3 backdrop-blur">
+        <div className="mx-auto max-w-2xl">
           {!isIdle ? (
             <button
               type="button"
-              onClick={continueAfterMeaning}
-              disabled={!allWordsRated}
-              className="rounded-lg bg-indigo-500 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-40"
+              onClick={continueNext}
+              className="w-full rounded-xl bg-indigo-500 py-3 text-sm font-semibold text-white transition hover:bg-indigo-600"
             >
               다음 문제
             </button>
           ) : (
-            <>
-              <button
-                type="button"
-                onClick={checkAnswer}
-                disabled={!canCheck}
-                className="rounded-lg bg-indigo-500 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-40"
-              >
-                정답 확인
-              </button>
-              <button
-                type="button"
-                onClick={resetAttempt}
-                className="rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-              >
-                다시 배치
-              </button>
-            </>
+            <button
+              type="button"
+              onClick={checkAnswer}
+              disabled={!canCheck}
+              className="w-full rounded-xl bg-indigo-500 py-3 text-sm font-semibold text-white transition hover:bg-indigo-600 disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              정답 확인
+            </button>
           )}
         </div>
-      </main>
+      </div>
     </div>
   );
 }
