@@ -45,7 +45,7 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
             <button
               type="button"
               onClick={onStartSentence}
-              className="mt-5 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700"
+              className="mt-5 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700 dark:shadow-none"
             >
               문장 만들기 시작
             </button>
@@ -59,7 +59,7 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
             <button
               type="button"
               onClick={onStartVocab}
-              className="mt-5 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-emerald-200 transition hover:bg-emerald-700"
+              className="mt-5 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-emerald-200 transition hover:bg-emerald-700 dark:shadow-none"
             >
               단어 외우기 시작
             </button>
