@@ -19,10 +19,10 @@ export function AnswerArea({
 }: AnswerAreaProps) {
   const borderColor =
     feedback === "correct"
-      ? "border-emerald-400 bg-emerald-50"
+      ? "border-emerald-400 bg-emerald-50 dark:border-emerald-500 dark:bg-emerald-950"
       : feedback === "incorrect"
-        ? "border-amber-400 bg-amber-50"
-        : "border-slate-300 bg-slate-50";
+        ? "border-amber-400 bg-amber-50 dark:border-amber-500 dark:bg-amber-950"
+        : "border-slate-300 bg-slate-50 dark:border-slate-600 dark:bg-slate-900";
 
   const title =
     feedback === "correct"
@@ -43,10 +43,10 @@ export function AnswerArea({
   return (
     <section className="space-y-1.5">
       <div className="flex items-center justify-between gap-2">
-        <h3 className="text-sm font-semibold text-slate-700">{title}</h3>
+        <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-300">{title}</h3>
         {hint && (
           <p
-            className={`text-xs ${feedback === "correct" ? "text-emerald-700" : "text-amber-700"}`}
+            className={`text-xs ${feedback === "correct" ? "text-emerald-700 dark:text-emerald-400" : "text-amber-700 dark:text-amber-400"}`}
           >
             {hint}
           </p>
@@ -60,7 +60,7 @@ export function AnswerArea({
           {feedback === "correct" && ruby ? (
             <FuriganaText segments={ruby} className="text-lg" />
           ) : selectedPieces.length === 0 ? (
-              <p className="text-sm text-slate-400">단어만 순서대로 눌러 문장을 만드세요.</p>
+            <p className="text-sm text-slate-400 dark:text-slate-500">단어만 순서대로 눌러 문장을 만드세요.</p>
           ) : (
             selectedPieces.map((piece, index) => (
               <button
@@ -68,7 +68,7 @@ export function AnswerArea({
                 type="button"
                 onClick={() => feedback === "idle" && onRemove(index)}
                 disabled={feedback !== "idle"}
-                className="rounded-lg border border-indigo-200 bg-white px-2.5 py-1.5 font-jp text-base text-slate-800 shadow-sm transition enabled:hover:border-indigo-400 enabled:hover:bg-indigo-50 disabled:cursor-default"
+                className="rounded-lg border border-indigo-200 bg-white px-2.5 py-1.5 font-jp text-base text-slate-800 shadow-sm transition enabled:hover:border-indigo-400 enabled:hover:bg-indigo-50 disabled:cursor-default dark:border-indigo-700 dark:bg-slate-800 dark:text-slate-100 dark:enabled:hover:bg-indigo-950"
                 title={feedback === "idle" ? "클릭하면 되돌립니다" : undefined}
               >
                 {piece}

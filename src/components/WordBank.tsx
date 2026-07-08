@@ -13,9 +13,9 @@ export function WordBank({ pieces, disabled, onSelect, layoutPieceCount }: WordB
 
   return (
     <section className="space-y-1.5">
-      <h3 className="text-sm font-semibold text-slate-700">단어 조각</h3>
+      <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-300">단어 조각</h3>
       <div
-        className="flex flex-wrap content-start gap-1.5 rounded-xl border border-slate-200 bg-white p-3"
+        className="flex flex-wrap content-start gap-1.5 rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-600 dark:bg-slate-800"
         style={{ minHeight }}
       >
         {pieces.length === 0 ? (

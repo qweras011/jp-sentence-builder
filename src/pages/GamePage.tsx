@@ -31,7 +31,7 @@ export function GamePage({ onHome }: GamePageProps) {
 
   if (isComplete) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 px-3 py-4">
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 px-3 py-4 dark:from-slate-950 dark:to-slate-900">
         <main className="mx-auto max-w-2xl space-y-4">
           <GameHeader
             completed={completedCount}
@@ -40,17 +40,17 @@ export function GamePage({ onHome }: GamePageProps) {
             freshCount={freshCount}
             onHome={onHome}
           />
-          <div className="rounded-xl border border-slate-200 bg-white p-6 text-center shadow-sm">
-            <p className="text-sm font-medium text-indigo-600">오늘 목표 달성</p>
-            <h1 className="mt-2 font-kr text-2xl font-bold text-slate-900">
+          <div className="rounded-xl border border-slate-200 bg-white p-6 text-center shadow-sm dark:border-slate-700 dark:bg-slate-800">
+            <p className="text-sm font-medium text-indigo-600 dark:text-indigo-400">오늘 목표 달성</p>
+            <h1 className="mt-2 font-kr text-2xl font-bold text-slate-900 dark:text-slate-100">
               오늘 {totalUnique}문장 완료!
             </h1>
-            <p className="mt-2 text-sm text-slate-600">내일 새로운 문장이 준비됩니다.</p>
+            <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">내일 새로운 문장이 준비됩니다.</p>
             <div className="mt-5 flex flex-wrap justify-center gap-2">
               <button
                 type="button"
                 onClick={restart}
-                className="rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+                className="rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600"
               >
                 오늘 문장 다시 복습
               </button>
@@ -75,7 +75,7 @@ export function GamePage({ onHome }: GamePageProps) {
   const layoutPieceCount = playablePieceCount;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 pb-24">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 pb-24 dark:from-slate-950 dark:to-slate-900">
       <main className="mx-auto flex max-w-2xl flex-col gap-3 px-3 py-4">
         <GameHeader
           completed={completedCount}
@@ -107,7 +107,7 @@ export function GamePage({ onHome }: GamePageProps) {
               <button
                 type="button"
                 onClick={resetAttempt}
-                className="w-full rounded-xl border border-slate-300 bg-white py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
+                className="w-full rounded-xl border border-slate-300 bg-white py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
               >
                 다시 배치
               </button>
@@ -126,7 +126,7 @@ export function GamePage({ onHome }: GamePageProps) {
         </div>
       </main>
 
-      <div className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-white/95 px-3 py-3 backdrop-blur">
+      <div className="fixed inset-x-0 bottom-0 border-t border-slate-200 bg-white/95 px-3 py-3 backdrop-blur dark:border-slate-700 dark:bg-slate-900/95">
         <div className="mx-auto max-w-2xl">
           {!isIdle ? (
             <button

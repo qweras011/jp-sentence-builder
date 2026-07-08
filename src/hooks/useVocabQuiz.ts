@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import vocabData from "../data/vocab.json";
-import type { VocabFeedback, VocabItem } from "../types/vocab";
+import type { VocabDirection, VocabFeedback, VocabItem } from "../types/vocab";
 import { VOCAB_DAILY_GOAL, getLocalDateString } from "../utils/daily";
 import { buildVocabChoices } from "../utils/vocabChoices";
 import {
@@ -8,7 +8,7 @@ import {
   resolveTodayVocab,
   saveVocabDailyProgress,
 } from "../utils/vocabDailyProgress";
-import { reviewWord } from "../utils/wordQuizSrs";
+import { reviewWord, reviewWordWrong } from "../utils/wordQuizSrs";
 
 const allPool = vocabData as VocabItem[];
 
@@ -29,7 +29,7 @@ function buildTodaySession() {
 
 const AUTO_ADVANCE_MS = 700;
 
-export function useVocabQuiz() {
+export function useVocabQuiz(direction: VocabDirection) {
   const session = useMemo(() => buildTodaySession(), []);
   const dateLabel = getLocalDateString();
 
@@ -47,8 +47,8 @@ export function useVocabQuiz() {
   const isComplete = completedCount >= VOCAB_DAILY_GOAL || queue.length === 0;
 
   const choices = useMemo(
-    () => (current ? buildVocabChoices(current, allPool) : []),
-    [current, choiceSeed],
+    () => (current ? buildVocabChoices(current, allPool, direction) : []),
+    [current, choiceSeed, direction],
   );
 
   const selectChoice = useCallback(
@@ -56,8 +56,13 @@ export function useVocabQuiz() {
       if (!current || feedback !== "idle") return;
 
       setSelectedLabel(label);
-      reviewWord(current.id, isCorrect ? 5 : 1);
-      setFeedback(isCorrect ? "correct" : "incorrect");
+      if (isCorrect) {
+        reviewWord(current.id, 5);
+        setFeedback("correct");
+      } else {
+        reviewWordWrong(current.id);
+        setFeedback("incorrect");
+      }
     },
     [current, feedback],
   );

@@ -45,7 +45,12 @@ export function saveVocabDailyProgress(completed: number, vocabIds: number[]): v
 function vocabPriority(item: VocabItem, cards: Record<string, SrsCard>, today: string): number {
   const card = cards[vocabSrsKey(item.id)];
   if (!card) return 100;
-  if (isDue(card, today)) return 200 + daysBetween(card.nextReview, today) * 10;
+  if (isDue(card, today)) {
+    let score = 200 + daysBetween(card.nextReview, today) * 10;
+    if (card.repetitions === 0) score += 100;
+    if (card.interval <= 1) score += 40;
+    return score;
+  }
   return 10;
 }
 

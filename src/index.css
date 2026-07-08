@@ -1,12 +1,14 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-kr: "Noto Sans KR", sans-serif;
   --font-jp: "Noto Sans JP", sans-serif;
 }
 
 body {
-  @apply font-kr antialiased text-slate-900;
+  @apply font-kr antialiased text-slate-900 bg-white dark:bg-slate-950 dark:text-slate-100;
 }
 
 .font-kr {
@@ -26,4 +28,8 @@ body {
   font-weight: 500;
   color: #6366f1;
   letter-spacing: 0;
+}
+
+.dark .furigana-text ruby rt {
+  color: #818cf8;
 }

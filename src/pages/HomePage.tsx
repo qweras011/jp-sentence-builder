@@ -24,22 +24,22 @@ const features = [
 
 export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-emerald-50">
-      <main className="mx-auto max-w-3xl px-4 py-10">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-emerald-50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+      <main className="mx-auto max-w-3xl px-4 py-10 pt-14">
         <header className="text-center">
-          <p className="text-sm font-medium text-indigo-600">무료 · 설치 불필요</p>
-          <h1 className="mt-2 font-kr text-4xl font-bold tracking-tight text-slate-900">
+          <p className="text-sm font-medium text-indigo-600 dark:text-indigo-400">무료 · 설치 불필요</p>
+          <h1 className="mt-2 font-kr text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
             일본어 학습
           </h1>
-          <p className="mx-auto mt-3 max-w-lg text-base leading-relaxed text-slate-600">
+          <p className="mx-auto mt-3 max-w-lg text-base leading-relaxed text-slate-600 dark:text-slate-400">
             문장 만들기와 단어 외우기로 N3–N4 일본어를 매일 조금씩 쌓아 보세요.
           </p>
         </header>
 
         <section className="mt-10 grid gap-4 sm:grid-cols-2">
-          <article className="flex flex-col rounded-2xl border border-indigo-200 bg-white p-5 shadow-sm">
-            <h2 className="font-kr text-xl font-bold text-slate-900">문장 만들기</h2>
-            <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
+          <article className="flex flex-col rounded-2xl border border-indigo-200 bg-white p-5 shadow-sm dark:border-indigo-800 dark:bg-slate-800">
+            <h2 className="font-kr text-xl font-bold text-slate-900 dark:text-slate-100">문장 만들기</h2>
+            <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
               흩어진 단어만 배치해 N3–N4 문장을 완성합니다. 마침표는 자동, 하루 5문장.
             </p>
             <button
@@ -51,10 +51,10 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
             </button>
           </article>
 
-          <article className="flex flex-col rounded-2xl border border-emerald-200 bg-white p-5 shadow-sm">
-            <h2 className="font-kr text-xl font-bold text-slate-900">단어 외우기</h2>
-            <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600">
-              일본어 단어를 보고 한국어 뜻을 고릅니다. 하루 10단어, 망각곡선으로 복습해요.
+          <article className="flex flex-col rounded-2xl border border-emerald-200 bg-white p-5 shadow-sm dark:border-emerald-800 dark:bg-slate-800">
+            <h2 className="font-kr text-xl font-bold text-slate-900 dark:text-slate-100">단어 외우기</h2>
+            <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+              일→한 · 한→일 모드, 하루 10단어, 틀린 단어는 망각곡선 복습.
             </p>
             <button
               type="button"
@@ -70,17 +70,17 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
           {features.map((feature) => (
             <article
               key={feature.title}
-              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+              className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-800"
             >
-              <h2 className="font-kr text-lg font-bold text-slate-900">{feature.title}</h2>
-              <p className="mt-1.5 text-sm leading-relaxed text-slate-600">{feature.desc}</p>
+              <h2 className="font-kr text-lg font-bold text-slate-900 dark:text-slate-100">{feature.title}</h2>
+              <p className="mt-1.5 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{feature.desc}</p>
             </article>
           ))}
         </section>
 
-        <section className="mt-10 rounded-2xl border border-violet-200 bg-violet-50 p-6 text-center">
-          <p className="font-jp text-2xl font-medium text-violet-900">日本語を毎日少しずつ</p>
-          <p className="mt-2 text-sm text-violet-800">
+        <section className="mt-10 rounded-2xl border border-violet-200 bg-violet-50 p-6 text-center dark:border-violet-800 dark:bg-violet-950">
+          <p className="font-jp text-2xl font-medium text-violet-900 dark:text-violet-200">日本語を毎日少しずつ</p>
+          <p className="mt-2 text-sm text-violet-800 dark:text-violet-300">
             브라우저에서 바로 사용 · 학습 기록은 이 기기에 저장됩니다
           </p>
         </section>

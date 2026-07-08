@@ -30,6 +30,21 @@ export function reviewWord(id: number, quality: number, today = getLocalDateStri
   saveWordQuizCards(cards);
 }
 
+/** 틀린 단어 — SM-2 최저 등급 + 당일 복습 우선 */
+export function reviewWordWrong(id: number, today = getLocalDateString()): void {
+  const cards = loadWordQuizCards();
+  const key = vocabSrsKey(id);
+  const current = cards[key] ?? createNewCard(today);
+  const reviewed = reviewCard(current, 1, today);
+  cards[key] = {
+    ...reviewed,
+    repetitions: 0,
+    interval: 1,
+    nextReview: today,
+  };
+  saveWordQuizCards(cards);
+}
+
 export function isWordDue(id: number, today = getLocalDateString()): boolean {
   const card = loadWordQuizCards()[vocabSrsKey(id)];
   return card ? isDue(card, today) : true;
