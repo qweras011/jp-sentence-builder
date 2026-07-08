@@ -1,0 +1,794 @@
+[
+  {
+    "id": 1,
+    "korean": "나는 매일 아침 7시에 일어납니다.",
+    "japanese": "私は毎朝七時に起きます。",
+    "ruby": [
+      { "text": "私", "reading": "わたし" },
+      { "text": "は", "reading": "" },
+      { "text": "毎朝", "reading": "まいあさ" },
+      { "text": "七時", "reading": "しちじ" },
+      { "text": "に", "reading": "" },
+      { "text": "起き", "reading": "おき" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["私", "は", "毎朝", "七時", "に", "起き", "ます", "。"]
+  },
+  {
+    "id": 2,
+    "korean": "역에서 친구와 만났습니다.",
+    "japanese": "駅で友達と会いました。",
+    "ruby": [
+      { "text": "駅", "reading": "えき" },
+      { "text": "で", "reading": "" },
+      { "text": "友達", "reading": "ともだち" },
+      { "text": "と", "reading": "" },
+      { "text": "会い", "reading": "あい" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["駅", "で", "友達", "と", "会い", "ました", "。"]
+  },
+  {
+    "id": 3,
+    "korean": "일본어를 공부하기 위해 일본에 갔습니다.",
+    "japanese": "日本語を勉強するために日本に行きました。",
+    "ruby": [
+      { "text": "日本語", "reading": "にほんご" },
+      { "text": "を", "reading": "" },
+      { "text": "勉強", "reading": "べんきょう" },
+      { "text": "する", "reading": "" },
+      { "text": "ため", "reading": "" },
+      { "text": "に", "reading": "" },
+      { "text": "日本", "reading": "にほん" },
+      { "text": "に", "reading": "" },
+      { "text": "行き", "reading": "いき" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["日本語", "を", "勉強", "する", "ため", "に", "日本", "に", "行き", "ました", "。"]
+  },
+  {
+    "id": 4,
+    "korean": "고양이가 소파 위에 있습니다.",
+    "japanese": "猫がソファの上にいます。",
+    "ruby": [
+      { "text": "猫", "reading": "ねこ" },
+      { "text": "が", "reading": "" },
+      { "text": "ソファ", "reading": "" },
+      { "text": "の", "reading": "" },
+      { "text": "上", "reading": "うえ" },
+      { "text": "に", "reading": "" },
+      { "text": "い", "reading": "" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["猫", "が", "ソファ", "の", "上", "に", "い", "ます", "。"]
+  },
+  {
+    "id": 5,
+    "korean": "비가 와서 외출하지 않겠습니다.",
+    "japanese": "雨が降っているので外出しません。",
+    "ruby": [
+      { "text": "雨", "reading": "あめ" },
+      { "text": "が", "reading": "" },
+      { "text": "降っ", "reading": "ふっ" },
+      { "text": "て", "reading": "" },
+      { "text": "いる", "reading": "" },
+      { "text": "ので", "reading": "" },
+      { "text": "外出", "reading": "がいしゅつ" },
+      { "text": "し", "reading": "" },
+      { "text": "ません", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["雨", "が", "降っ", "て", "いる", "ので", "外出", "し", "ません", "。"]
+  },
+  {
+    "id": 6,
+    "korean": "친구에게 선물을 주었습니다.",
+    "japanese": "友達にプレゼントをあげました。",
+    "ruby": [
+      { "text": "友達", "reading": "ともだち" },
+      { "text": "に", "reading": "" },
+      { "text": "プレゼント", "reading": "" },
+      { "text": "を", "reading": "" },
+      { "text": "あげ", "reading": "" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["友達", "に", "プレゼント", "を", "あげ", "ました", "。"]
+  },
+  {
+    "id": 7,
+    "korean": "그도 학생입니다.",
+    "japanese": "彼も学生です。",
+    "ruby": [
+      { "text": "彼", "reading": "かれ" },
+      { "text": "も", "reading": "" },
+      { "text": "学生", "reading": "がくせい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼", "も", "学生", "です", "。"]
+  },
+  {
+    "id": 8,
+    "korean": "도서관에 책을 반납하러 갑니다.",
+    "japanese": "図書館へ本を返しに行きます。",
+    "ruby": [
+      { "text": "図書館", "reading": "としょかん" },
+      { "text": "へ", "reading": "" },
+      { "text": "本", "reading": "ほん" },
+      { "text": "を", "reading": "" },
+      { "text": "返し", "reading": "かえし" },
+      { "text": "に", "reading": "" },
+      { "text": "行き", "reading": "いき" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["図書館", "へ", "本", "を", "返し", "に", "行き", "ます", "。"]
+  },
+  {
+    "id": 9,
+    "korean": "이 문제는 생각보다 어렵습니다.",
+    "japanese": "この問題は思ったより難しいです。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "問題", "reading": "もんだい" },
+      { "text": "は", "reading": "" },
+      { "text": "思っ", "reading": "おもっ" },
+      { "text": "た", "reading": "" },
+      { "text": "より", "reading": "" },
+      { "text": "難しい", "reading": "むずかしい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "問題", "は", "思っ", "た", "より", "難しい", "です", "。"]
+  },
+  {
+    "id": 10,
+    "korean": "회의가 시작하기 전에 자료를 준비합니다.",
+    "japanese": "会議が始まる前に資料を準備します。",
+    "ruby": [
+      { "text": "会議", "reading": "かいぎ" },
+      { "text": "が", "reading": "" },
+      { "text": "始まる", "reading": "はじまる" },
+      { "text": "前", "reading": "まえ" },
+      { "text": "に", "reading": "" },
+      { "text": "資料", "reading": "しりょう" },
+      { "text": "を", "reading": "" },
+      { "text": "準備", "reading": "じゅんび" },
+      { "text": "します", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["会議", "が", "始まる", "前", "に", "資料", "を", "準備", "します", "。"]
+  },
+  {
+    "id": 11,
+    "korean": "어제 영화를 봤습니다.",
+    "japanese": "昨日映画を見ました。",
+    "ruby": [
+      { "text": "昨日", "reading": "きのう" },
+      { "text": "映画", "reading": "えいが" },
+      { "text": "を", "reading": "" },
+      { "text": "見", "reading": "み" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["昨日", "映画", "を", "見", "ました", "。"]
+  },
+  {
+    "id": 12,
+    "korean": "다음 주 시험이 있어서 공부하고 있습니다.",
+    "japanese": "来週試験があるので勉強しています。",
+    "ruby": [
+      { "text": "来週", "reading": "らいしゅう" },
+      { "text": "試験", "reading": "しけん" },
+      { "text": "が", "reading": "" },
+      { "text": "ある", "reading": "" },
+      { "text": "ので", "reading": "" },
+      { "text": "勉強", "reading": "べんきょう" },
+      { "text": "して", "reading": "" },
+      { "text": "います", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["来週", "試験", "が", "ある", "ので", "勉強", "して", "います", "。"]
+  },
+  {
+    "id": 13,
+    "korean": "어머니에게 전화를 걸었습니다.",
+    "japanese": "母に電話をかけました。",
+    "ruby": [
+      { "text": "母", "reading": "はは" },
+      { "text": "に", "reading": "" },
+      { "text": "電話", "reading": "でんわ" },
+      { "text": "を", "reading": "" },
+      { "text": "かけ", "reading": "" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["母", "に", "電話", "を", "かけ", "ました", "。"]
+  },
+  {
+    "id": 14,
+    "korean": "숙제를 잊어버렸습니다.",
+    "japanese": "宿題を忘れてしまいました。",
+    "ruby": [
+      { "text": "宿題", "reading": "しゅくだい" },
+      { "text": "を", "reading": "" },
+      { "text": "忘れ", "reading": "わすれ" },
+      { "text": "て", "reading": "" },
+      { "text": "しまい", "reading": "" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["宿題", "を", "忘れ", "て", "しまい", "ました", "。"]
+  },
+  {
+    "id": 15,
+    "korean": "건강을 위해 운동을 계속하고 있습니다.",
+    "japanese": "健康のために運動を続けています。",
+    "ruby": [
+      { "text": "健康", "reading": "けんこう" },
+      { "text": "の", "reading": "" },
+      { "text": "ため", "reading": "" },
+      { "text": "に", "reading": "" },
+      { "text": "運動", "reading": "うんどう" },
+      { "text": "を", "reading": "" },
+      { "text": "続け", "reading": "つづけ" },
+      { "text": "て", "reading": "" },
+      { "text": "います", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["健康", "の", "ため", "に", "運動", "を", "続け", "て", "います", "。"]
+  },
+  {
+    "id": 16,
+    "korean": "그는 거짓말한 적이 없습니다.",
+    "japanese": "彼は嘘をついたことがありません。",
+    "ruby": [
+      { "text": "彼", "reading": "かれ" },
+      { "text": "は", "reading": "" },
+      { "text": "嘘", "reading": "うそ" },
+      { "text": "を", "reading": "" },
+      { "text": "つい", "reading": "" },
+      { "text": "た", "reading": "" },
+      { "text": "こと", "reading": "" },
+      { "text": "が", "reading": "" },
+      { "text": "あり", "reading": "" },
+      { "text": "ません", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼", "は", "嘘", "を", "つい", "た", "こと", "が", "あり", "ません", "。"]
+  },
+  {
+    "id": 17,
+    "korean": "이 요리는 만드는 방법이 간단합니다.",
+    "japanese": "この料理は作り方が簡単です。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "料理", "reading": "りょうり" },
+      { "text": "は", "reading": "" },
+      { "text": "作り方", "reading": "つくりかた" },
+      { "text": "が", "reading": "" },
+      { "text": "簡単", "reading": "かんたん" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "料理", "は", "作り方", "が", "簡単", "です", "。"]
+  },
+  {
+    "id": 18,
+    "korean": "회의에 늦지 않도록 서둘렀습니다.",
+    "japanese": "会議に遅れないように急ぎました。",
+    "ruby": [
+      { "text": "会議", "reading": "かいぎ" },
+      { "text": "に", "reading": "" },
+      { "text": "遅れ", "reading": "おくれ" },
+      { "text": "ない", "reading": "" },
+      { "text": "よう", "reading": "" },
+      { "text": "に", "reading": "" },
+      { "text": "急ぎ", "reading": "いそぎ" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["会議", "に", "遅れ", "ない", "よう", "に", "急ぎ", "ました", "。"]
+  },
+  {
+    "id": 19,
+    "korean": "그녀와 헤어졌습니다.",
+    "japanese": "彼女と別れました。",
+    "ruby": [
+      { "text": "彼女", "reading": "かのじょ" },
+      { "text": "と", "reading": "" },
+      { "text": "別れ", "reading": "わかれ" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼女", "と", "別れ", "ました", "。"]
+  },
+  {
+    "id": 20,
+    "korean": "이 문제는 너무 어려워서 풀 수 없습니다.",
+    "japanese": "この問題は難しすぎて解けません。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "問題", "reading": "もんだい" },
+      { "text": "は", "reading": "" },
+      { "text": "難し", "reading": "むずかし" },
+      { "text": "すぎ", "reading": "" },
+      { "text": "て", "reading": "" },
+      { "text": "解け", "reading": "とけ" },
+      { "text": "ません", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "問題", "は", "難し", "すぎ", "て", "解け", "ません", "。"]
+  },
+  {
+    "id": 21,
+    "korean": "이 방은 조용하고 넓습니다.",
+    "japanese": "この部屋は静かで広いです。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "部屋", "reading": "へや" },
+      { "text": "は", "reading": "" },
+      { "text": "静か", "reading": "しずか" },
+      { "text": "で", "reading": "" },
+      { "text": "広い", "reading": "ひろい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "部屋", "は", "静か", "で", "広い", "です", "。"]
+  },
+  {
+    "id": 22,
+    "korean": "그는 매우 친절한 사람입니다.",
+    "japanese": "彼はとても親切な人です。",
+    "ruby": [
+      { "text": "彼", "reading": "かれ" },
+      { "text": "は", "reading": "" },
+      { "text": "とても", "reading": "" },
+      { "text": "親切", "reading": "しんせつ" },
+      { "text": "な", "reading": "" },
+      { "text": "人", "reading": "ひと" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼", "は", "とても", "親切", "な", "人", "です", "。"]
+  },
+  {
+    "id": 23,
+    "korean": "시험은 생각보다 어려웠습니다.",
+    "japanese": "試験は思ったより難しかったです。",
+    "ruby": [
+      { "text": "試験", "reading": "しけん" },
+      { "text": "は", "reading": "" },
+      { "text": "思っ", "reading": "おもっ" },
+      { "text": "た", "reading": "" },
+      { "text": "より", "reading": "" },
+      { "text": "難しかっ", "reading": "むずかしかっ" },
+      { "text": "た", "reading": "" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["試験", "は", "思っ", "た", "より", "難しかっ", "た", "です", "。"]
+  },
+  {
+    "id": 24,
+    "korean": "더워서 잠을 잘 수 없었습니다.",
+    "japanese": "暑くて眠れませんでした。",
+    "ruby": [
+      { "text": "暑く", "reading": "あつく" },
+      { "text": "て", "reading": "" },
+      { "text": "眠れ", "reading": "ねむれ" },
+      { "text": "ません", "reading": "" },
+      { "text": "でした", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["暑く", "て", "眠れ", "ません", "でした", "。"]
+  },
+  {
+    "id": 25,
+    "korean": "그녀의 노래는 아름답습니다.",
+    "japanese": "彼女の歌は美しいです。",
+    "ruby": [
+      { "text": "彼女", "reading": "かのじょ" },
+      { "text": "の", "reading": "" },
+      { "text": "歌", "reading": "うた" },
+      { "text": "は", "reading": "" },
+      { "text": "美しい", "reading": "うつくしい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼女", "の", "歌", "は", "美しい", "です", "。"]
+  },
+  {
+    "id": 26,
+    "korean": "이 가게는 싸고 맛있습니다.",
+    "japanese": "この店は安くておいしいです。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "店", "reading": "みせ" },
+      { "text": "は", "reading": "" },
+      { "text": "安く", "reading": "やすく" },
+      { "text": "て", "reading": "" },
+      { "text": "おいしい", "reading": "" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "店", "は", "安く", "て", "おいしい", "です", "。"]
+  },
+  {
+    "id": 27,
+    "korean": "그의 설명은 이해하기 어렵습니다.",
+    "japanese": "彼の説明は分かりにくいです。",
+    "ruby": [
+      { "text": "彼", "reading": "かれ" },
+      { "text": "の", "reading": "" },
+      { "text": "説明", "reading": "せつめい" },
+      { "text": "は", "reading": "" },
+      { "text": "分かり", "reading": "わかり" },
+      { "text": "にくい", "reading": "" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼", "の", "説明", "は", "分かり", "にくい", "です", "。"]
+  },
+  {
+    "id": 28,
+    "korean": "오늘은 바빠서 피곤했습니다.",
+    "japanese": "今日は忙しくて疲れました。",
+    "ruby": [
+      { "text": "今日", "reading": "きょう" },
+      { "text": "は", "reading": "" },
+      { "text": "忙しく", "reading": "いそがしく" },
+      { "text": "て", "reading": "" },
+      { "text": "疲れ", "reading": "つかれ" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["今日", "は", "忙しく", "て", "疲れ", "ました", "。"]
+  },
+  {
+    "id": 29,
+    "korean": "앞으로 더 편리해질 것입니다.",
+    "japanese": "将来はもっと便利になるでしょう。",
+    "ruby": [
+      { "text": "将来", "reading": "しょうらい" },
+      { "text": "は", "reading": "" },
+      { "text": "もっと", "reading": "" },
+      { "text": "便利", "reading": "べんり" },
+      { "text": "に", "reading": "" },
+      { "text": "なる", "reading": "" },
+      { "text": "でしょう", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["将来", "は", "もっと", "便利", "に", "なる", "でしょう", "。"]
+  },
+  {
+    "id": 30,
+    "korean": "그는 일본어 실력이 늘었습니다.",
+    "japanese": "彼は日本語が上手になりました。",
+    "ruby": [
+      { "text": "彼", "reading": "かれ" },
+      { "text": "は", "reading": "" },
+      { "text": "日本語", "reading": "にほんご" },
+      { "text": "が", "reading": "" },
+      { "text": "上手", "reading": "じょうず" },
+      { "text": "に", "reading": "" },
+      { "text": "なり", "reading": "" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["彼", "は", "日本語", "が", "上手", "に", "なり", "ました", "。"]
+  },
+  {
+    "id": 31,
+    "korean": "다나카 씨는 의사입니다.",
+    "japanese": "田中さんは医者です。",
+    "ruby": [
+      { "text": "田中", "reading": "たなか" },
+      { "text": "さん", "reading": "" },
+      { "text": "は", "reading": "" },
+      { "text": "医者", "reading": "いしゃ" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["田中", "さん", "は", "医者", "です", "。"]
+  },
+  {
+    "id": 32,
+    "korean": "매일 물을 많이 마십니다.",
+    "japanese": "毎日水をたくさん飲みます。",
+    "ruby": [
+      { "text": "毎日", "reading": "まいにち" },
+      { "text": "水", "reading": "みず" },
+      { "text": "を", "reading": "" },
+      { "text": "たくさん", "reading": "" },
+      { "text": "飲み", "reading": "のみ" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["毎日", "水", "を", "たくさん", "飲み", "ます", "。"]
+  },
+  {
+    "id": 33,
+    "korean": "이 책은 매우 재미있습니다.",
+    "japanese": "この本はとても面白いです。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "本", "reading": "ほん" },
+      { "text": "は", "reading": "" },
+      { "text": "とても", "reading": "" },
+      { "text": "面白い", "reading": "おもしろい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "本", "は", "とても", "面白い", "です", "。"]
+  },
+  {
+    "id": 34,
+    "korean": "아침 식사를 먹은 후 학교에 갑니다.",
+    "japanese": "朝ごはんを食べてから学校へ行きます。",
+    "ruby": [
+      { "text": "朝ごはん", "reading": "あさごはん" },
+      { "text": "を", "reading": "" },
+      { "text": "食べ", "reading": "たべ" },
+      { "text": "て", "reading": "" },
+      { "text": "から", "reading": "" },
+      { "text": "学校", "reading": "がっこう" },
+      { "text": "へ", "reading": "" },
+      { "text": "行き", "reading": "いき" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["朝ごはん", "を", "食べ", "て", "から", "学校", "へ", "行き", "ます", "。"]
+  },
+  {
+    "id": 35,
+    "korean": "책상 아래에 지갑이 있습니다.",
+    "japanese": "机の下に財布があります。",
+    "ruby": [
+      { "text": "机", "reading": "つくえ" },
+      { "text": "の", "reading": "" },
+      { "text": "下", "reading": "した" },
+      { "text": "に", "reading": "" },
+      { "text": "財布", "reading": "さいふ" },
+      { "text": "が", "reading": "" },
+      { "text": "あり", "reading": "" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["机", "の", "下", "に", "財布", "が", "あり", "ます", "。"]
+  },
+  {
+    "id": 36,
+    "korean": "주말에는 가족과 공원에서 놉니다.",
+    "japanese": "週末は家族と公園で遊びます。",
+    "ruby": [
+      { "text": "週末", "reading": "しゅうまつ" },
+      { "text": "は", "reading": "" },
+      { "text": "家族", "reading": "かぞく" },
+      { "text": "と", "reading": "" },
+      { "text": "公園", "reading": "こうえん" },
+      { "text": "で", "reading": "" },
+      { "text": "遊び", "reading": "あそび" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["週末", "は", "家族", "と", "公園", "で", "遊び", "ます", "。"]
+  },
+  {
+    "id": 37,
+    "korean": "어제는 추웠습니다.",
+    "japanese": "昨日は寒かったです。",
+    "ruby": [
+      { "text": "昨日", "reading": "きのう" },
+      { "text": "は", "reading": "" },
+      { "text": "寒かっ", "reading": "さむかっ" },
+      { "text": "た", "reading": "" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["昨日", "は", "寒かっ", "た", "です", "。"]
+  },
+  {
+    "id": 38,
+    "korean": "전철로 회사까지 삼십 분 걸립니다.",
+    "japanese": "電車で会社まで三十分かかります。",
+    "ruby": [
+      { "text": "電車", "reading": "でんしゃ" },
+      { "text": "で", "reading": "" },
+      { "text": "会社", "reading": "かいしゃ" },
+      { "text": "まで", "reading": "" },
+      { "text": "三十分", "reading": "さんじゅっぷん" },
+      { "text": "かかり", "reading": "" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["電車", "で", "会社", "まで", "三十分", "かかり", "ます", "。"]
+  },
+  {
+    "id": 39,
+    "korean": "빵과 달걀을 샀습니다.",
+    "japanese": "パンと卵を買いました。",
+    "ruby": [
+      { "text": "パン", "reading": "" },
+      { "text": "と", "reading": "" },
+      { "text": "卵", "reading": "たまご" },
+      { "text": "を", "reading": "" },
+      { "text": "買い", "reading": "かい" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["パン", "と", "卵", "を", "買い", "ました", "。"]
+  },
+  {
+    "id": 40,
+    "korean": "창문을 열어 주세요.",
+    "japanese": "窓を開けてください。",
+    "ruby": [
+      { "text": "窓", "reading": "まど" },
+      { "text": "を", "reading": "" },
+      { "text": "開け", "reading": "あけ" },
+      { "text": "て", "reading": "" },
+      { "text": "ください", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["窓", "を", "開け", "て", "ください", "。"]
+  },
+  {
+    "id": 41,
+    "korean": "새 신발을 갖고 싶습니다.",
+    "japanese": "新しい靴が欲しいです。",
+    "ruby": [
+      { "text": "新しい", "reading": "あたらしい" },
+      { "text": "靴", "reading": "くつ" },
+      { "text": "が", "reading": "" },
+      { "text": "欲しい", "reading": "ほしい" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["新しい", "靴", "が", "欲しい", "です", "。"]
+  },
+  {
+    "id": 42,
+    "korean": "아홉 시에 자는 것이 중요합니다.",
+    "japanese": "九時に寝るのが大切です。",
+    "ruby": [
+      { "text": "九時", "reading": "くじ" },
+      { "text": "に", "reading": "" },
+      { "text": "寝る", "reading": "ねる" },
+      { "text": "の", "reading": "" },
+      { "text": "が", "reading": "" },
+      { "text": "大切", "reading": "たいせつ" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["九時", "に", "寝る", "の", "が", "大切", "です", "。"]
+  },
+  {
+    "id": 43,
+    "korean": "선생님께 질문을 했습니다.",
+    "japanese": "先生に質問をしました。",
+    "ruby": [
+      { "text": "先生", "reading": "せんせい" },
+      { "text": "に", "reading": "" },
+      { "text": "質問", "reading": "しつもん" },
+      { "text": "を", "reading": "" },
+      { "text": "し", "reading": "" },
+      { "text": "ました", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["先生", "に", "質問", "を", "し", "ました", "。"]
+  },
+  {
+    "id": 44,
+    "korean": "숙제를 빨리 끝내고 싶습니다.",
+    "japanese": "宿題を早く終わらせたいです。",
+    "ruby": [
+      { "text": "宿題", "reading": "しゅくだい" },
+      { "text": "を", "reading": "" },
+      { "text": "早く", "reading": "はやく" },
+      { "text": "終わら", "reading": "おわら" },
+      { "text": "せ", "reading": "" },
+      { "text": "たい", "reading": "" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["宿題", "を", "早く", "終わら", "せ", "たい", "です", "。"]
+  },
+  {
+    "id": 45,
+    "korean": "이 길은 어둡고 위험합니다.",
+    "japanese": "この道は暗くて危ないです。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "道", "reading": "みち" },
+      { "text": "は", "reading": "" },
+      { "text": "暗く", "reading": "くらく" },
+      { "text": "て", "reading": "" },
+      { "text": "危ない", "reading": "あぶない" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "道", "は", "暗く", "て", "危ない", "です", "。"]
+  },
+  {
+    "id": 46,
+    "korean": "저녁 식사 후에 산책합니다.",
+    "japanese": "晩ごはんの後で散歩します。",
+    "ruby": [
+      { "text": "晩ごはん", "reading": "ばんごはん" },
+      { "text": "の", "reading": "" },
+      { "text": "後", "reading": "あと" },
+      { "text": "で", "reading": "" },
+      { "text": "散歩", "reading": "さんぽ" },
+      { "text": "します", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["晩ごはん", "の", "後", "で", "散歩", "します", "。"]
+  },
+  {
+    "id": 47,
+    "korean": "여동생은 피아노를 좋아합니다.",
+    "japanese": "妹はピアノが好きです。",
+    "ruby": [
+      { "text": "妹", "reading": "いもうと" },
+      { "text": "は", "reading": "" },
+      { "text": "ピアノ", "reading": "" },
+      { "text": "が", "reading": "" },
+      { "text": "好き", "reading": "すき" },
+      { "text": "です", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["妹", "は", "ピアノ", "が", "好き", "です", "。"]
+  },
+  {
+    "id": 48,
+    "korean": "다음 달에 이사합니다.",
+    "japanese": "来月引っ越します。",
+    "ruby": [
+      { "text": "来月", "reading": "らいげつ" },
+      { "text": "引っ越し", "reading": "ひっこし" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["来月", "引っ越し", "ます", "。"]
+  },
+  {
+    "id": 49,
+    "korean": "이 문제는 너무 쉽습니다.",
+    "japanese": "この問題は簡単すぎます。",
+    "ruby": [
+      { "text": "この", "reading": "" },
+      { "text": "問題", "reading": "もんだい" },
+      { "text": "は", "reading": "" },
+      { "text": "簡単", "reading": "かんたん" },
+      { "text": "すぎ", "reading": "" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["この", "問題", "は", "簡単", "すぎ", "ます", "。"]
+  },
+  {
+    "id": 50,
+    "korean": "비 오는 날은 집에서 영화를 봅니다.",
+    "japanese": "雨の日は家で映画を見ます。",
+    "ruby": [
+      { "text": "雨", "reading": "あめ" },
+      { "text": "の", "reading": "" },
+      { "text": "日", "reading": "ひ" },
+      { "text": "は", "reading": "" },
+      { "text": "家", "reading": "いえ" },
+      { "text": "で", "reading": "" },
+      { "text": "映画", "reading": "えいが" },
+      { "text": "を", "reading": "" },
+      { "text": "見", "reading": "み" },
+      { "text": "ます", "reading": "" },
+      { "text": "。", "reading": "" }
+    ],
+    "shuffled": ["雨", "の", "日", "は", "家", "で", "映画", "を", "見", "ます", "。"]
+  }
+]

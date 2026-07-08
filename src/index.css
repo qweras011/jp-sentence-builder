@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kr: "Noto Sans KR", sans-serif;
+  --font-jp: "Noto Sans JP", sans-serif;
+}
+
+body {
+  @apply font-kr antialiased text-slate-900;
+}
+
+.font-kr {
+  font-family: var(--font-kr);
+}
+
+.font-jp {
+  font-family: var(--font-jp);
+}
+
+.furigana-text {
+  line-height: 1.8;
+}
+
+.furigana-text ruby rt {
+  font-size: 0.42em;
+  font-weight: 500;
+  color: #6366f1;
+  letter-spacing: 0;
+}
