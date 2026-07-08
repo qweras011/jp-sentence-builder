@@ -1,6 +1,6 @@
 import { useDarkMode } from "./hooks/useDarkMode";
 import { useState } from "react";
-import { ThemeToggle } from "./components/ThemeToggle";
+import { TopBar } from "./components/TopBar";
 import { GamePage } from "./pages/GamePage";
 import { HomePage } from "./pages/HomePage";
 import { VocabPage } from "./pages/VocabPage";
@@ -13,7 +13,12 @@ function App() {
 
   return (
     <>
-      <ThemeToggle dark={dark} onToggle={toggle} className="fixed top-3 right-3 z-50" />
+      <TopBar
+        dark={dark}
+        onToggleTheme={toggle}
+        showHome={view !== "home"}
+        onHome={() => setView("home")}
+      />
 
       {view === "home" && (
         <HomePage

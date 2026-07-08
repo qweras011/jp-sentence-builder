@@ -9,7 +9,6 @@ interface VocabHeaderProps {
   freshCount: number;
   direction: VocabDirection;
   onDirectionChange: (direction: VocabDirection) => void;
-  onHome?: () => void;
 }
 
 export function VocabHeader({
@@ -19,7 +18,6 @@ export function VocabHeader({
   freshCount,
   direction,
   onDirectionChange,
-  onHome,
 }: VocabHeaderProps) {
   const progress = Math.round((completed / VOCAB_DAILY_GOAL) * 100);
 
@@ -29,16 +27,7 @@ export function VocabHeader({
         <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">단어 외우기</p>
         <div className="flex items-center gap-2">
           <VocabDirectionToggle direction={direction} onChange={onDirectionChange} />
-          <p className="text-xs text-slate-400 dark:text-slate-500">{dateLabel}</p>
-          {onHome && (
-            <button
-              type="button"
-              onClick={onHome}
-              className="rounded-md px-2 py-0.5 text-xs text-slate-500 ring-1 ring-slate-200 transition hover:bg-slate-50 dark:text-slate-400 dark:ring-slate-600 dark:hover:bg-slate-700"
-            >
-              홈
-            </button>
-          )}
+          <p className="shrink-0 text-xs text-slate-400 dark:text-slate-500">{dateLabel}</p>
         </div>
       </div>
       <div className="mt-2 flex items-center justify-between text-xs">

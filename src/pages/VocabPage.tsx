@@ -26,14 +26,13 @@ export function VocabPage({ onHome }: VocabPageProps) {
 
   if (isComplete) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-emerald-50 px-3 py-4 dark:from-slate-950 dark:to-slate-900">
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-emerald-50 px-3 pb-4 pt-14 dark:from-slate-950 dark:to-slate-900">
         <main className="mx-auto max-w-2xl space-y-4">
           <VocabHeader
             completed={completedCount}
             dateLabel={dateLabel}
             reviewCount={reviewCount}
             freshCount={freshCount}
-            onHome={onHome}
             direction={direction}
             onDirectionChange={setVocabDirection}
           />
@@ -72,14 +71,13 @@ export function VocabPage({ onHome }: VocabPageProps) {
   const isReverse = direction === "reverse";
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-emerald-50 px-3 py-4 dark:from-slate-950 dark:to-slate-900">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-emerald-50 px-3 pb-4 pt-14 dark:from-slate-950 dark:to-slate-900">
       <main className="mx-auto max-w-2xl space-y-4">
         <VocabHeader
           completed={completedCount}
           dateLabel={dateLabel}
           reviewCount={reviewCount}
           freshCount={freshCount}
-          onHome={onHome}
           direction={direction}
           onDirectionChange={setVocabDirection}
         />

@@ -31,14 +31,13 @@ export function GamePage({ onHome }: GamePageProps) {
 
   if (isComplete) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 px-3 py-4 dark:from-slate-950 dark:to-slate-900">
+      <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 px-3 pb-4 pt-14 dark:from-slate-950 dark:to-slate-900">
         <main className="mx-auto max-w-2xl space-y-4">
           <GameHeader
             completed={completedCount}
             dateLabel={dateLabel}
             reviewCount={reviewCount}
             freshCount={freshCount}
-            onHome={onHome}
           />
           <div className="rounded-xl border border-slate-200 bg-white p-6 text-center shadow-sm dark:border-slate-700 dark:bg-slate-800">
             <p className="text-sm font-medium text-indigo-600 dark:text-indigo-400">오늘 목표 달성</p>
@@ -75,14 +74,13 @@ export function GamePage({ onHome }: GamePageProps) {
   const layoutPieceCount = playablePieceCount;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 pb-24 dark:from-slate-950 dark:to-slate-900">
-      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-3 py-4">
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-indigo-50 pb-24 pt-14 dark:from-slate-950 dark:to-slate-900">
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-3 pb-4">
         <GameHeader
           completed={completedCount}
           dateLabel={dateLabel}
           reviewCount={reviewCount}
           freshCount={freshCount}
-          onHome={onHome}
         />
 
         <PromptCard korean={current.korean} />
