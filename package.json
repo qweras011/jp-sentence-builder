@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "build:vocab": "node scripts/build-vocab.mjs",
     "refine:vocab": "node scripts/refine-vocab-ko.mjs",
-    "polish:vocab": "node scripts/polish-vocab-ko.mjs"
+    "polish:vocab": "node scripts/polish-vocab-ko.mjs",
+    "build:sentences": "node scripts/build-sentences.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",
