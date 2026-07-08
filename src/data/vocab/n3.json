@@ -3,7 +3,7 @@
     "id": 601,
     "word": "愛する",
     "reading": "あいする",
-    "korean": "사랑하다",
+    "korean": "사랑",
     "level": "n3"
   },
   {
@@ -17,42 +17,42 @@
     "id": 603,
     "word": "関する",
     "reading": "かんする",
-    "korean": "우려하다",
+    "korean": "관심, 관련됨",
     "level": "n3"
   },
   {
     "id": 604,
     "word": "対する",
     "reading": "たいする",
-    "korean": "얼굴하다",
+    "korean": "직면하다, 직면하다",
     "level": "n3"
   },
   {
     "id": 605,
     "word": "達する",
     "reading": "たっする",
-    "korean": "도달하다",
+    "korean": "도달하다, 도달하다",
     "level": "n3"
   },
   {
     "id": 606,
     "word": "罰する",
     "reading": "ばっする",
-    "korean": "벌하다",
+    "korean": "처벌하다, 처벌하다",
     "level": "n3"
   },
   {
     "id": 607,
     "word": "お互い",
     "reading": "おたがい",
-    "korean": "상호간의",
+    "korean": "상호적인, 상호적인",
     "level": "n3"
   },
   {
     "id": 608,
     "word": "お昼",
     "reading": "おひる",
-    "korean": "점심",
+    "korean": "점심, 정오",
     "level": "n3"
   },
   {
@@ -66,49 +66,49 @@
     "id": 610,
     "word": "ジェット機",
     "reading": "ジェットき",
-    "korean": "제트기",
+    "korean": "제트 비행기",
     "level": "n3"
   },
   {
     "id": 611,
     "word": "哀れ",
     "reading": "あわれ",
-    "korean": "불쌍하다",
+    "korean": "무기력하다, 불쌍하다",
     "level": "n3"
   },
   {
     "id": 612,
     "word": "愛情",
     "reading": "あいじょう",
-    "korean": "사랑",
+    "korean": "사랑, 애정",
     "level": "n3"
   },
   {
     "id": 613,
     "word": "挨拶",
     "reading": "あいさつ",
-    "korean": "인사",
+    "korean": "인사, 인사",
     "level": "n3"
   },
   {
     "id": 614,
     "word": "悪口",
     "reading": "わるくち",
-    "korean": "남용",
+    "korean": "학대, 모욕",
     "level": "n3"
   },
   {
     "id": 615,
     "word": "悪魔",
     "reading": "あくま",
-    "korean": "악마",
+    "korean": "악마, 악마",
     "level": "n3"
   },
   {
     "id": 616,
     "word": "握る",
     "reading": "にぎる",
-    "korean": "파악",
+    "korean": "붙잡다, 붙잡다",
     "level": "n3"
   },
   {
@@ -122,49 +122,49 @@
     "id": 618,
     "word": "扱う",
     "reading": "あつかう",
-    "korean": "핸들",
+    "korean": "다루다, 다루다",
     "level": "n3"
   },
   {
     "id": 619,
     "word": "安定",
     "reading": "あんてい",
-    "korean": "안정",
+    "korean": "안정성, 균형",
     "level": "n3"
   },
   {
     "id": 620,
     "word": "暗記",
     "reading": "あんき",
-    "korean": "암기",
+    "korean": "암기, 마음으로 학습",
     "level": "n3"
   },
   {
     "id": 621,
     "word": "以前",
     "reading": "いぜん",
-    "korean": "이전",
+    "korean": "예전, 이후",
     "level": "n3"
   },
   {
     "id": 622,
     "word": "以来",
     "reading": "いらい",
-    "korean": "이래",
+    "korean": "이후로, 앞으로",
     "level": "n3"
   },
   {
     "id": 623,
     "word": "位置",
     "reading": "いち",
-    "korean": "장소",
+    "korean": "장소, 상황",
     "level": "n3"
   },
   {
     "id": 624,
     "word": "依頼",
     "reading": "いらい",
-    "korean": "요구",
+    "korean": "요청, 커미션",
     "level": "n3"
   },
   {
@@ -178,42 +178,42 @@
     "id": 626,
     "word": "囲む",
     "reading": "かこむ",
-    "korean": "서라운드",
+    "korean": "둘러싸다, 둘러싸다",
     "level": "n3"
   },
   {
     "id": 627,
     "word": "委員",
     "reading": "いいん",
-    "korean": "위원",
+    "korean": "위원회 위원",
     "level": "n3"
   },
   {
     "id": 628,
     "word": "意外",
     "reading": "いがい",
-    "korean": "뜻밖",
+    "korean": "예상치 못한, 놀라운",
     "level": "n3"
   },
   {
     "id": 629,
     "word": "意志",
     "reading": "いし",
-    "korean": "의지",
+    "korean": "의지, 의지",
     "level": "n3"
   },
   {
     "id": 630,
     "word": "意思",
     "reading": "いし",
-    "korean": "의도",
+    "korean": "의도, 목적",
     "level": "n3"
   },
   {
     "id": 631,
     "word": "意識",
     "reading": "いしき",
-    "korean": "의식",
+    "korean": "의식, 감각",
     "level": "n3"
   },
   {
@@ -227,42 +227,42 @@
     "id": 633,
     "word": "為る",
     "reading": "する",
-    "korean": "변화",
+    "korean": "변화하다, 유용하다",
     "level": "n3"
   },
   {
     "id": 634,
     "word": "異なる",
     "reading": "ことなる",
-    "korean": "다르다",
+    "korean": "다르다, 다양하다",
     "level": "n3"
   },
   {
     "id": 635,
     "word": "異常",
     "reading": "いじょう",
-    "korean": "기묘",
+    "korean": "이상함, 이상함",
     "level": "n3"
   },
   {
     "id": 636,
     "word": "移す",
     "reading": "うつす",
-    "korean": "제거하다",
+    "korean": "제거하다, 옮기다",
     "level": "n3"
   },
   {
     "id": 637,
     "word": "移動",
     "reading": "いどう",
-    "korean": "제거",
+    "korean": "제거, 마이그레이션",
     "level": "n3"
   },
   {
     "id": 638,
     "word": "維持",
     "reading": "いじ",
-    "korean": "유지",
+    "korean": "유지, 보존",
     "level": "n3"
   },
   {
@@ -276,112 +276,112 @@
     "id": 640,
     "word": "違い",
     "reading": "ちがい",
-    "korean": "차이점",
+    "korean": "차이, 불일치",
     "level": "n3"
   },
   {
     "id": 641,
     "word": "違いない",
     "reading": "ちがいない",
-    "korean": "확신하는",
+    "korean": "물론이죠, 착각하지 마세요",
     "level": "n3"
   },
   {
     "id": 642,
     "word": "違反",
     "reading": "いはん",
-    "korean": "위반",
+    "korean": "위반, 위반",
     "level": "n3"
   },
   {
     "id": 643,
     "word": "医師",
     "reading": "いし",
-    "korean": "의사",
+    "korean": "의사, 의사",
     "level": "n3"
   },
   {
     "id": 644,
     "word": "医療",
     "reading": "いりょう",
-    "korean": "의료",
+    "korean": "의료, 진료",
     "level": "n3"
   },
   {
     "id": 645,
     "word": "育つ",
     "reading": "そだつ",
-    "korean": "들어올리다",
+    "korean": "올리다, 키우다",
     "level": "n3"
   },
   {
     "id": 646,
     "word": "一家",
     "reading": "いっか",
-    "korean": "집",
+    "korean": "집, 집",
     "level": "n3"
   },
   {
     "id": 647,
     "word": "一言",
     "reading": "ひとこと",
-    "korean": "한마디",
+    "korean": "한 단어",
     "level": "n3"
   },
   {
     "id": 648,
     "word": "一時",
     "reading": "いちじ",
-    "korean": "순간",
+    "korean": "순간, 시간",
     "level": "n3"
   },
   {
     "id": 649,
     "word": "一種",
     "reading": "いっしゅ",
-    "korean": "종",
+    "korean": "종, 종류",
     "level": "n3"
   },
   {
     "id": 650,
     "word": "一瞬",
     "reading": "いっしゅん",
-    "korean": "잠시",
+    "korean": "순간, 순간",
     "level": "n3"
   },
   {
     "id": 651,
     "word": "一人一人",
     "reading": "ひとりひとり",
-    "korean": "하나씩",
+    "korean": "하나씩, 각자",
     "level": "n3"
   },
   {
     "id": 652,
     "word": "一生",
     "reading": "いっしょう",
-    "korean": "평생",
+    "korean": "평생, 평생",
     "level": "n3"
   },
   {
     "id": 653,
     "word": "一層",
     "reading": "いっそう",
-    "korean": "더욱",
+    "korean": "훨씬 더, 훨씬 더",
     "level": "n3"
   },
   {
     "id": 654,
     "word": "一体",
     "reading": "いったい",
-    "korean": "도대체",
+    "korean": "하나의 물건, 하나의 몸",
     "level": "n3"
   },
   {
     "id": 655,
     "word": "一致",
     "reading": "いっち",
-    "korean": "일치",
+    "korean": "우연, 합의",
     "level": "n3"
   },
   {
@@ -395,14 +395,14 @@
     "id": 657,
     "word": "一般",
     "reading": "いっぱん",
-    "korean": "일반적인",
+    "korean": "일반, 자유주의",
     "level": "n3"
   },
   {
     "id": 658,
     "word": "一番",
     "reading": "いちばん",
-    "korean": "최상의",
+    "korean": "제일, 먼저",
     "level": "n3"
   },
   {
@@ -430,7 +430,7 @@
     "id": 662,
     "word": "引っ張る",
     "reading": "ひっぱる",
-    "korean": "당기다",
+    "korean": "당기다, 그리다",
     "level": "n3"
   },
   {
@@ -444,63 +444,63 @@
     "id": 664,
     "word": "引用",
     "reading": "いんよう",
-    "korean": "인용",
+    "korean": "인용, 인용",
     "level": "n3"
   },
   {
     "id": 665,
     "word": "隠す",
     "reading": "かくす",
-    "korean": "숨다",
+    "korean": "숨기다, 숨기다",
     "level": "n3"
   },
   {
     "id": 666,
     "word": "隠れる",
     "reading": "かくれる",
-    "korean": "숨다",
+    "korean": "숨기다, 숨겨지다",
     "level": "n3"
   },
   {
     "id": 667,
     "word": "宇宙",
     "reading": "うちゅう",
-    "korean": "우주",
+    "korean": "우주, 코스모스",
     "level": "n3"
   },
   {
     "id": 668,
     "word": "営業",
     "reading": "えいぎょう",
-    "korean": "사업",
+    "korean": "사업, 무역",
     "level": "n3"
   },
   {
     "id": 669,
     "word": "影響",
     "reading": "えいきょう",
-    "korean": "영향",
+    "korean": "영향, 효과",
     "level": "n3"
   },
   {
     "id": 670,
     "word": "栄養",
     "reading": "えいよう",
-    "korean": "영양",
+    "korean": "영양, 영양",
     "level": "n3"
   },
   {
     "id": 671,
     "word": "永遠",
     "reading": "えいえん",
-    "korean": "영원",
+    "korean": "영원, 영속",
     "level": "n3"
   },
   {
     "id": 672,
     "word": "永久",
     "reading": "えいきゅう",
-    "korean": "영원",
+    "korean": "영원, 영속",
     "level": "n3"
   },
   {
@@ -521,14 +521,14 @@
     "id": 675,
     "word": "鋭い",
     "reading": "するどい",
-    "korean": "뾰족한",
+    "korean": "뾰족한, 날카로운",
     "level": "n3"
   },
   {
     "id": 676,
     "word": "越える",
     "reading": "こえる",
-    "korean": "초과하다",
+    "korean": "초과하다, 넘어서다",
     "level": "n3"
   },
   {
@@ -542,28 +542,28 @@
     "id": 678,
     "word": "延期",
     "reading": "えんき",
-    "korean": "연기",
+    "korean": "연기, 연기",
     "level": "n3"
   },
   {
     "id": 679,
     "word": "援助",
     "reading": "えんじょ",
-    "korean": "보조",
+    "korean": "도움, 원조",
     "level": "n3"
   },
   {
     "id": 680,
     "word": "演技",
     "reading": "えんぎ",
-    "korean": "연기",
+    "korean": "연기, 퍼포먼스",
     "level": "n3"
   },
   {
     "id": 681,
     "word": "演説",
     "reading": "えんぜつ",
-    "korean": "연설",
+    "korean": "연설, 주소",
     "level": "n3"
   },
   {
@@ -577,21 +577,21 @@
     "id": 683,
     "word": "汚染",
     "reading": "おせん",
-    "korean": "오염",
+    "korean": "오염, 오염",
     "level": "n3"
   },
   {
     "id": 684,
     "word": "応じる",
     "reading": "おうじる",
-    "korean": "대답하다",
+    "korean": "응답하다, 만족시키다",
     "level": "n3"
   },
   {
     "id": 685,
     "word": "横切る",
     "reading": "よこぎる",
-    "korean": "십자가",
+    "korean": "십자가, 횡단하다",
     "level": "n3"
   },
   {
@@ -640,28 +640,28 @@
     "id": 692,
     "word": "穏やか",
     "reading": "おだやか",
-    "korean": "침착한",
+    "korean": "차분한, 온화한",
     "level": "n3"
   },
   {
     "id": 693,
     "word": "下さる",
     "reading": "くださる",
-    "korean": "주다",
+    "korean": "주다, 수여하다",
     "level": "n3"
   },
   {
     "id": 694,
     "word": "下す",
     "reading": "おろす",
-    "korean": "낮추다",
+    "korean": "낮추다, 내리다",
     "level": "n3"
   },
   {
     "id": 695,
     "word": "下り",
     "reading": "くだり",
-    "korean": "하행",
+    "korean": "하행 열차",
     "level": "n3"
   },
   {
@@ -689,63 +689,63 @@
     "id": 699,
     "word": "何で",
     "reading": "なんで",
-    "korean": "왜?",
+    "korean": "왜?, 무엇을 위해?",
     "level": "n3"
   },
   {
     "id": 700,
     "word": "何でも",
     "reading": "なんでも",
-    "korean": "꼭",
+    "korean": "꼭, 모든 것",
     "level": "n3"
   },
   {
     "id": 701,
     "word": "何とか",
     "reading": "なんとか",
-    "korean": "어떻게든",
+    "korean": "어떻게든, 어쨌든",
     "level": "n3"
   },
   {
     "id": 702,
     "word": "価格",
     "reading": "かかく",
-    "korean": "가격",
+    "korean": "가격, 가치",
     "level": "n3"
   },
   {
     "id": 703,
     "word": "価値",
     "reading": "かち",
-    "korean": "값",
+    "korean": "가치, 가치",
     "level": "n3"
   },
   {
     "id": 704,
     "word": "加える",
     "reading": "くわえる",
-    "korean": "추가",
+    "korean": "덧붙이다, 요약하다",
     "level": "n3"
   },
   {
     "id": 705,
     "word": "加わる",
     "reading": "くわわる",
-    "korean": "가입하다",
+    "korean": "가입하다, 가입하다",
     "level": "n3"
   },
   {
     "id": 706,
     "word": "加減",
     "reading": "かげん",
-    "korean": "조절",
+    "korean": "덧셈과 뺄셈, 허용치",
     "level": "n3"
   },
   {
     "id": 707,
     "word": "可能",
     "reading": "かのう",
-    "korean": "가능한",
+    "korean": "가능한, 실행 가능한",
     "level": "n3"
   },
   {
@@ -759,7 +759,7 @@
     "id": 709,
     "word": "家事",
     "reading": "かじ",
-    "korean": "안일",
+    "korean": "집안일, 집안일",
     "level": "n3"
   },
   {
@@ -773,7 +773,7 @@
     "id": 711,
     "word": "科目",
     "reading": "かもく",
-    "korean": "주제",
+    "korean": "과목, 커리큘럼",
     "level": "n3"
   },
   {
@@ -787,7 +787,7 @@
     "id": 713,
     "word": "火災",
     "reading": "かさい",
-    "korean": "화재",
+    "korean": "화재, 화재",
     "level": "n3"
   },
   {
@@ -801,7 +801,7 @@
     "id": 715,
     "word": "稼ぐ",
     "reading": "かせぐ",
-    "korean": "벌다",
+    "korean": "수입을 얻다, 노동하다",
     "level": "n3"
   },
   {
@@ -815,14 +815,14 @@
     "id": 717,
     "word": "過ごす",
     "reading": "すごす",
-    "korean": "통과하다",
+    "korean": "통과하다, 쓰다",
     "level": "n3"
   },
   {
     "id": 718,
     "word": "過去",
     "reading": "かこ",
-    "korean": "과거",
+    "korean": "과거, 지나간 날들",
     "level": "n3"
   },
   {
@@ -836,35 +836,35 @@
     "id": 720,
     "word": "我慢",
     "reading": "がまん",
-    "korean": "인내심",
+    "korean": "인내, 인내",
     "level": "n3"
   },
   {
     "id": 721,
     "word": "画家",
     "reading": "がか",
-    "korean": "화가",
+    "korean": "화가, 예술가",
     "level": "n3"
   },
   {
     "id": 722,
     "word": "会員",
     "reading": "かいいん",
-    "korean": "회원",
+    "korean": "회원, 회원",
     "level": "n3"
   },
   {
     "id": 723,
     "word": "会計",
     "reading": "かいけい",
-    "korean": "계정",
+    "korean": "회계, 금융",
     "level": "n3"
   },
   {
     "id": 724,
     "word": "会合",
     "reading": "かいごう",
-    "korean": "회의",
+    "korean": "회의, 집회",
     "level": "n3"
   },
   {
@@ -878,70 +878,70 @@
     "id": 726,
     "word": "解ける",
     "reading": "とける",
-    "korean": "풀려나다",
+    "korean": "풀리다, 헤어지다",
     "level": "n3"
   },
   {
     "id": 727,
     "word": "解決",
     "reading": "かいけつ",
-    "korean": "합의",
+    "korean": "해결, 해결",
     "level": "n3"
   },
   {
     "id": 728,
     "word": "解釈",
     "reading": "かいしゃく",
-    "korean": "설명",
+    "korean": "설명, 해석",
     "level": "n3"
   },
   {
     "id": 729,
     "word": "回す",
     "reading": "まわす",
-    "korean": "회전하다",
+    "korean": "돌리다, 회전하다",
     "level": "n3"
   },
   {
     "id": 730,
     "word": "回り",
     "reading": "まわり",
-    "korean": "둘레",
+    "korean": "원주, 주변",
     "level": "n3"
   },
   {
     "id": 731,
     "word": "回復",
     "reading": "かいふく",
-    "korean": "회복",
+    "korean": "회복, 개선",
     "level": "n3"
   },
   {
     "id": 732,
     "word": "快適",
     "reading": "かいてき",
-    "korean": "즐거운",
+    "korean": "기분 좋은, 기분 좋은",
     "level": "n3"
   },
   {
     "id": 733,
     "word": "怪我",
     "reading": "けが",
-    "korean": "부상",
+    "korean": "부상, 상처",
     "level": "n3"
   },
   {
     "id": 734,
     "word": "改善",
     "reading": "かいぜん",
-    "korean": "개량",
+    "korean": "개선, 개선",
     "level": "n3"
   },
   {
     "id": 735,
     "word": "海外",
     "reading": "かいがい",
-    "korean": "외국의",
+    "korean": "외국, 해외",
     "level": "n3"
   },
   {
@@ -955,14 +955,14 @@
     "id": 737,
     "word": "開始",
     "reading": "かいし",
-    "korean": "시작",
+    "korean": "시작, 개시",
     "level": "n3"
   },
   {
     "id": 738,
     "word": "外す",
     "reading": "はずす",
-    "korean": "풀다",
+    "korean": "풀다, 풀다",
     "level": "n3"
   },
   {
@@ -976,63 +976,63 @@
     "id": 740,
     "word": "外出",
     "reading": "がいしゅつ",
-    "korean": "나들이",
+    "korean": "나들이, 외출",
     "level": "n3"
   },
   {
     "id": 741,
     "word": "拡大",
     "reading": "かくだい",
-    "korean": "확대",
+    "korean": "확대, 확대",
     "level": "n3"
   },
   {
     "id": 742,
     "word": "格好",
     "reading": "かっこう",
-    "korean": "모양",
+    "korean": "모양, 형태",
     "level": "n3"
   },
   {
     "id": 743,
     "word": "確かめる",
     "reading": "たしかめる",
-    "korean": "확인하다",
+    "korean": "명백히 하다",
     "level": "n3"
   },
   {
     "id": 744,
     "word": "確実",
     "reading": "かくじつ",
-    "korean": "확실성",
+    "korean": "확실성, 신뢰성",
     "level": "n3"
   },
   {
     "id": 745,
     "word": "確認",
     "reading": "かくにん",
-    "korean": "확언",
+    "korean": "긍정, 확인",
     "level": "n3"
   },
   {
     "id": 746,
     "word": "覚める",
     "reading": "さめる",
-    "korean": "깨다",
+    "korean": "일어나다, 일어나다",
     "level": "n3"
   },
   {
     "id": 747,
     "word": "覚悟",
     "reading": "かくご",
-    "korean": "해결",
+    "korean": "결의, 사임",
     "level": "n3"
   },
   {
     "id": 748,
     "word": "学ぶ",
     "reading": "まなぶ",
-    "korean": "공부하다",
+    "korean": "공부하다, 배우다",
     "level": "n3"
   },
   {
@@ -1053,91 +1053,91 @@
     "id": 751,
     "word": "学習",
     "reading": "がくしゅう",
-    "korean": "공부하다",
+    "korean": "공부하다, 배우다",
     "level": "n3"
   },
   {
     "id": 752,
     "word": "学問",
     "reading": "がくもん",
-    "korean": "장학금",
+    "korean": "장학금, 공부",
     "level": "n3"
   },
   {
     "id": 753,
     "word": "掛かる",
     "reading": "かかる",
-    "korean": "걸리다",
+    "korean": "(예를 들어 시간, 돈을 가져가다",
     "level": "n3"
   },
   {
     "id": 754,
     "word": "割る",
     "reading": "わる",
-    "korean": "나누다",
+    "korean": "나누다, 자르다",
     "level": "n3"
   },
   {
     "id": 755,
     "word": "活気",
     "reading": "かっき",
-    "korean": "에너지",
+    "korean": "에너지, 활력",
     "level": "n3"
   },
   {
     "id": 756,
     "word": "活動",
     "reading": "かつどう",
-    "korean": "행동",
+    "korean": "행동, 활동",
     "level": "n3"
   },
   {
     "id": 757,
     "word": "活用",
     "reading": "かつよう",
-    "korean": "활용",
+    "korean": "활용, 실용",
     "level": "n3"
   },
   {
     "id": 758,
     "word": "刈る",
     "reading": "かる",
-    "korean": "자르다",
+    "korean": "자르다, 깎다",
     "level": "n3"
   },
   {
     "id": 759,
     "word": "勘定",
     "reading": "かんじょう",
-    "korean": "계산",
+    "korean": "계산, 계산",
     "level": "n3"
   },
   {
     "id": 760,
     "word": "勧める",
     "reading": "すすめる",
-    "korean": "추천하다",
+    "korean": "추천하다, 조언하다",
     "level": "n3"
   },
   {
     "id": 761,
     "word": "完成",
     "reading": "かんせい",
-    "korean": "완벽한",
+    "korean": "완전한, 완성",
     "level": "n3"
   },
   {
     "id": 762,
     "word": "完全",
     "reading": "かんぜん",
-    "korean": "완전",
+    "korean": "완벽함, 완전함",
     "level": "n3"
   },
   {
     "id": 763,
     "word": "完了",
     "reading": "かんりょう",
-    "korean": "완성",
+    "korean": "완성, 결론",
     "level": "n3"
   },
   {
@@ -1151,91 +1151,91 @@
     "id": 765,
     "word": "感じ",
     "reading": "かんじ",
-    "korean": "감정",
+    "korean": "느낌, 감각",
     "level": "n3"
   },
   {
     "id": 766,
     "word": "感じる",
     "reading": "かんじる",
-    "korean": "느끼다",
+    "korean": "느끼다, 감지하다",
     "level": "n3"
   },
   {
     "id": 767,
     "word": "感覚",
     "reading": "かんかく",
-    "korean": "감각",
+    "korean": "감각, 감각",
     "level": "n3"
   },
   {
     "id": 768,
     "word": "感謝",
     "reading": "かんしゃ",
-    "korean": "감사해요",
+    "korean": "감사합니다, 감사합니다",
     "level": "n3"
   },
   {
     "id": 769,
     "word": "感情",
     "reading": "かんじょう",
-    "korean": "감정",
+    "korean": "감정, 느낌",
     "level": "n3"
   },
   {
     "id": 770,
     "word": "感心",
     "reading": "かんしん",
-    "korean": "감탄",
+    "korean": "감탄, 잘했어!",
     "level": "n3"
   },
   {
     "id": 771,
     "word": "感動",
     "reading": "かんどう",
-    "korean": "감동",
+    "korean": "깊은 감동, 설렘",
     "level": "n3"
   },
   {
     "id": 772,
     "word": "換える",
     "reading": "かえる",
-    "korean": "교환",
+    "korean": "교환하다, 교환하다",
     "level": "n3"
   },
   {
     "id": 773,
     "word": "歓迎",
     "reading": "かんげい",
-    "korean": "환영",
+    "korean": "환영, 리셉션",
     "level": "n3"
   },
   {
     "id": 774,
     "word": "環境",
     "reading": "かんきょう",
-    "korean": "환경",
+    "korean": "환경, 상황",
     "level": "n3"
   },
   {
     "id": 775,
     "word": "監督",
     "reading": "かんとく",
-    "korean": "감독",
+    "korean": "감독, 통제",
     "level": "n3"
   },
   {
     "id": 776,
     "word": "管理",
     "reading": "かんり",
-    "korean": "제어",
+    "korean": "통제, 관리",
     "level": "n3"
   },
   {
     "id": 777,
     "word": "観客",
     "reading": "かんきゃく",
-    "korean": "청중",
+    "korean": "청중, 관중",
     "level": "n3"
   },
   {
@@ -1249,7 +1249,7 @@
     "id": 779,
     "word": "観察",
     "reading": "かんさつ",
-    "korean": "관찰",
+    "korean": "관찰, 조사",
     "level": "n3"
   },
   {
@@ -1263,189 +1263,189 @@
     "id": 781,
     "word": "関心",
     "reading": "かんしん",
-    "korean": "우려",
+    "korean": "관심, 관심",
     "level": "n3"
   },
   {
     "id": 782,
     "word": "関連",
     "reading": "かんれん",
-    "korean": "관계",
+    "korean": "관계, 연결",
     "level": "n3"
   },
   {
     "id": 783,
     "word": "丸い",
     "reading": "まるい",
-    "korean": "둥근",
+    "korean": "원형, 원형",
     "level": "n3"
   },
   {
     "id": 784,
     "word": "含む",
     "reading": "ふくむ",
-    "korean": "포함하다",
+    "korean": "입에 담다, 명심하다",
     "level": "n3"
   },
   {
     "id": 785,
     "word": "願い",
     "reading": "ねがい",
-    "korean": "욕구",
+    "korean": "욕망, 소원",
     "level": "n3"
   },
   {
     "id": 786,
     "word": "願う",
     "reading": "ねがう",
-    "korean": "욕구",
+    "korean": "욕망, 바라다",
     "level": "n3"
   },
   {
     "id": 787,
     "word": "企業",
     "reading": "きぎょう",
-    "korean": "기업",
+    "korean": "기업, 사업",
     "level": "n3"
   },
   {
     "id": 788,
     "word": "喜び",
     "reading": "よろこび",
-    "korean": "기쁨",
+    "korean": "기쁨, 즐거움",
     "level": "n3"
   },
   {
     "id": 789,
     "word": "器用",
     "reading": "きよう",
-    "korean": "손재주",
+    "korean": "능숙한, 편리한",
     "level": "n3"
   },
   {
     "id": 790,
     "word": "基づく",
     "reading": "もとづく",
-    "korean": "근거하다",
+    "korean": "기초를 두다, 기초를 두다",
     "level": "n3"
   },
   {
     "id": 791,
     "word": "基本",
     "reading": "きほん",
-    "korean": "기반",
+    "korean": "기초, 기초",
     "level": "n3"
   },
   {
     "id": 792,
     "word": "奇妙",
     "reading": "きみょう",
-    "korean": "이상한",
+    "korean": "이상한, 이상한",
     "level": "n3"
   },
   {
     "id": 793,
     "word": "嬉しい",
     "reading": "うれしい",
-    "korean": "행복하다",
+    "korean": "행복하다, 기쁘다",
     "level": "n3"
   },
   {
     "id": 794,
     "word": "寄付",
     "reading": "きふ",
-    "korean": "기부금",
+    "korean": "기부, 기부",
     "level": "n3"
   },
   {
     "id": 795,
     "word": "希望",
     "reading": "きぼう",
-    "korean": "희망",
+    "korean": "희망하다, 바라다",
     "level": "n3"
   },
   {
     "id": 796,
     "word": "幾つ",
     "reading": "いくつ",
-    "korean": "얼마나?",
+    "korean": "몇 살이야?, 몇 살이야?",
     "level": "n3"
   },
   {
     "id": 797,
     "word": "幾ら",
     "reading": "いくら",
-    "korean": "얼마",
+    "korean": "얼마예요?, 몇 개요?",
     "level": "n3"
   },
   {
     "id": 798,
     "word": "既に",
     "reading": "すでに",
-    "korean": "이미",
+    "korean": "이미, 너무 늦었어",
     "level": "n3"
   },
   {
     "id": 799,
     "word": "期間",
     "reading": "きかん",
-    "korean": "기간",
+    "korean": "기간, 기간",
     "level": "n3"
   },
   {
     "id": 800,
     "word": "期待",
     "reading": "きたい",
-    "korean": "기대",
+    "korean": "기대, 기대",
     "level": "n3"
   },
   {
     "id": 801,
     "word": "機械",
     "reading": "きかい",
-    "korean": "기계",
+    "korean": "기계, 메커니즘",
     "level": "n3"
   },
   {
     "id": 802,
     "word": "機関",
     "reading": "きかん",
-    "korean": "오르간",
+    "korean": "기관, 메커니즘",
     "level": "n3"
   },
   {
     "id": 803,
     "word": "機嫌",
     "reading": "きげん",
-    "korean": "기분",
+    "korean": "유머, 성격",
     "level": "n3"
   },
   {
     "id": 804,
     "word": "機能",
     "reading": "きのう",
-    "korean": "기능",
+    "korean": "기능, 교수진",
     "level": "n3"
   },
   {
     "id": 805,
     "word": "帰宅",
     "reading": "きたく",
-    "korean": "귀가",
+    "korean": "집으로 돌아가다",
     "level": "n3"
   },
   {
     "id": 806,
     "word": "気に入る",
     "reading": "きにいる",
-    "korean": "기뻐하다",
+    "korean": "만족하다, 어울리다",
     "level": "n3"
   },
   {
     "id": 807,
     "word": "気の毒",
     "reading": "きのどく",
-    "korean": "불쌍한",
+    "korean": "불쌍하다, 불쌍하다",
     "level": "n3"
   },
   {
@@ -1466,28 +1466,28 @@
     "id": 810,
     "word": "気付く",
     "reading": "きづく",
-    "korean": "알아채다",
+    "korean": "알아차리다, 알아차리다",
     "level": "n3"
   },
   {
     "id": 811,
     "word": "気味",
     "reading": "きみ",
-    "korean": "-좋다",
+    "korean": "-처럼, -처럼 보이는",
     "level": "n3"
   },
   {
     "id": 812,
     "word": "記憶",
     "reading": "きおく",
-    "korean": "메모리",
+    "korean": "기억, 기억",
     "level": "n3"
   },
   {
     "id": 813,
     "word": "記事",
     "reading": "きじ",
-    "korean": "기사",
+    "korean": "기사, 뉴스 기사",
     "level": "n3"
   },
   {
@@ -1501,91 +1501,91 @@
     "id": 815,
     "word": "記入",
     "reading": "きにゅう",
-    "korean": "기입",
+    "korean": "입력, 양식 작성",
     "level": "n3"
   },
   {
     "id": 816,
     "word": "記念",
     "reading": "きねん",
-    "korean": "기념",
+    "korean": "기념, 기억",
     "level": "n3"
   },
   {
     "id": 817,
     "word": "記録",
     "reading": "きろく",
-    "korean": "기록",
+    "korean": "기록, 분",
     "level": "n3"
   },
   {
     "id": 818,
     "word": "貴重",
     "reading": "きちょう",
-    "korean": "귀중한",
+    "korean": "귀중한, 귀중한",
     "level": "n3"
   },
   {
     "id": 819,
     "word": "起こる",
     "reading": "おこる",
-    "korean": "발생하다",
+    "korean": "발생하다, 발생하다",
     "level": "n3"
   },
   {
     "id": 820,
     "word": "輝く",
     "reading": "かがやく",
-    "korean": "빛나는",
+    "korean": "빛나다, 반짝거리다",
     "level": "n3"
   },
   {
     "id": 821,
     "word": "宜しい",
     "reading": "よろしい",
-    "korean": "좋은",
+    "korean": "좋아, 알았어",
     "level": "n3"
   },
   {
     "id": 822,
     "word": "技師",
     "reading": "ぎし",
-    "korean": "엔지니어",
+    "korean": "엔지니어, 기술자",
     "level": "n3"
   },
   {
     "id": 823,
     "word": "疑う",
     "reading": "うたがう",
-    "korean": "의심",
+    "korean": "의심하다, 불신하다",
     "level": "n3"
   },
   {
     "id": 824,
     "word": "疑問",
     "reading": "ぎもん",
-    "korean": "질문",
+    "korean": "질문, 문제",
     "level": "n3"
   },
   {
     "id": 825,
     "word": "義務",
     "reading": "ぎむ",
-    "korean": "의무",
+    "korean": "의무, 의무",
     "level": "n3"
   },
   {
     "id": 826,
     "word": "議員",
     "reading": "ぎいん",
-    "korean": "국회의원",
+    "korean": "국회의원, 국회의원 또는 국회의원",
     "level": "n3"
   },
   {
     "id": 827,
     "word": "議会",
     "reading": "ぎかい",
-    "korean": "다이어트",
+    "korean": "다이어트, 의회",
     "level": "n3"
   },
   {
@@ -1599,56 +1599,56 @@
     "id": 829,
     "word": "議論",
     "reading": "ぎろん",
-    "korean": "논쟁",
+    "korean": "논쟁, 토론",
     "level": "n3"
   },
   {
     "id": 830,
     "word": "詰める",
     "reading": "つめる",
-    "korean": "팩",
+    "korean": "꾸리다, 짧게 하다",
     "level": "n3"
   },
   {
     "id": 831,
     "word": "逆らう",
     "reading": "さからう",
-    "korean": "반대하다",
+    "korean": "반대하다, 반대하다",
     "level": "n3"
   },
   {
     "id": 832,
     "word": "休暇",
     "reading": "きゅうか",
-    "korean": "휴일",
+    "korean": "공휴일, 쉬는 날",
     "level": "n3"
   },
   {
     "id": 833,
     "word": "休憩",
     "reading": "きゅうけい",
-    "korean": "나머지",
+    "korean": "쉬다, 쉬다",
     "level": "n3"
   },
   {
     "id": 834,
     "word": "及ぼす",
     "reading": "およぼす",
-    "korean": "발휘하다",
+    "korean": "발휘하다, 일으키다",
     "level": "n3"
   },
   {
     "id": 835,
     "word": "吸収",
     "reading": "きゅうしゅう",
-    "korean": "흡수",
+    "korean": "흡수, 흡인",
     "level": "n3"
   },
   {
     "id": 836,
     "word": "急激",
     "reading": "きゅうげき",
-    "korean": "갑자기",
+    "korean": "갑작스러운, 급격한",
     "level": "n3"
   },
   {
@@ -1662,42 +1662,42 @@
     "id": 838,
     "word": "救う",
     "reading": "すくう",
-    "korean": "구하다",
+    "korean": "~로부터 구출하다, ~을 돕다",
     "level": "n3"
   },
   {
     "id": 839,
     "word": "救助",
     "reading": "きゅうじょ",
-    "korean": "구조",
+    "korean": "구호, 원조",
     "level": "n3"
   },
   {
     "id": 840,
     "word": "求める",
     "reading": "もとめる",
-    "korean": "구하다",
+    "korean": "추구하다, 요청하다",
     "level": "n3"
   },
   {
     "id": 841,
     "word": "給料",
     "reading": "きゅうりょう",
-    "korean": "샐러리",
+    "korean": "급여, 임금",
     "level": "n3"
   },
   {
     "id": 842,
     "word": "去る",
     "reading": "さる",
-    "korean": "떠나다",
+    "korean": "떠나다, 떠나다",
     "level": "n3"
   },
   {
     "id": 843,
     "word": "居る",
     "reading": "おる",
-    "korean": "있다",
+    "korean": "되다, 되다",
     "level": "n3"
   },
   {
@@ -1711,119 +1711,119 @@
     "id": 845,
     "word": "居眠り",
     "reading": "いねむり",
-    "korean": "졸다",
+    "korean": "졸다, 꾸벅꾸벅 졸다",
     "level": "n3"
   },
   {
     "id": 846,
     "word": "巨大",
     "reading": "きょだい",
-    "korean": "거대한",
+    "korean": "거대하다, 거대하다",
     "level": "n3"
   },
   {
     "id": 847,
     "word": "許す",
     "reading": "ゆるす",
-    "korean": "허용하다",
+    "korean": "허락하다, 허락하다",
     "level": "n3"
   },
   {
     "id": 848,
     "word": "許可",
     "reading": "きょか",
-    "korean": "허가",
+    "korean": "허가, 승인",
     "level": "n3"
   },
   {
     "id": 849,
     "word": "供給",
     "reading": "きょうきゅう",
-    "korean": "공급",
+    "korean": "공급, 제공",
     "level": "n3"
   },
   {
     "id": 850,
     "word": "競技",
     "reading": "きょうぎ",
-    "korean": "게임",
+    "korean": "게임, 시합",
     "level": "n3"
   },
   {
     "id": 851,
     "word": "共に",
     "reading": "ともに",
-    "korean": "함께",
+    "korean": "~와 공유하다, 참여하다",
     "level": "n3"
   },
   {
     "id": 852,
     "word": "共通",
     "reading": "きょうつう",
-    "korean": "공통",
+    "korean": "평범함, 공동체",
     "level": "n3"
   },
   {
     "id": 853,
     "word": "共同",
     "reading": "きょうどう",
-    "korean": "협력",
+    "korean": "협력, 결사",
     "level": "n3"
   },
   {
     "id": 854,
     "word": "協力",
     "reading": "きょうりょく",
-    "korean": "협력",
+    "korean": "협력, 협력",
     "level": "n3"
   },
   {
     "id": 855,
     "word": "叫ぶ",
     "reading": "さけぶ",
-    "korean": "외침",
+    "korean": "소리치다, 울다",
     "level": "n3"
   },
   {
     "id": 856,
     "word": "強調",
     "reading": "きょうちょう",
-    "korean": "중요성",
+    "korean": "강조, 스트레스",
     "level": "n3"
   },
   {
     "id": 857,
     "word": "強盗",
     "reading": "ごうとう",
-    "korean": "강도",
+    "korean": "강도, 강도",
     "level": "n3"
   },
   {
     "id": 858,
     "word": "強力",
     "reading": "きょうりょく",
-    "korean": "강력",
+    "korean": "엄청난 힘, 산악 캐리어 가이드",
     "level": "n3"
   },
   {
     "id": 859,
     "word": "恐れる",
     "reading": "おそれる",
-    "korean": "두려움",
+    "korean": "두려워하다, 두려워하다",
     "level": "n3"
   },
   {
     "id": 860,
     "word": "恐ろしい",
     "reading": "おそろしい",
-    "korean": "끔찍한",
+    "korean": "끔찍한, 무서운",
     "level": "n3"
   },
   {
     "id": 861,
     "word": "恐怖",
     "reading": "きょうふ",
-    "korean": "두려워하다",
+    "korean": "두려워하다, 두려워하다",
     "level": "n3"
   },
   {
@@ -1844,28 +1844,28 @@
     "id": 864,
     "word": "教授",
     "reading": "きょうじゅ",
-    "korean": "가르침",
+    "korean": "가르치는 것, 지시하는 것",
     "level": "n3"
   },
   {
     "id": 865,
     "word": "狂う",
     "reading": "くるう",
-    "korean": "미치다",
+    "korean": "화를 내다, 혼란스러워지다",
     "level": "n3"
   },
   {
     "id": 866,
     "word": "僅か",
     "reading": "わずか",
-    "korean": "오직",
+    "korean": "단지, 단지",
     "level": "n3"
   },
   {
     "id": 867,
     "word": "勤め",
     "reading": "つとめ",
-    "korean": "서비스",
+    "korean": "봉사, 의무",
     "level": "n3"
   },
   {
@@ -1879,28 +1879,28 @@
     "id": 869,
     "word": "禁止",
     "reading": "きんし",
-    "korean": "금지",
+    "korean": "금지하다, 금지하다",
     "level": "n3"
   },
   {
     "id": 870,
     "word": "筋肉",
     "reading": "きんにく",
-    "korean": "근",
+    "korean": "근육, 힘줄",
     "level": "n3"
   },
   {
     "id": 871,
     "word": "緊張",
     "reading": "きんちょう",
-    "korean": "긴장",
+    "korean": "긴장, 정신적 긴장",
     "level": "n3"
   },
   {
     "id": 872,
     "word": "近頃",
     "reading": "ちかごろ",
-    "korean": "최근에",
+    "korean": "최근에, 최근에",
     "level": "n3"
   },
   {
@@ -1914,14 +1914,14 @@
     "id": 874,
     "word": "金額",
     "reading": "きんがく",
-    "korean": "금액",
+    "korean": "돈의 양",
     "level": "n3"
   },
   {
     "id": 875,
     "word": "金庫",
     "reading": "きんこ",
-    "korean": "안전한",
+    "korean": "금고, 금고",
     "level": "n3"
   },
   {
@@ -1935,7 +1935,7 @@
     "id": 877,
     "word": "金銭",
     "reading": "きんせん",
-    "korean": "돈",
+    "korean": "돈, 현금",
     "level": "n3"
   },
   {
@@ -1949,7 +1949,7 @@
     "id": 879,
     "word": "金融",
     "reading": "きんゆう",
-    "korean": "화폐유통",
+    "korean": "화폐유통, 신용상황",
     "level": "n3"
   },
   {
@@ -1963,210 +1963,210 @@
     "id": 881,
     "word": "区別",
     "reading": "くべつ",
-    "korean": "구별",
+    "korean": "구별, 차별화",
     "level": "n3"
   },
   {
     "id": 882,
     "word": "苦しい",
     "reading": "くるしい",
-    "korean": "아픈",
+    "korean": "고통스러운, 어려운",
     "level": "n3"
   },
   {
     "id": 883,
     "word": "苦しむ",
     "reading": "くるしむ",
-    "korean": "시달리다",
+    "korean": "괴로워하다, 신음하다",
     "level": "n3"
   },
   {
     "id": 884,
     "word": "苦手",
     "reading": "にがて",
-    "korean": "가난한",
+    "korean": "가난한, 약한",
     "level": "n3"
   },
   {
     "id": 885,
     "word": "苦痛",
     "reading": "くつう",
-    "korean": "통증",
+    "korean": "고통, 고뇌",
     "level": "n3"
   },
   {
     "id": 886,
     "word": "苦労",
     "reading": "くろう",
-    "korean": "근심거리",
+    "korean": "문제, 고난",
     "level": "n3"
   },
   {
     "id": 887,
     "word": "具体",
     "reading": "ぐたい",
-    "korean": "콘크리트",
+    "korean": "구체적인, 유형의",
     "level": "n3"
   },
   {
     "id": 888,
     "word": "空き",
     "reading": "あき",
-    "korean": "방",
+    "korean": "방, 여유 시간",
     "level": "n3"
   },
   {
     "id": 889,
     "word": "偶然",
     "reading": "ぐうぜん",
-    "korean": "가능성",
+    "korean": "우연, 뜻밖의",
     "level": "n3"
   },
   {
     "id": 890,
     "word": "繰り返す",
     "reading": "くりかえす",
-    "korean": "반복하다",
+    "korean": "반복하다, 어떤 일을 다시 반복하다",
     "level": "n3"
   },
   {
     "id": 891,
     "word": "訓練",
     "reading": "くんれん",
-    "korean": "관행",
+    "korean": "연습, 훈련",
     "level": "n3"
   },
   {
     "id": 892,
     "word": "軍隊",
     "reading": "ぐんたい",
-    "korean": "군대",
+    "korean": "군대, 군대",
     "level": "n3"
   },
   {
     "id": 893,
     "word": "傾向",
     "reading": "けいこう",
-    "korean": "성향",
+    "korean": "경향, 추세",
     "level": "n3"
   },
   {
     "id": 894,
     "word": "刑事",
     "reading": "けいじ",
-    "korean": "형사",
+    "korean": "형사, 형사",
     "level": "n3"
   },
   {
     "id": 895,
     "word": "契約",
     "reading": "けいやく",
-    "korean": "계약",
+    "korean": "계약, 콤팩트",
     "level": "n3"
   },
   {
     "id": 896,
     "word": "掲示",
     "reading": "けいじ",
-    "korean": "알아채다",
+    "korean": "공지, 게시판",
     "level": "n3"
   },
   {
     "id": 897,
     "word": "敬意",
     "reading": "けいい",
-    "korean": "존경",
+    "korean": "존경, 명예",
     "level": "n3"
   },
   {
     "id": 898,
     "word": "景気",
     "reading": "けいき",
-    "korean": "상태",
+    "korean": "상태, 상태",
     "level": "n3"
   },
   {
     "id": 899,
     "word": "経つ",
     "reading": "たつ",
-    "korean": "통과하다",
+    "korean": "통과하다, 경과하다",
     "level": "n3"
   },
   {
     "id": 900,
     "word": "経営",
     "reading": "けいえい",
-    "korean": "관리",
+    "korean": "관리, 관리",
     "level": "n3"
   },
   {
     "id": 901,
     "word": "経由",
     "reading": "けいゆ",
-    "korean": "경유",
+    "korean": "그런데, 경유하여 가다",
     "level": "n3"
   },
   {
     "id": 902,
     "word": "繋ぐ",
     "reading": "つなぐ",
-    "korean": "묶다",
+    "korean": "묶다, 묶다",
     "level": "n3"
   },
   {
     "id": 903,
     "word": "計る",
     "reading": "はかる",
-    "korean": "측정하다",
+    "korean": "측정하다, 무게를 재다",
     "level": "n3"
   },
   {
     "id": 904,
     "word": "計算",
     "reading": "けいさん",
-    "korean": "계산",
+    "korean": "계산, 계산",
     "level": "n3"
   },
   {
     "id": 905,
     "word": "警告",
     "reading": "けいこく",
-    "korean": "경고",
+    "korean": "경고, 조언",
     "level": "n3"
   },
   {
     "id": 906,
     "word": "芸術",
     "reading": "げいじゅつ",
-    "korean": "미술",
+    "korean": "예술, 예술",
     "level": "n3"
   },
   {
     "id": 907,
     "word": "迎え",
     "reading": "むかえ",
-    "korean": "마중",
+    "korean": "회의, 도착물을 픽업하기 위해 파견된 사람",
     "level": "n3"
   },
   {
     "id": 908,
     "word": "劇場",
     "reading": "げきじょう",
-    "korean": "극장",
+    "korean": "극장, 극장",
     "level": "n3"
   },
   {
     "id": 909,
     "word": "撃つ",
     "reading": "うつ",
-    "korean": "공격",
+    "korean": "공격하다, 패배시키다",
     "level": "n3"
   },
   {
     "id": 910,
     "word": "激しい",
     "reading": "はげしい",
-    "korean": "폭력적인",
+    "korean": "폭력적인, 맹렬한",
     "level": "n3"
   },
   {
@@ -2180,63 +2180,63 @@
     "id": 912,
     "word": "欠陥",
     "reading": "けっかん",
-    "korean": "결함",
+    "korean": "결함, 결점",
     "level": "n3"
   },
   {
     "id": 913,
     "word": "欠席",
     "reading": "けっせき",
-    "korean": "결석",
+    "korean": "결석, 불출석",
     "level": "n3"
   },
   {
     "id": 914,
     "word": "欠点",
     "reading": "けってん",
-    "korean": "결점",
+    "korean": "결점, 결함",
     "level": "n3"
   },
   {
     "id": 915,
     "word": "決まり",
     "reading": "きまり",
-    "korean": "합의",
+    "korean": "해결, 결론",
     "level": "n3"
   },
   {
     "id": 916,
     "word": "決心",
     "reading": "けっしん",
-    "korean": "결정",
+    "korean": "결심, 결심",
     "level": "n3"
   },
   {
     "id": 917,
     "word": "決定",
     "reading": "けってい",
-    "korean": "결정",
+    "korean": "결정, 결심",
     "level": "n3"
   },
   {
     "id": 918,
     "word": "結ぶ",
     "reading": "むすぶ",
-    "korean": "묶다",
+    "korean": "묶다, 묶다",
     "level": "n3"
   },
   {
     "id": 919,
     "word": "結果",
     "reading": "けっか",
-    "korean": "결과",
+    "korean": "결과, 결과",
     "level": "n3"
   },
   {
     "id": 920,
     "word": "結局",
     "reading": "けっきょく",
-    "korean": "결국",
+    "korean": "결국, 결국",
     "level": "n3"
   },
   {
@@ -2257,35 +2257,35 @@
     "id": 923,
     "word": "健康",
     "reading": "けんこう",
-    "korean": "건강",
+    "korean": "건강, 소리",
     "level": "n3"
   },
   {
     "id": 924,
     "word": "喧嘩",
     "reading": "けんか",
-    "korean": "싸움",
+    "korean": "말다툼, 말다툼",
     "level": "n3"
   },
   {
     "id": 925,
     "word": "嫌う",
     "reading": "きらう",
-    "korean": "싫어하다",
+    "korean": "싫어하다, 싫어하다",
     "level": "n3"
   },
   {
     "id": 926,
     "word": "建設",
     "reading": "けんせつ",
-    "korean": "건설",
+    "korean": "건설,설립",
     "level": "n3"
   },
   {
     "id": 927,
     "word": "建築",
     "reading": "けんちく",
-    "korean": "건설",
+    "korean": "건설, 건축",
     "level": "n3"
   },
   {
@@ -2306,112 +2306,112 @@
     "id": 930,
     "word": "検討",
     "reading": "けんとう",
-    "korean": "검토",
+    "korean": "고려, 심사",
     "level": "n3"
   },
   {
     "id": 931,
     "word": "権利",
     "reading": "けんり",
-    "korean": "오른쪽",
+    "korean": "그렇죠, 특권",
     "level": "n3"
   },
   {
     "id": 932,
     "word": "見る",
     "reading": "みる",
-    "korean": "보다",
+    "korean": "보다, 시청하다",
     "level": "n3"
   },
   {
     "id": 933,
     "word": "見解",
     "reading": "けんかい",
-    "korean": "의견",
+    "korean": "의견, 관점",
     "level": "n3"
   },
   {
     "id": 934,
     "word": "見事",
     "reading": "みごと",
-    "korean": "화려한",
+    "korean": "훌륭하다, 웅장하다",
     "level": "n3"
   },
   {
     "id": 935,
     "word": "見送り",
     "reading": "みおくり",
-    "korean": "배웅",
+    "korean": "배웅, 작별 인사",
     "level": "n3"
   },
   {
     "id": 936,
     "word": "見当",
     "reading": "けんとう",
-    "korean": "발견되다",
+    "korean": "발견되다, 목표로 삼다",
     "level": "n3"
   },
   {
     "id": 937,
     "word": "見舞い",
     "reading": "みまい",
-    "korean": "문의",
+    "korean": "문의, 동정의 표현",
     "level": "n3"
   },
   {
     "id": 938,
     "word": "賢い",
     "reading": "かしこい",
-    "korean": "지혜로운",
+    "korean": "현명한, 영리한",
     "level": "n3"
   },
   {
     "id": 939,
     "word": "減らす",
     "reading": "へらす",
-    "korean": "감소하다",
+    "korean": "감소하다, 감소하다",
     "level": "n3"
   },
   {
     "id": 940,
     "word": "減る",
     "reading": "へる",
-    "korean": "감소하다",
+    "korean": "감소하다, 줄어들다",
     "level": "n3"
   },
   {
     "id": 941,
     "word": "現す",
     "reading": "あらわす",
-    "korean": "보여주다",
+    "korean": "보여주다, 나타내다",
     "level": "n3"
   },
   {
     "id": 942,
     "word": "現れ",
     "reading": "あらわれ",
-    "korean": "구체화",
+    "korean": "구체화, 구체화",
     "level": "n3"
   },
   {
     "id": 943,
     "word": "現れる",
     "reading": "あらわれる",
-    "korean": "나타나다",
+    "korean": "나타나다, 눈에 띄다",
     "level": "n3"
   },
   {
     "id": 944,
     "word": "現金",
     "reading": "げんきん",
-    "korean": "현금",
+    "korean": "현금, 준비된 돈",
     "level": "n3"
   },
   {
     "id": 945,
     "word": "現在",
     "reading": "げんざい",
-    "korean": "현재의",
+    "korean": "현재, 지금까지",
     "level": "n3"
   },
   {
@@ -2432,21 +2432,21 @@
     "id": 948,
     "word": "現場",
     "reading": "げんば",
-    "korean": "현장",
+    "korean": "실제 장소, 장면",
     "level": "n3"
   },
   {
     "id": 949,
     "word": "現状",
     "reading": "げんじょう",
-    "korean": "현황",
+    "korean": "현재 상태, 기존 상태",
     "level": "n3"
   },
   {
     "id": 950,
     "word": "現代",
     "reading": "げんだい",
-    "korean": "요즘에는",
+    "korean": "요즘, 현대",
     "level": "n3"
   },
   {
@@ -2474,35 +2474,35 @@
     "id": 954,
     "word": "限る",
     "reading": "かぎる",
-    "korean": "얽매다",
+    "korean": "제한하다, 제한하다",
     "level": "n3"
   },
   {
     "id": 955,
     "word": "限界",
     "reading": "げんかい",
-    "korean": "한계",
+    "korean": "한계, 경계",
     "level": "n3"
   },
   {
     "id": 956,
     "word": "個人",
     "reading": "こじん",
-    "korean": "개인",
+    "korean": "개인, 사적인 사람",
     "level": "n3"
   },
   {
     "id": 957,
     "word": "呼吸",
     "reading": "こきゅう",
-    "korean": "호흡",
+    "korean": "호흡, 호흡",
     "level": "n3"
   },
   {
     "id": 958,
     "word": "故郷",
     "reading": "こきょう",
-    "korean": "고향",
+    "korean": "고향, 출생지",
     "level": "n3"
   },
   {
@@ -2516,14 +2516,14 @@
     "id": 960,
     "word": "雇う",
     "reading": "やとう",
-    "korean": "고용",
+    "korean": "고용하다, 고용하다",
     "level": "n3"
   },
   {
     "id": 961,
     "word": "互い",
     "reading": "たがい",
-    "korean": "상호간의",
+    "korean": "상호적인, 상호적인",
     "level": "n3"
   },
   {
@@ -2537,14 +2537,14 @@
     "id": 963,
     "word": "語る",
     "reading": "かたる",
-    "korean": "말하다",
+    "korean": "말하다, 말하다",
     "level": "n3"
   },
   {
     "id": 964,
     "word": "語学",
     "reading": "ごがく",
-    "korean": "어학",
+    "korean": "어학 공부",
     "level": "n3"
   },
   {
@@ -2565,14 +2565,14 @@
     "id": 967,
     "word": "交換",
     "reading": "こうかん",
-    "korean": "교환",
+    "korean": "교환하다, 교류하다",
     "level": "n3"
   },
   {
     "id": 968,
     "word": "交際",
     "reading": "こうさい",
-    "korean": "회사",
+    "korean": "회사, 우정",
     "level": "n3"
   },
   {
@@ -2586,14 +2586,14 @@
     "id": 970,
     "word": "光景",
     "reading": "こうけい",
-    "korean": "장면",
+    "korean": "장면, 광경",
     "level": "n3"
   },
   {
     "id": 971,
     "word": "公平",
     "reading": "こうへい",
-    "korean": "공평",
+    "korean": "공평함, 공평함",
     "level": "n3"
   },
   {
@@ -2607,14 +2607,14 @@
     "id": 973,
     "word": "効果",
     "reading": "こうか",
-    "korean": "효과",
+    "korean": "효과, 효과",
     "level": "n3"
   },
   {
     "id": 974,
     "word": "向かい",
     "reading": "むかい",
-    "korean": "맞은편",
+    "korean": "직면, 반대",
     "level": "n3"
   },
   {
@@ -2628,56 +2628,56 @@
     "id": 976,
     "word": "向ける",
     "reading": "むける",
-    "korean": "향하다",
+    "korean": "방향을 바꾸다, 가리키다",
     "level": "n3"
   },
   {
     "id": 977,
     "word": "好み",
     "reading": "このみ",
-    "korean": "기호",
+    "korean": "좋아하다, 맛이 난다",
     "level": "n3"
   },
   {
     "id": 978,
     "word": "好む",
     "reading": "このむ",
-    "korean": "좋다",
+    "korean": "좋아하다, 선호하다",
     "level": "n3"
   },
   {
     "id": 979,
     "word": "幸い",
     "reading": "さいわい",
-    "korean": "행복",
+    "korean": "행복, 축복",
     "level": "n3"
   },
   {
     "id": 980,
     "word": "幸せ",
     "reading": "しあわせ",
-    "korean": "행복",
+    "korean": "행복, 행운",
     "level": "n3"
   },
   {
     "id": 981,
     "word": "幸運",
     "reading": "こううん",
-    "korean": "행운",
+    "korean": "행운, 행운",
     "level": "n3"
   },
   {
     "id": 982,
     "word": "幸福",
     "reading": "こうふく",
-    "korean": "행복",
+    "korean": "행복, 축복",
     "level": "n3"
   },
   {
     "id": 983,
     "word": "広がる",
     "reading": "ひろがる",
-    "korean": "확산",
+    "korean": "퍼지다, 연장하다",
     "level": "n3"
   },
   {
@@ -2691,35 +2691,35 @@
     "id": 985,
     "word": "攻撃",
     "reading": "こうげき",
-    "korean": "공격",
+    "korean": "공격하다, 공격하다",
     "level": "n3"
   },
   {
     "id": 986,
     "word": "更に",
     "reading": "さらに",
-    "korean": "더욱",
+    "korean": "게다가 또 다시",
     "level": "n3"
   },
   {
     "id": 987,
     "word": "構う",
     "reading": "かまう",
-    "korean": "정신",
+    "korean": "마음, 신경 쓰다",
     "level": "n3"
   },
   {
     "id": 988,
     "word": "構成",
     "reading": "こうせい",
-    "korean": "조직",
+    "korean": "조직, 구성",
     "level": "n3"
   },
   {
     "id": 989,
     "word": "硬い",
     "reading": "かたい",
-    "korean": "단단한",
+    "korean": "단단한, 단단한(특히 금속",
     "level": "n3"
   },
   {
@@ -2733,28 +2733,28 @@
     "id": 991,
     "word": "考え",
     "reading": "かんがえ",
-    "korean": "생각",
+    "korean": "생각, 생각",
     "level": "n3"
   },
   {
     "id": 992,
     "word": "考慮",
     "reading": "こうりょ",
-    "korean": "고려",
+    "korean": "고려하다, 고려하다",
     "level": "n3"
   },
   {
     "id": 993,
     "word": "航空",
     "reading": "こうくう",
-    "korean": "비행",
+    "korean": "항공, 나는",
     "level": "n3"
   },
   {
     "id": 994,
     "word": "行き",
     "reading": "いき",
-    "korean": "행",
+    "korean": "가고 있다",
     "level": "n3"
   },
   {
@@ -2768,112 +2768,112 @@
     "id": 996,
     "word": "行動",
     "reading": "こうどう",
-    "korean": "행동",
+    "korean": "행동, 행동",
     "level": "n3"
   },
   {
     "id": 997,
     "word": "講演",
     "reading": "こうえん",
-    "korean": "강의",
+    "korean": "강의, 연설",
     "level": "n3"
   },
   {
     "id": 998,
     "word": "貢献",
     "reading": "こうけん",
-    "korean": "기부금",
+    "korean": "기여, 서비스",
     "level": "n3"
   },
   {
     "id": 999,
     "word": "降ろす",
     "reading": "おろす",
-    "korean": "내리다",
+    "korean": "철거하다, 발사하다",
     "level": "n3"
   },
   {
     "id": 1000,
     "word": "香り",
     "reading": "かおり",
-    "korean": "방향",
+    "korean": "아로마, 향수",
     "level": "n3"
   },
   {
     "id": 1001,
     "word": "高価",
     "reading": "こうか",
-    "korean": "고가",
+    "korean": "높은 가격",
     "level": "n3"
   },
   {
     "id": 1002,
     "word": "高速",
     "reading": "こうそく",
-    "korean": "고속",
+    "korean": "고속, 고단 기어",
     "level": "n3"
   },
   {
     "id": 1003,
     "word": "合わせる",
     "reading": "あわせる",
-    "korean": "함께하다",
+    "korean": "함께하다, 반대되다",
     "level": "n3"
   },
   {
     "id": 1004,
     "word": "合格",
     "reading": "ごうかく",
-    "korean": "성공",
+    "korean": "성공, 합격",
     "level": "n3"
   },
   {
     "id": 1005,
     "word": "合計",
     "reading": "ごうけい",
-    "korean": "합계",
+    "korean": "총액, 총액",
     "level": "n3"
   },
   {
     "id": 1006,
     "word": "合図",
     "reading": "あいず",
-    "korean": "징후",
+    "korean": "서명하다, 신호하다",
     "level": "n3"
   },
   {
     "id": 1007,
     "word": "豪華",
     "reading": "ごうか",
-    "korean": "호화",
+    "korean": "훌륭하다, 화려하다",
     "level": "n3"
   },
   {
     "id": 1008,
     "word": "克服",
     "reading": "こくふく",
-    "korean": "진압",
+    "korean": "복종, 정복",
     "level": "n3"
   },
   {
     "id": 1009,
     "word": "国家",
     "reading": "こっか",
-    "korean": "상태",
+    "korean": "주, 국가",
     "level": "n3"
   },
   {
     "id": 1010,
     "word": "国会",
     "reading": "こっかい",
-    "korean": "국민의회",
+    "korean": "국회, 국회",
     "level": "n3"
   },
   {
     "id": 1011,
     "word": "国境",
     "reading": "こっきょう",
-    "korean": "국경",
+    "korean": "국가 또는 주 경계",
     "level": "n3"
   },
   {
@@ -2887,14 +2887,14 @@
     "id": 1013,
     "word": "国民",
     "reading": "こくみん",
-    "korean": "국가의",
+    "korean": "국민, 국민",
     "level": "n3"
   },
   {
     "id": 1014,
     "word": "穀物",
     "reading": "こくもつ",
-    "korean": "곡물",
+    "korean": "곡물, 시리얼",
     "level": "n3"
   },
   {
@@ -2908,84 +2908,84 @@
     "id": 1016,
     "word": "骨折",
     "reading": "こっせつ",
-    "korean": "골절",
+    "korean": "뼈 골절",
     "level": "n3"
   },
   {
     "id": 1017,
     "word": "今に",
     "reading": "いまに",
-    "korean": "이제 곧",
+    "korean": "머지않아 지금도",
     "level": "n3"
   },
   {
     "id": 1018,
     "word": "今にも",
     "reading": "いまにも",
-    "korean": "언제든지",
+    "korean": "언제든지, 곧",
     "level": "n3"
   },
   {
     "id": 1019,
     "word": "今回",
     "reading": "こんかい",
-    "korean": "지금",
+    "korean": "지금, 이번에는",
     "level": "n3"
   },
   {
     "id": 1020,
     "word": "今後",
     "reading": "こんご",
-    "korean": "지금부터",
+    "korean": "지금부터, 앞으로도",
     "level": "n3"
   },
   {
     "id": 1021,
     "word": "今日",
     "reading": "こんにち",
-    "korean": "오늘",
+    "korean": "오늘, 오늘",
     "level": "n3"
   },
   {
     "id": 1022,
     "word": "困難",
     "reading": "こんなん",
-    "korean": "어려움",
+    "korean": "어려움, 괴로움",
     "level": "n3"
   },
   {
     "id": 1023,
     "word": "婚約",
     "reading": "こんやく",
-    "korean": "약혼",
+    "korean": "약혼, 약혼",
     "level": "n3"
   },
   {
     "id": 1024,
     "word": "混雑",
     "reading": "こんざつ",
-    "korean": "착란",
+    "korean": "혼란, 혼잡",
     "level": "n3"
   },
   {
     "id": 1025,
     "word": "混乱",
     "reading": "こんらん",
-    "korean": "무질서",
+    "korean": "무질서, 혼돈",
     "level": "n3"
   },
   {
     "id": 1026,
     "word": "左右",
     "reading": "さゆう",
-    "korean": "좌우",
+    "korean": "왼쪽과 오른쪽, 영향력",
     "level": "n3"
   },
   {
     "id": 1027,
     "word": "差別",
     "reading": "さべつ",
-    "korean": "차별",
+    "korean": "차별, 구별",
     "level": "n3"
   },
   {
@@ -3006,28 +3006,28 @@
     "id": 1030,
     "word": "再び",
     "reading": "ふたたび",
-    "korean": "다시",
+    "korean": "다시, 다시 한 번",
     "level": "n3"
   },
   {
     "id": 1031,
     "word": "最も",
     "reading": "もっとも",
-    "korean": "최대",
+    "korean": "가장, 극도로",
     "level": "n3"
   },
   {
     "id": 1032,
     "word": "最高",
     "reading": "さいこう",
-    "korean": "최고",
+    "korean": "최고, 최고",
     "level": "n3"
   },
   {
     "id": 1033,
     "word": "最終",
     "reading": "さいしゅう",
-    "korean": "마지막",
+    "korean": "마지막, 최종",
     "level": "n3"
   },
   {
@@ -3041,14 +3041,14 @@
     "id": 1035,
     "word": "最低",
     "reading": "さいてい",
-    "korean": "최소",
+    "korean": "최소, 최저",
     "level": "n3"
   },
   {
     "id": 1036,
     "word": "才能",
     "reading": "さいのう",
-    "korean": "재능",
+    "korean": "재능, 능력",
     "level": "n3"
   },
   {
@@ -3062,63 +3062,63 @@
     "id": 1038,
     "word": "裁判",
     "reading": "さいばん",
-    "korean": "재판",
+    "korean": "재판, 판결",
     "level": "n3"
   },
   {
     "id": 1039,
     "word": "材料",
     "reading": "ざいりょう",
-    "korean": "재료",
+    "korean": "성분, 재료",
     "level": "n3"
   },
   {
     "id": 1040,
     "word": "財産",
     "reading": "ざいさん",
-    "korean": "재산",
+    "korean": "재산, 재산",
     "level": "n3"
   },
   {
     "id": 1041,
     "word": "作家",
     "reading": "さっか",
-    "korean": "작가",
+    "korean": "작가, 작가",
     "level": "n3"
   },
   {
     "id": 1042,
     "word": "作業",
     "reading": "さぎょう",
-    "korean": "일하다",
+    "korean": "일, 운영",
     "level": "n3"
   },
   {
     "id": 1043,
     "word": "作曲",
     "reading": "さっきょく",
-    "korean": "구성",
+    "korean": "구성, 설정",
     "level": "n3"
   },
   {
     "id": 1044,
     "word": "作品",
     "reading": "さくひん",
-    "korean": "일하다",
+    "korean": "일, 작품",
     "level": "n3"
   },
   {
     "id": 1045,
     "word": "作物",
     "reading": "さくもつ",
-    "korean": "생산하다",
+    "korean": "농산물, 작물",
     "level": "n3"
   },
   {
     "id": 1046,
     "word": "作法",
     "reading": "さほう",
-    "korean": "예의",
+    "korean": "매너, 에티켓",
     "level": "n3"
   },
   {
@@ -3139,21 +3139,21 @@
     "id": 1049,
     "word": "参考",
     "reading": "さんこう",
-    "korean": "참조",
+    "korean": "참고,상담",
     "level": "n3"
   },
   {
     "id": 1050,
     "word": "散歩",
     "reading": "さんぽ",
-    "korean": "걷다",
+    "korean": "걷다, 산책하다",
     "level": "n3"
   },
   {
     "id": 1051,
     "word": "賛成",
     "reading": "Uӣ[い",
-    "korean": "승인",
+    "korean": "승인, 합의",
     "level": "n3"
   },
   {
@@ -3174,35 +3174,35 @@
     "id": 1054,
     "word": "残り",
     "reading": "のこり",
-    "korean": "남은",
+    "korean": "잔여물, 잔여물",
     "level": "n3"
   },
   {
     "id": 1055,
     "word": "伺う",
     "reading": "うかがう",
-    "korean": "방문하다",
+    "korean": "방문하다, 묻다",
     "level": "n3"
   },
   {
     "id": 1056,
     "word": "使用",
     "reading": "しよう",
-    "korean": "사용",
+    "korean": "사용, 응용",
     "level": "n3"
   },
   {
     "id": 1057,
     "word": "刺激",
     "reading": "しげき",
-    "korean": "자극제",
+    "korean": "자극, 원동력",
     "level": "n3"
   },
   {
     "id": 1058,
     "word": "始まり",
     "reading": "はじまり",
-    "korean": "기원",
+    "korean": "기원, 시작",
     "level": "n3"
   },
   {
@@ -3223,56 +3223,56 @@
     "id": 1061,
     "word": "思い出",
     "reading": "おもいで",
-    "korean": "추억",
+    "korean": "추억, 추억",
     "level": "n3"
   },
   {
     "id": 1062,
     "word": "思わず",
     "reading": "おもわず",
-    "korean": "무심코",
+    "korean": "의도하지 않은, 즉흥적인",
     "level": "n3"
   },
   {
     "id": 1063,
     "word": "思想",
     "reading": "しそう",
-    "korean": "생각",
+    "korean": "생각, 아이디어",
     "level": "n3"
   },
   {
     "id": 1064,
     "word": "指す",
     "reading": "さす",
-    "korean": "가리키다",
+    "korean": "포인트, 우산을 쓰다",
     "level": "n3"
   },
   {
     "id": 1065,
     "word": "指導",
     "reading": "しどう",
-    "korean": "지도",
+    "korean": "리더십, 지도",
     "level": "n3"
   },
   {
     "id": 1066,
     "word": "支える",
     "reading": "ささえる",
-    "korean": "차단되다",
+    "korean": "막히다, 질식시키다",
     "level": "n3"
   },
   {
     "id": 1067,
     "word": "支給",
     "reading": "しきゅう",
-    "korean": "지불",
+    "korean": "지불, 수당",
     "level": "n3"
   },
   {
     "id": 1068,
     "word": "支出",
     "reading": "ししゅつ",
-    "korean": "지출",
+    "korean": "지출, 비용",
     "level": "n3"
   },
   {
@@ -3286,7 +3286,7 @@
     "id": 1070,
     "word": "支配",
     "reading": "しはい",
-    "korean": "규칙",
+    "korean": "규칙, 통제",
     "level": "n3"
   },
   {
@@ -3307,21 +3307,21 @@
     "id": 1073,
     "word": "止す",
     "reading": "よす",
-    "korean": "중지",
+    "korean": "중지하다, 폐지하다",
     "level": "n3"
   },
   {
     "id": 1074,
     "word": "死亡",
     "reading": "しぼう",
-    "korean": "죽음",
+    "korean": "죽음, 필멸",
     "level": "n3"
   },
   {
     "id": 1075,
     "word": "至る",
     "reading": "いたる",
-    "korean": "오다",
+    "korean": "오다, 도착하다",
     "level": "n3"
   },
   {
@@ -3335,14 +3335,14 @@
     "id": 1077,
     "word": "試し",
     "reading": "ためし",
-    "korean": "재판",
+    "korean": "재판, 테스트",
     "level": "n3"
   },
   {
     "id": 1078,
     "word": "試す",
     "reading": "ためす",
-    "korean": "시도",
+    "korean": "시도하다, 시험하다",
     "level": "n3"
   },
   {
@@ -3356,98 +3356,98 @@
     "id": 1080,
     "word": "資本",
     "reading": "しほん",
-    "korean": "자금",
+    "korean": "자금, 자본",
     "level": "n3"
   },
   {
     "id": 1081,
     "word": "飼う",
     "reading": "かう",
-    "korean": "유지하다",
+    "korean": "유지하다, 높이다",
     "level": "n3"
   },
   {
     "id": 1082,
     "word": "事件",
     "reading": "じけん",
-    "korean": "이벤트",
+    "korean": "사건, 불륜",
     "level": "n3"
   },
   {
     "id": 1083,
     "word": "事実",
     "reading": "じじつ",
-    "korean": "사실",
+    "korean": "사실, 진실",
     "level": "n3"
   },
   {
     "id": 1084,
     "word": "事情",
     "reading": "じじょう",
-    "korean": "상황",
+    "korean": "상황, 고려",
     "level": "n3"
   },
   {
     "id": 1085,
     "word": "事態",
     "reading": "じたい",
-    "korean": "상황",
+    "korean": "상황, 현재 상황",
     "level": "n3"
   },
   {
     "id": 1086,
     "word": "事務",
     "reading": "じむ",
-    "korean": "사업",
+    "korean": "비즈니스, 사무",
     "level": "n3"
   },
   {
     "id": 1087,
     "word": "似合う",
     "reading": "にあう",
-    "korean": "정장",
+    "korean": "정장, 어울리다",
     "level": "n3"
   },
   {
     "id": 1088,
     "word": "持ち上げる",
     "reading": "もちあげる",
-    "korean": "들어올리다",
+    "korean": "들어올리다, 들어올리다",
     "level": "n3"
   },
   {
     "id": 1089,
     "word": "時期",
     "reading": "じき",
-    "korean": "시간",
+    "korean": "시간, 계절",
     "level": "n3"
   },
   {
     "id": 1090,
     "word": "時刻",
     "reading": "じこく",
-    "korean": "즉각적인",
+    "korean": "순간, 시간",
     "level": "n3"
   },
   {
     "id": 1091,
     "word": "次々",
     "reading": "つぎつぎ",
-    "korean": "연속해서",
+    "korean": "차례로, 하나씩",
     "level": "n3"
   },
   {
     "id": 1092,
     "word": "次第",
     "reading": "しだい",
-    "korean": "주문하다",
+    "korean": "순서, 우선순위",
     "level": "n3"
   },
   {
     "id": 1093,
     "word": "示す",
     "reading": "しめす",
-    "korean": "나타내다",
+    "korean": "나타내다, 나타내다",
     "level": "n3"
   },
   {
@@ -3461,28 +3461,28 @@
     "id": 1095,
     "word": "自身",
     "reading": "じしん",
-    "korean": "스스로",
+    "korean": "스스로, 개인적으로",
     "level": "n3"
   },
   {
     "id": 1096,
     "word": "自然",
     "reading": "しぜん",
-    "korean": "자연",
+    "korean": "자연, 즉흥적",
     "level": "n3"
   },
   {
     "id": 1097,
     "word": "自動",
     "reading": "じどう",
-    "korean": "오토매틱",
+    "korean": "자동, 자체 모션",
     "level": "n3"
   },
   {
     "id": 1098,
     "word": "自慢",
     "reading": "じまん",
-    "korean": "자부심",
+    "korean": "자랑하다, 자랑하다",
     "level": "n3"
   },
   {
@@ -3503,7 +3503,7 @@
     "id": 1101,
     "word": "失う",
     "reading": "うしなう",
-    "korean": "잃다",
+    "korean": "잃다, 헤어지다",
     "level": "n3"
   },
   {
@@ -3517,21 +3517,21 @@
     "id": 1103,
     "word": "失望",
     "reading": "しつぼう",
-    "korean": "실망",
+    "korean": "실망, 절망",
     "level": "n3"
   },
   {
     "id": 1104,
     "word": "実に",
     "reading": "じつに",
-    "korean": "물론",
+    "korean": "정말로, 정말로",
     "level": "n3"
   },
   {
     "id": 1105,
     "word": "実は",
     "reading": "じつは",
-    "korean": "사실",
+    "korean": "그런데 사실은",
     "level": "n3"
   },
   {
@@ -3545,35 +3545,35 @@
     "id": 1107,
     "word": "実現",
     "reading": "じつげん",
-    "korean": "구현",
+    "korean": "구현, 구체화",
     "level": "n3"
   },
   {
     "id": 1108,
     "word": "実行",
     "reading": "じっこう",
-    "korean": "관행",
+    "korean": "연습, 퍼포먼스",
     "level": "n3"
   },
   {
     "id": 1109,
     "word": "実際",
     "reading": "じっさい",
-    "korean": "현실적인",
+    "korean": "실제적인, 실제적인 상황",
     "level": "n3"
   },
   {
     "id": 1110,
     "word": "実施",
     "reading": "じっし",
-    "korean": "시행",
+    "korean": "집행하다, 제정하다",
     "level": "n3"
   },
   {
     "id": 1111,
     "word": "芝居",
     "reading": "しばい",
-    "korean": "놀다",
+    "korean": "연극, 드라마",
     "level": "n3"
   },
   {
@@ -3587,77 +3587,77 @@
     "id": 1113,
     "word": "邪魔",
     "reading": "じゃま",
-    "korean": "방해",
+    "korean": "방해, 침입",
     "level": "n3"
   },
   {
     "id": 1114,
     "word": "借金",
     "reading": "しゃっきん",
-    "korean": "빚",
+    "korean": "빚, 대출",
     "level": "n3"
   },
   {
     "id": 1115,
     "word": "主に",
     "reading": "おもに",
-    "korean": "주로",
+    "korean": "주로, 주로",
     "level": "n3"
   },
   {
     "id": 1116,
     "word": "主義",
     "reading": "しゅぎ",
-    "korean": "교의",
+    "korean": "교리, 규칙",
     "level": "n3"
   },
   {
     "id": 1117,
     "word": "主張",
     "reading": "しゅちょう",
-    "korean": "주장하다",
+    "korean": "주장, 요청",
     "level": "n3"
   },
   {
     "id": 1118,
     "word": "主婦",
     "reading": "しゅふ",
-    "korean": "주부",
+    "korean": "주부, 여주인",
     "level": "n3"
   },
   {
     "id": 1119,
     "word": "主要",
     "reading": "しゅよう",
-    "korean": "셰프",
+    "korean": "수석, 주요",
     "level": "n3"
   },
   {
     "id": 1120,
     "word": "取り上げる",
     "reading": "とりあげる",
-    "korean": "차지하다",
+    "korean": "차지하다, 집어 들다",
     "level": "n3"
   },
   {
     "id": 1121,
     "word": "取れる",
     "reading": "とれる",
-    "korean": "떨어져",
+    "korean": "벗다, 벗다",
     "level": "n3"
   },
   {
     "id": 1122,
     "word": "守る",
     "reading": "まもる",
-    "korean": "보호하다",
+    "korean": "보호하다, 순종하다",
     "level": "n3"
   },
   {
     "id": 1123,
     "word": "手間",
     "reading": "てま",
-    "korean": "시간",
+    "korean": "시간, 노동",
     "level": "n3"
   },
   {
@@ -3671,28 +3671,28 @@
     "id": 1125,
     "word": "手段",
     "reading": "しゅだん",
-    "korean": "수단",
+    "korean": "뜻, 방법",
     "level": "n3"
   },
   {
     "id": 1126,
     "word": "手伝い",
     "reading": "てつだい",
-    "korean": "돕다",
+    "korean": "도움, 도우미",
     "level": "n3"
   },
   {
     "id": 1127,
     "word": "手品",
     "reading": "てじな",
-    "korean": "손재주",
+    "korean": "손재주, 요술술",
     "level": "n3"
   },
   {
     "id": 1128,
     "word": "種類",
     "reading": "しゅるい",
-    "korean": "다양성",
+    "korean": "다양하다, 친절하다",
     "level": "n3"
   },
   {
@@ -3713,42 +3713,42 @@
     "id": 1131,
     "word": "受け取る",
     "reading": "うけとる",
-    "korean": "받다",
+    "korean": "받다, 얻다",
     "level": "n3"
   },
   {
     "id": 1132,
     "word": "需要",
     "reading": "じゅよう",
-    "korean": "수요",
+    "korean": "요구하다, 요구하다",
     "level": "n3"
   },
   {
     "id": 1133,
     "word": "収める",
     "reading": "おさめる",
-    "korean": "얻다",
+    "korean": "얻다, 거두다",
     "level": "n3"
   },
   {
     "id": 1134,
     "word": "収穫",
     "reading": "しゅうかく",
-    "korean": "수확하다",
+    "korean": "수확, 작물",
     "level": "n3"
   },
   {
     "id": 1135,
     "word": "収入",
     "reading": "しゅうにゅう",
-    "korean": "소득",
+    "korean": "수입, 영수증",
     "level": "n3"
   },
   {
     "id": 1136,
     "word": "周囲",
     "reading": "しゅうい",
-    "korean": "주위",
+    "korean": "주변, 둘레",
     "level": "n3"
   },
   {
@@ -3762,28 +3762,28 @@
     "id": 1138,
     "word": "就く",
     "reading": "つく",
-    "korean": "정착하다",
+    "korean": "자리를 잡다, 자리를 잡다",
     "level": "n3"
   },
   {
     "id": 1139,
     "word": "就職",
     "reading": "しゅうしょく",
-    "korean": "취업",
+    "korean": "취업, 취임",
     "level": "n3"
   },
   {
     "id": 1140,
     "word": "修正",
     "reading": "しゅうせい",
-    "korean": "개정",
+    "korean": "수정, 정정",
     "level": "n3"
   },
   {
     "id": 1141,
     "word": "修理",
     "reading": "しゅうり",
-    "korean": "수리",
+    "korean": "수리하다, 수선하다",
     "level": "n3"
   },
   {
@@ -3797,56 +3797,56 @@
     "id": 1143,
     "word": "臭い",
     "reading": "くさい",
-    "korean": "냄새",
+    "korean": "냄새, 냄새",
     "level": "n3"
   },
   {
     "id": 1144,
     "word": "週間",
     "reading": "しゅうかん",
-    "korean": "주",
+    "korean": "주, 주간",
     "level": "n3"
   },
   {
     "id": 1145,
     "word": "集まり",
     "reading": "あつまり",
-    "korean": "모임",
+    "korean": "모임, 모임",
     "level": "n3"
   },
   {
     "id": 1146,
     "word": "集団",
     "reading": "しゅうだん",
-    "korean": "그룹",
+    "korean": "단체, 대중",
     "level": "n3"
   },
   {
     "id": 1147,
     "word": "集中",
     "reading": "しゅうちゅう",
-    "korean": "집중",
+    "korean": "집중, 마음을 집중하다",
     "level": "n3"
   },
   {
     "id": 1148,
     "word": "住宅",
     "reading": "じゅうたく",
-    "korean": "거주자",
+    "korean": "거주자, 주택",
     "level": "n3"
   },
   {
     "id": 1149,
     "word": "住民",
     "reading": "じゅうみん",
-    "korean": "시민",
+    "korean": "시민, 주민",
     "level": "n3"
   },
   {
     "id": 1150,
     "word": "従う",
     "reading": "したがう",
-    "korean": "머물다",
+    "korean": "머무르다, 순종하다",
     "level": "n3"
   },
   {
@@ -3860,28 +3860,28 @@
     "id": 1152,
     "word": "渋滞",
     "reading": "じゅうたい",
-    "korean": "충혈",
+    "korean": "혼잡, 지연",
     "level": "n3"
   },
   {
     "id": 1153,
     "word": "重視",
     "reading": "じゅうし",
-    "korean": "중요성",
+    "korean": "중요성, 스트레스",
     "level": "n3"
   },
   {
     "id": 1154,
     "word": "重大",
     "reading": "じゅうだい",
-    "korean": "심각한",
+    "korean": "진지한, 중요한",
     "level": "n3"
   },
   {
     "id": 1155,
     "word": "重要",
     "reading": "じゅうよう",
-    "korean": "중요한",
+    "korean": "중요한, 중대한",
     "level": "n3"
   },
   {
@@ -3895,35 +3895,35 @@
     "id": 1157,
     "word": "祝い",
     "reading": "いわい",
-    "korean": "축하",
+    "korean": "축하, 축제",
     "level": "n3"
   },
   {
     "id": 1158,
     "word": "祝う",
     "reading": "いわう",
-    "korean": "축하하다",
+    "korean": "축하하다, 축하하다",
     "level": "n3"
   },
   {
     "id": 1159,
     "word": "出会い",
     "reading": "であい",
-    "korean": "회의",
+    "korean": "만남, 랑데뷰",
     "level": "n3"
   },
   {
     "id": 1160,
     "word": "出会う",
     "reading": "であう",
-    "korean": "만나다",
+    "korean": "우연히 만나다, 우연히 만나다",
     "level": "n3"
   },
   {
     "id": 1161,
     "word": "出身",
     "reading": "しゅっしん",
-    "korean": "졸업하다",
+    "korean": "졸업하다, 출신이다",
     "level": "n3"
   },
   {
@@ -3944,49 +3944,49 @@
     "id": 1164,
     "word": "出来事",
     "reading": "できごと",
-    "korean": "사건",
+    "korean": "사건, 불륜",
     "level": "n3"
   },
   {
     "id": 1165,
     "word": "述べる",
     "reading": "のべる",
-    "korean": "상태",
+    "korean": "상태, 표현하다",
     "level": "n3"
   },
   {
     "id": 1166,
     "word": "瞬間",
     "reading": "しゅんかん",
-    "korean": "순간",
+    "korean": "순간, 초",
     "level": "n3"
   },
   {
     "id": 1167,
     "word": "順調",
     "reading": "じゅんちょう",
-    "korean": "유리한",
+    "korean": "호의적이다, 잘 지내다",
     "level": "n3"
   },
   {
     "id": 1168,
     "word": "順番",
     "reading": "じゅんばん",
-    "korean": "회전하다",
+    "korean": "차례, 사물의 순서",
     "level": "n3"
   },
   {
     "id": 1169,
     "word": "処理",
     "reading": "しょり",
-    "korean": "처리",
+    "korean": "처리하다, 다루다",
     "level": "n3"
   },
   {
     "id": 1170,
     "word": "所為",
     "reading": "せい",
-    "korean": "원인",
+    "korean": "원인, 이유",
     "level": "n3"
   },
   {
@@ -4014,21 +4014,21 @@
     "id": 1174,
     "word": "書類",
     "reading": "しょるい",
-    "korean": "서류",
+    "korean": "문서, 공문서",
     "level": "n3"
   },
   {
     "id": 1175,
     "word": "助ける",
     "reading": "たすける",
-    "korean": "돕다",
+    "korean": "도와주다, 저장하다",
     "level": "n3"
   },
   {
     "id": 1176,
     "word": "助手",
     "reading": "じょしゅ",
-    "korean": "조수",
+    "korean": "돕는 사람, 돕는 사람",
     "level": "n3"
   },
   {
@@ -4042,7 +4042,7 @@
     "id": 1178,
     "word": "女子",
     "reading": "じょし",
-    "korean": "여성",
+    "korean": "여자, 소녀",
     "level": "n3"
   },
   {
@@ -4056,42 +4056,42 @@
     "id": 1180,
     "word": "徐々に",
     "reading": "じょじょに",
-    "korean": "느리게",
+    "korean": "천천히, 조금씩",
     "level": "n3"
   },
   {
     "id": 1181,
     "word": "除く",
     "reading": "のぞく",
-    "korean": "제거하다",
+    "korean": "제거하다, 배제하다",
     "level": "n3"
   },
   {
     "id": 1182,
     "word": "勝ち",
     "reading": "かち",
-    "korean": "이기다",
+    "korean": "승리, 승리",
     "level": "n3"
   },
   {
     "id": 1183,
     "word": "商人",
     "reading": "しょうにん",
-    "korean": "상인",
+    "korean": "상인, 가게 주인",
     "level": "n3"
   },
   {
     "id": 1184,
     "word": "商売",
     "reading": "しょうばい",
-    "korean": "거래",
+    "korean": "무역, 사업",
     "level": "n3"
   },
   {
     "id": 1185,
     "word": "商品",
     "reading": "しょうひん",
-    "korean": "상품",
+    "korean": "상품, 상업품",
     "level": "n3"
   },
   {
@@ -4105,7 +4105,7 @@
     "id": 1187,
     "word": "小屋",
     "reading": "こや",
-    "korean": "오두막",
+    "korean": "오두막, 오두막",
     "level": "n3"
   },
   {
@@ -4119,42 +4119,42 @@
     "id": 1189,
     "word": "小包",
     "reading": "こづつみ",
-    "korean": "소포",
+    "korean": "소포, 꾸러미",
     "level": "n3"
   },
   {
     "id": 1190,
     "word": "少々",
     "reading": "しょうしょう",
-    "korean": "잠시만요",
+    "korean": "잠시만, 소량",
     "level": "n3"
   },
   {
     "id": 1191,
     "word": "少しも",
     "reading": "すこしも",
-    "korean": "조금도",
+    "korean": "조금도 아닌 무엇이든",
     "level": "n3"
   },
   {
     "id": 1192,
     "word": "少女",
     "reading": "しょうじょ",
-    "korean": "딸",
+    "korean": "딸, 아가씨",
     "level": "n3"
   },
   {
     "id": 1193,
     "word": "少年",
     "reading": "しょうねん",
-    "korean": "소년들",
+    "korean": "소년, 청소년",
     "level": "n3"
   },
   {
     "id": 1194,
     "word": "承認",
     "reading": "しょうにん",
-    "korean": "인식",
+    "korean": "인정, 인정",
     "level": "n3"
   },
   {
@@ -4168,42 +4168,42 @@
     "id": 1196,
     "word": "昇る",
     "reading": "のぼる",
-    "korean": "생기다",
+    "korean": "일어나다, 올라가다",
     "level": "n3"
   },
   {
     "id": 1197,
     "word": "消費",
     "reading": "しょうひ",
-    "korean": "소비",
+    "korean": "소비, 지출",
     "level": "n3"
   },
   {
     "id": 1198,
     "word": "消防",
     "reading": "しょうぼう",
-    "korean": "소방",
+    "korean": "소방, 소방서",
     "level": "n3"
   },
   {
     "id": 1199,
     "word": "症状",
     "reading": "しょうじょう",
-    "korean": "증상",
+    "korean": "증상, 상태",
     "level": "n3"
   },
   {
     "id": 1200,
     "word": "省く",
     "reading": "はぶく",
-    "korean": "생략하다",
+    "korean": "생략하다, 없애다",
     "level": "n3"
   },
   {
     "id": 1201,
     "word": "笑い",
     "reading": "わらい",
-    "korean": "웃음",
+    "korean": "웃다, 웃다",
     "level": "n3"
   },
   {
@@ -4217,56 +4217,56 @@
     "id": 1203,
     "word": "衝突",
     "reading": "しょうとつ",
-    "korean": "충돌",
+    "korean": "충돌, 갈등",
     "level": "n3"
   },
   {
     "id": 1204,
     "word": "証明",
     "reading": "しょうめい",
-    "korean": "증거",
+    "korean": "증명, 검증",
     "level": "n3"
   },
   {
     "id": 1205,
     "word": "詳しい",
     "reading": "くわしい",
-    "korean": "자세하다",
+    "korean": "아주 잘 알고, 자세하게",
     "level": "n3"
   },
   {
     "id": 1206,
     "word": "障害",
     "reading": "しょうがい",
-    "korean": "장애",
+    "korean": "장애물, 장애물",
     "level": "n3"
   },
   {
     "id": 1207,
     "word": "上京",
     "reading": "じょうきょう",
-    "korean": "상경",
+    "korean": "수도로 나아가다",
     "level": "n3"
   },
   {
     "id": 1208,
     "word": "上達",
     "reading": "じょうたつ",
-    "korean": "개선",
+    "korean": "개선, 발전",
     "level": "n3"
   },
   {
     "id": 1209,
     "word": "上等",
     "reading": "じょうとう",
-    "korean": "우월",
+    "korean": "우월함, 일류",
     "level": "n3"
   },
   {
     "id": 1210,
     "word": "乗せる",
     "reading": "のせる",
-    "korean": "실어주다",
+    "korean": "에 두다, 탑승하다",
     "level": "n3"
   },
   {
@@ -4280,21 +4280,21 @@
     "id": 1212,
     "word": "冗談",
     "reading": "じょうだん",
-    "korean": "농담",
+    "korean": "농담, 농담",
     "level": "n3"
   },
   {
     "id": 1213,
     "word": "場面",
     "reading": "ばめん",
-    "korean": "장면",
+    "korean": "장면, 설정",
     "level": "n3"
   },
   {
     "id": 1214,
     "word": "常に",
     "reading": "つねに",
-    "korean": "언제나",
+    "korean": "항상, 끊임없이",
     "level": "n3"
   },
   {
@@ -4308,56 +4308,56 @@
     "id": 1216,
     "word": "情報",
     "reading": "じょうほう",
-    "korean": "정보",
+    "korean": "정보, 지능",
     "level": "n3"
   },
   {
     "id": 1217,
     "word": "条件",
     "reading": "じょうけん",
-    "korean": "정황",
+    "korean": "조건, 약관",
     "level": "n3"
   },
   {
     "id": 1218,
     "word": "状況",
     "reading": "じょうきょう",
-    "korean": "상황",
+    "korean": "상태, 상황",
     "level": "n3"
   },
   {
     "id": 1219,
     "word": "状態",
     "reading": "じょうたい",
-    "korean": "상태",
+    "korean": "상태, 상황",
     "level": "n3"
   },
   {
     "id": 1220,
     "word": "譲る",
     "reading": "ゆずる",
-    "korean": "뒤집다",
+    "korean": "넘겨주다, 할당하다",
     "level": "n3"
   },
   {
     "id": 1221,
     "word": "植物",
     "reading": "しょくぶつ",
-    "korean": "식물",
+    "korean": "식물, 초목",
     "level": "n3"
   },
   {
     "id": 1222,
     "word": "職業",
     "reading": "しょくぎょう",
-    "korean": "직업",
+    "korean": "직업, 사업",
     "level": "n3"
   },
   {
     "id": 1223,
     "word": "触れる",
     "reading": "ふれる",
-    "korean": "만지다",
+    "korean": "만지다, 만지다",
     "level": "n3"
   },
   {
@@ -4378,14 +4378,14 @@
     "id": 1226,
     "word": "食品",
     "reading": "しょくひん",
-    "korean": "상품",
+    "korean": "필수품, 식료품",
     "level": "n3"
   },
   {
     "id": 1227,
     "word": "食物",
     "reading": "しょくもつ",
-    "korean": "음식",
+    "korean": "식품, 식료품",
     "level": "n3"
   },
   {
@@ -4406,63 +4406,63 @@
     "id": 1230,
     "word": "食糧",
     "reading": "しょくりょう",
-    "korean": "식량",
+    "korean": "규정, 배급",
     "level": "n3"
   },
   {
     "id": 1231,
     "word": "伸ばす",
     "reading": "のばす",
-    "korean": "늘리다",
+    "korean": "늘리다, 늘리다",
     "level": "n3"
   },
   {
     "id": 1232,
     "word": "伸びる",
     "reading": "のびる",
-    "korean": "뻗기",
+    "korean": "늘이다, 늘이다",
     "level": "n3"
   },
   {
     "id": 1233,
     "word": "信じる",
     "reading": "しんじる",
-    "korean": "믿다",
+    "korean": "믿으다, 신뢰를 두다",
     "level": "n3"
   },
   {
     "id": 1234,
     "word": "信仰",
     "reading": "しんこう",
-    "korean": "믿음",
+    "korean": "믿음, 믿음",
     "level": "n3"
   },
   {
     "id": 1235,
     "word": "信号",
     "reading": "しんごう",
-    "korean": "신호",
+    "korean": "신호등, 신호",
     "level": "n3"
   },
   {
     "id": 1236,
     "word": "信用",
     "reading": "しんよう",
-    "korean": "신뢰",
+    "korean": "자신감, 의존성",
     "level": "n3"
   },
   {
     "id": 1237,
     "word": "信頼",
     "reading": "しんらい",
-    "korean": "신뢰",
+    "korean": "의존, 신뢰",
     "level": "n3"
   },
   {
     "id": 1238,
     "word": "審判",
     "reading": "しんぱん",
-    "korean": "심판",
+    "korean": "심판, 재판",
     "level": "n3"
   },
   {
@@ -4483,21 +4483,21 @@
     "id": 1241,
     "word": "慎重",
     "reading": "しんちょう",
-    "korean": "재량",
+    "korean": "분별력, 신중함",
     "level": "n3"
   },
   {
     "id": 1242,
     "word": "振る",
     "reading": "ふる",
-    "korean": "흔들다",
+    "korean": "흔들다, 흔들다",
     "level": "n3"
   },
   {
     "id": 1243,
     "word": "新た",
     "reading": "あらた",
-    "korean": "새로운",
+    "korean": "새로운, 신선한",
     "level": "n3"
   },
   {
@@ -4518,63 +4518,63 @@
     "id": 1246,
     "word": "申し込む",
     "reading": "もうしこむ",
-    "korean": "신청하다",
+    "korean": "신청하다, 신청하다",
     "level": "n3"
   },
   {
     "id": 1247,
     "word": "申し訳",
     "reading": "もうしわけ",
-    "korean": "사과",
+    "korean": "사과, 변명",
     "level": "n3"
   },
   {
     "id": 1248,
     "word": "真っ赤",
     "reading": "まっか",
-    "korean": "새빨갛다",
+    "korean": "진한 빨간색, 홍조",
     "level": "n3"
   },
   {
     "id": 1249,
     "word": "真っ直ぐ",
     "reading": "まっすぐ",
-    "korean": "똑바로",
+    "korean": "직선, 직접",
     "level": "n3"
   },
   {
     "id": 1250,
     "word": "真剣",
     "reading": "しんけん",
-    "korean": "진지함",
+    "korean": "진지함, 진지함",
     "level": "n3"
   },
   {
     "id": 1251,
     "word": "真似",
     "reading": "まね",
-    "korean": "흉내",
+    "korean": "모방, 모방",
     "level": "n3"
   },
   {
     "id": 1252,
     "word": "真面目",
     "reading": "まじめ",
-    "korean": "성실한",
+    "korean": "부지런한, 진지한",
     "level": "n3"
   },
   {
     "id": 1253,
     "word": "神経",
     "reading": "しんけい",
-    "korean": "신경",
+    "korean": "신경, 민감성",
     "level": "n3"
   },
   {
     "id": 1254,
     "word": "親しい",
     "reading": "したしい",
-    "korean": "친밀한",
+    "korean": "친밀한, 가까운",
     "level": "n3"
   },
   {
@@ -4588,14 +4588,14 @@
     "id": 1256,
     "word": "親友",
     "reading": "しんゆう",
-    "korean": "친구",
+    "korean": "친한 친구, 친구",
     "level": "n3"
   },
   {
     "id": 1257,
     "word": "診察",
     "reading": "しんさつ",
-    "korean": "진찰",
+    "korean": "건강 검사",
     "level": "n3"
   },
   {
@@ -4609,70 +4609,70 @@
     "id": 1259,
     "word": "身長",
     "reading": "しんちょう",
-    "korean": "키",
+    "korean": "키, 키",
     "level": "n3"
   },
   {
     "id": 1260,
     "word": "辛い",
     "reading": "つらい",
-    "korean": "아픈",
+    "korean": "고통스러운, 가슴 아픈",
     "level": "n3"
   },
   {
     "id": 1261,
     "word": "進める",
     "reading": "すすめる",
-    "korean": "전진",
+    "korean": "전진하다, 촉진하다",
     "level": "n3"
   },
   {
     "id": 1262,
     "word": "進学",
     "reading": "しんがく",
-    "korean": "진학",
+    "korean": "대학에 진학하다",
     "level": "n3"
   },
   {
     "id": 1263,
     "word": "進歩",
     "reading": "しんぽ",
-    "korean": "진전",
+    "korean": "진보, 발전",
     "level": "n3"
   },
   {
     "id": 1264,
     "word": "震える",
     "reading": "ふるえる",
-    "korean": "떨다",
+    "korean": "떨다, 흔들리다",
     "level": "n3"
   },
   {
     "id": 1265,
     "word": "人間",
     "reading": "にんげん",
-    "korean": "인간",
+    "korean": "인간, 사람",
     "level": "n3"
   },
   {
     "id": 1266,
     "word": "人気",
     "reading": "にんき",
-    "korean": "인기",
+    "korean": "생명의 표시",
     "level": "n3"
   },
   {
     "id": 1267,
     "word": "人工",
     "reading": "じんこう",
-    "korean": "인공의",
+    "korean": "인공적인, 인공적인",
     "level": "n3"
   },
   {
     "id": 1268,
     "word": "人込み",
     "reading": "ひとごみ",
-    "korean": "인파",
+    "korean": "사람들의 군중",
     "level": "n3"
   },
   {
@@ -4693,14 +4693,14 @@
     "id": 1271,
     "word": "人物",
     "reading": "じんぶつ",
-    "korean": "성격",
+    "korean": "성격, 성격",
     "level": "n3"
   },
   {
     "id": 1272,
     "word": "人類",
     "reading": "じんるい",
-    "korean": "인류",
+    "korean": "인류, 인류",
     "level": "n3"
   },
   {
@@ -4721,7 +4721,7 @@
     "id": 1275,
     "word": "水準",
     "reading": "すいじゅん",
-    "korean": "수위",
+    "korean": "수위, 수위",
     "level": "n3"
   },
   {
@@ -4735,14 +4735,14 @@
     "id": 1277,
     "word": "遂に",
     "reading": "ついに",
-    "korean": "마지막으로",
+    "korean": "드디어, 마침내",
     "level": "n3"
   },
   {
     "id": 1278,
     "word": "酔う",
     "reading": "よう",
-    "korean": "취하다",
+    "korean": "술에 취하다, 술에 취하다",
     "level": "n3"
   },
   {
@@ -4763,77 +4763,77 @@
     "id": 1281,
     "word": "数字",
     "reading": "すうじ",
-    "korean": "숫자",
+    "korean": "숫자, 그림",
     "level": "n3"
   },
   {
     "id": 1282,
     "word": "世の中",
     "reading": "よのなか",
-    "korean": "사회",
+    "korean": "사회, 세상",
     "level": "n3"
   },
   {
     "id": 1283,
     "word": "世間",
     "reading": "せけん",
-    "korean": "세계",
+    "korean": "세상, 사회",
     "level": "n3"
   },
   {
     "id": 1284,
     "word": "世紀",
     "reading": "せいき",
-    "korean": "세기",
+    "korean": "세기, 시대",
     "level": "n3"
   },
   {
     "id": 1285,
     "word": "是非",
     "reading": "ぜひ",
-    "korean": "틀림없이",
+    "korean": "꼭, 어김없이",
     "level": "n3"
   },
   {
     "id": 1286,
     "word": "制限",
     "reading": "せいげん",
-    "korean": "제한",
+    "korean": "제한, 제지",
     "level": "n3"
   },
   {
     "id": 1287,
     "word": "制度",
     "reading": "せいど",
-    "korean": "체계",
+    "korean": "시스템, 기관",
     "level": "n3"
   },
   {
     "id": 1288,
     "word": "勢い",
     "reading": "いきおい",
-    "korean": "힘",
+    "korean": "힘, 활력",
     "level": "n3"
   },
   {
     "id": 1289,
     "word": "性格",
     "reading": "せいかく",
-    "korean": "성격",
+    "korean": "성격, 성격",
     "level": "n3"
   },
   {
     "id": 1290,
     "word": "成る",
     "reading": "なる",
-    "korean": "되다",
+    "korean": "~이 되다",
     "level": "n3"
   },
   {
     "id": 1291,
     "word": "成功",
     "reading": "せいこう",
-    "korean": "성공",
+    "korean": "성공, 히트",
     "level": "n3"
   },
   {
@@ -4847,56 +4847,56 @@
     "id": 1293,
     "word": "成績",
     "reading": "せいせき",
-    "korean": "결과",
+    "korean": "결과, 기록",
     "level": "n3"
   },
   {
     "id": 1294,
     "word": "成長",
     "reading": "せいちょう",
-    "korean": "성장",
+    "korean": "성장하다, 어른이 되다",
     "level": "n3"
   },
   {
     "id": 1295,
     "word": "政府",
     "reading": "せいふ",
-    "korean": "정부",
+    "korean": "정부, 행정",
     "level": "n3"
   },
   {
     "id": 1296,
     "word": "整理",
     "reading": "せいり",
-    "korean": "정렬",
+    "korean": "정렬, 배열",
     "level": "n3"
   },
   {
     "id": 1297,
     "word": "正確",
     "reading": "せいかく",
-    "korean": "정확한",
+    "korean": "정확함, 시간 엄수",
     "level": "n3"
   },
   {
     "id": 1298,
     "word": "正午",
     "reading": "しょうご",
-    "korean": "정오",
+    "korean": "정오, 정오",
     "level": "n3"
   },
   {
     "id": 1299,
     "word": "正式",
     "reading": "せいしき",
-    "korean": "정식",
+    "korean": "적법한 형식, 공식",
     "level": "n3"
   },
   {
     "id": 1300,
     "word": "正直",
     "reading": "しょうじき",
-    "korean": "정직",
+    "korean": "정직, 성실",
     "level": "n3"
   },
   {
@@ -4910,21 +4910,21 @@
     "id": 1302,
     "word": "生き物",
     "reading": "いきもの",
-    "korean": "생물",
+    "korean": "생물, 동물",
     "level": "n3"
   },
   {
     "id": 1303,
     "word": "生じる",
     "reading": "しょうじる",
-    "korean": "생산하다",
+    "korean": "생산하다, 산출하다",
     "level": "n3"
   },
   {
     "id": 1304,
     "word": "生まれ",
     "reading": "うまれ",
-    "korean": "출생",
+    "korean": "출생, 출생지",
     "level": "n3"
   },
   {
@@ -4945,56 +4945,56 @@
     "id": 1307,
     "word": "生命",
     "reading": "せいめい",
-    "korean": "삶",
+    "korean": "삶, 존재",
     "level": "n3"
   },
   {
     "id": 1308,
     "word": "盛り",
     "reading": "さかり",
-    "korean": "거들기",
+    "korean": "돕는 것, 봉사하는 것",
     "level": "n3"
   },
   {
     "id": 1309,
     "word": "精神",
     "reading": "せいしん",
-    "korean": "정신",
+    "korean": "마음, 영혼",
     "level": "n3"
   },
   {
     "id": 1310,
     "word": "製造",
     "reading": "せいぞう",
-    "korean": "제조",
+    "korean": "제조, 생산",
     "level": "n3"
   },
   {
     "id": 1311,
     "word": "製品",
     "reading": "せいひん",
-    "korean": "제조품",
+    "korean": "공산품, 완제품",
     "level": "n3"
   },
   {
     "id": 1312,
     "word": "請求",
     "reading": "せいきゅう",
-    "korean": "주장하다",
+    "korean": "주장하다, 요구하다",
     "level": "n3"
   },
   {
     "id": 1313,
     "word": "青年",
     "reading": "せいねん",
-    "korean": "청년",
+    "korean": "젊음, 청년",
     "level": "n3"
   },
   {
     "id": 1314,
     "word": "税金",
     "reading": "ぜいきん",
-    "korean": "세",
+    "korean": "세금, 의무",
     "level": "n3"
   },
   {
@@ -5008,140 +5008,140 @@
     "id": 1316,
     "word": "石油",
     "reading": "せきゆ",
-    "korean": "기름",
+    "korean": "석유, 석유",
     "level": "n3"
   },
   {
     "id": 1317,
     "word": "積もる",
     "reading": "つもる",
-    "korean": "쌓이다",
+    "korean": "쌓아 올리다",
     "level": "n3"
   },
   {
     "id": 1318,
     "word": "積極的",
     "reading": "せっきょくてき",
-    "korean": "긍정적인",
+    "korean": "긍정적인, 활동적인",
     "level": "n3"
   },
   {
     "id": 1319,
     "word": "責める",
     "reading": "せめる",
-    "korean": "비난하다",
+    "korean": "비난하다, 비난하다",
     "level": "n3"
   },
   {
     "id": 1320,
     "word": "責任",
     "reading": "せきにん",
-    "korean": "의무",
+    "korean": "의무, 책임",
     "level": "n3"
   },
   {
     "id": 1321,
     "word": "切れ",
     "reading": "きれ",
-    "korean": "옷감",
+    "korean": "천, 조각",
     "level": "n3"
   },
   {
     "id": 1322,
     "word": "切れる",
     "reading": "きれる",
-    "korean": "끊어지다",
+    "korean": "잘 자르다, 날카롭게 자르다",
     "level": "n3"
   },
   {
     "id": 1323,
     "word": "設計",
     "reading": "せっけい",
-    "korean": "계획",
+    "korean": "계획, 디자인",
     "level": "n3"
   },
   {
     "id": 1324,
     "word": "設備",
     "reading": "せつび",
-    "korean": "장비",
+    "korean": "장비, 장치",
     "level": "n3"
   },
   {
     "id": 1325,
     "word": "節約",
     "reading": "せつやく",
-    "korean": "절약하다",
+    "korean": "절약하다, 절약하다",
     "level": "n3"
   },
   {
     "id": 1326,
     "word": "絶対",
     "reading": "ぜったい",
-    "korean": "순수한",
+    "korean": "절대적인, 무조건적인",
     "level": "n3"
   },
   {
     "id": 1327,
     "word": "絶滅",
     "reading": "ぜつめつ",
-    "korean": "파괴",
+    "korean": "파괴, 멸종",
     "level": "n3"
   },
   {
     "id": 1328,
     "word": "先ず",
     "reading": "まず",
-    "korean": "우선",
+    "korean": "먼저, 시작하려면",
     "level": "n3"
   },
   {
     "id": 1329,
     "word": "先日",
     "reading": "せんじつ",
-    "korean": "며칠 전",
+    "korean": "저번에, 며칠 전",
     "level": "n3"
   },
   {
     "id": 1330,
     "word": "占める",
     "reading": "しめる",
-    "korean": "구성하다",
+    "korean": "구성하다, 설명하다",
     "level": "n3"
   },
   {
     "id": 1331,
     "word": "専攻",
     "reading": "せんこう",
-    "korean": "전공",
+    "korean": "전공과목, 특별학습",
     "level": "n3"
   },
   {
     "id": 1332,
     "word": "戦い",
     "reading": "たたかい",
-    "korean": "전투",
+    "korean": "전투, 싸우다",
     "level": "n3"
   },
   {
     "id": 1333,
     "word": "戦う",
     "reading": "たたかう",
-    "korean": "싸움",
+    "korean": "싸우다, 싸우다",
     "level": "n3"
   },
   {
     "id": 1334,
     "word": "選手",
     "reading": "せんしゅ",
-    "korean": "플레이어",
+    "korean": "선수, 팀",
     "level": "n3"
   },
   {
     "id": 1335,
     "word": "選択",
     "reading": "せんたく",
-    "korean": "선택",
+    "korean": "선택, 선택",
     "level": "n3"
   },
   {
@@ -5155,154 +5155,154 @@
     "id": 1337,
     "word": "前進",
     "reading": "ぜんしん",
-    "korean": "전진",
+    "korean": "전진하다, 운전하다",
     "level": "n3"
   },
   {
     "id": 1338,
     "word": "全く",
     "reading": "まったく",
-    "korean": "정말",
+    "korean": "정말로, 정말로",
     "level": "n3"
   },
   {
     "id": 1339,
     "word": "全て",
     "reading": "すべて",
-    "korean": "모두",
+    "korean": "전부, 전체",
     "level": "n3"
   },
   {
     "id": 1340,
     "word": "全員",
     "reading": "ぜんいん",
-    "korean": "전원",
+    "korean": "모든 멤버, 모든 손",
     "level": "n3"
   },
   {
     "id": 1341,
     "word": "全国",
     "reading": "ぜんこく",
-    "korean": "전국적으로",
+    "korean": "전국적으로, 전국적으로",
     "level": "n3"
   },
   {
     "id": 1342,
     "word": "全然",
     "reading": "ぜんぜん",
-    "korean": "전적으로",
+    "korean": "전적으로, 완전히",
     "level": "n3"
   },
   {
     "id": 1343,
     "word": "全体",
     "reading": "ぜんたい",
-    "korean": "전체",
+    "korean": "전체, 전체",
     "level": "n3"
   },
   {
     "id": 1344,
     "word": "粗末",
     "reading": "そまつ",
-    "korean": "조잡한",
+    "korean": "조잡한, 거친",
     "level": "n3"
   },
   {
     "id": 1345,
     "word": "素晴らしい",
     "reading": "すばらしい",
-    "korean": "훌륭하다",
+    "korean": "훌륭하다, 훌륭하다",
     "level": "n3"
   },
   {
     "id": 1346,
     "word": "組む",
     "reading": "くむ",
-    "korean": "짜다",
+    "korean": "함께 모으다",
     "level": "n3"
   },
   {
     "id": 1347,
     "word": "組合",
     "reading": "くみあい",
-    "korean": "협회",
+    "korean": "협회, 노동조합",
     "level": "n3"
   },
   {
     "id": 1348,
     "word": "組織",
     "reading": "そしき",
-    "korean": "조직",
+    "korean": "조직, 구조",
     "level": "n3"
   },
   {
     "id": 1349,
     "word": "訴える",
     "reading": "うったえる",
-    "korean": "고소하다",
+    "korean": "고소하다, 의지하다",
     "level": "n3"
   },
   {
     "id": 1350,
     "word": "双子",
     "reading": "ふたご",
-    "korean": "쌍둥이",
+    "korean": "쌍둥이, 쌍둥이",
     "level": "n3"
   },
   {
     "id": 1351,
     "word": "想像",
     "reading": "そうぞう",
-    "korean": "상상력",
+    "korean": "상상, 추측",
     "level": "n3"
   },
   {
     "id": 1352,
     "word": "掃除",
     "reading": "そうじ",
-    "korean": "청소",
+    "korean": "청소, 쓸어내기",
     "level": "n3"
   },
   {
     "id": 1353,
     "word": "操作",
     "reading": "そうさ",
-    "korean": "작업",
+    "korean": "운영, 관리",
     "level": "n3"
   },
   {
     "id": 1354,
     "word": "相手",
     "reading": "あいて",
-    "korean": "동반자",
+    "korean": "동반자, 파트너",
     "level": "n3"
   },
   {
     "id": 1355,
     "word": "相続",
     "reading": "そうぞく",
-    "korean": "계승",
+    "korean": "계승, 상속",
     "level": "n3"
   },
   {
     "id": 1356,
     "word": "相当",
     "reading": "そうとう",
-    "korean": "적합한",
+    "korean": "적당한, 공정한",
     "level": "n3"
   },
   {
     "id": 1357,
     "word": "装置",
     "reading": "そうち",
-    "korean": "장비",
+    "korean": "장비, 설치",
     "level": "n3"
   },
   {
     "id": 1358,
     "word": "騒ぎ",
     "reading": "さわぎ",
-    "korean": "소란",
+    "korean": "소란, 소란",
     "level": "n3"
   },
   {
@@ -5316,105 +5316,105 @@
     "id": 1360,
     "word": "増す",
     "reading": "ます",
-    "korean": "증가하다",
+    "korean": "증가하다, 성장하다",
     "level": "n3"
   },
   {
     "id": 1361,
     "word": "増加",
     "reading": "ぞうか",
-    "korean": "증가하다",
+    "korean": "증가, 추가",
     "level": "n3"
   },
   {
     "id": 1362,
     "word": "贈る",
     "reading": "おくる",
-    "korean": "보내다",
+    "korean": "보내다, 주다",
     "level": "n3"
   },
   {
     "id": 1363,
     "word": "速度",
     "reading": "そくど",
-    "korean": "속도",
+    "korean": "속도, 속력",
     "level": "n3"
   },
   {
     "id": 1364,
     "word": "続き",
     "reading": "つづき",
-    "korean": "계속",
+    "korean": "속편, 계속",
     "level": "n3"
   },
   {
     "id": 1365,
     "word": "存在",
     "reading": "そんざい",
-    "korean": "존재",
+    "korean": "존재, 존재",
     "level": "n3"
   },
   {
     "id": 1366,
     "word": "尊敬",
     "reading": "そんけい",
-    "korean": "존경",
+    "korean": "존경하다, 존중하다",
     "level": "n3"
   },
   {
     "id": 1367,
     "word": "尊重",
     "reading": "そんちょう",
-    "korean": "존경",
+    "korean": "존경하다, 존중하다",
     "level": "n3"
   },
   {
     "id": 1368,
     "word": "損害",
     "reading": "そんがい",
-    "korean": "손상",
+    "korean": "손상, 부상",
     "level": "n3"
   },
   {
     "id": 1369,
     "word": "他人",
     "reading": "たにん",
-    "korean": "타인",
+    "korean": "다른 사람, 관련 없는 사람",
     "level": "n3"
   },
   {
     "id": 1370,
     "word": "多少",
     "reading": "たしょう",
-    "korean": "다소간",
+    "korean": "다소, 어느 정도",
     "level": "n3"
   },
   {
     "id": 1371,
     "word": "多分",
     "reading": "たぶん",
-    "korean": "아마도",
+    "korean": "아마, 아마도",
     "level": "n3"
   },
   {
     "id": 1372,
     "word": "太陽",
     "reading": "たいよう",
-    "korean": "해",
+    "korean": "태양, 태양",
     "level": "n3"
   },
   {
     "id": 1373,
     "word": "駄目",
     "reading": "だめ",
-    "korean": "안 된다",
+    "korean": "쓸모없어, 안 좋아",
     "level": "n3"
   },
   {
     "id": 1374,
     "word": "体育",
     "reading": "たいいく",
-    "korean": "체육",
+    "korean": "체육, 체조",
     "level": "n3"
   },
   {
@@ -5428,77 +5428,77 @@
     "id": 1376,
     "word": "対象",
     "reading": "たいしょう",
-    "korean": "목표",
+    "korean": "표적, 대상(예배의 대상)",
     "level": "n3"
   },
   {
     "id": 1377,
     "word": "怠ける",
     "reading": "なまける",
-    "korean": "한가하다",
+    "korean": "게으르다, 무시하다",
     "level": "n3"
   },
   {
     "id": 1378,
     "word": "態度",
     "reading": "たいど",
-    "korean": "태도",
+    "korean": "태도, 매너",
     "level": "n3"
   },
   {
     "id": 1379,
     "word": "替える",
     "reading": "かえる",
-    "korean": "교환",
+    "korean": "교환하다, 교환하다",
     "level": "n3"
   },
   {
     "id": 1380,
     "word": "滞在",
     "reading": "たいざい",
-    "korean": "머무르다",
+    "korean": "머물다, 체류하다",
     "level": "n3"
   },
   {
     "id": 1381,
     "word": "貸し",
     "reading": "かし",
-    "korean": "대출",
+    "korean": "대출, 대출",
     "level": "n3"
   },
   {
     "id": 1382,
     "word": "退屈",
     "reading": "たいくつ",
-    "korean": "지겨움",
+    "korean": "지루함, 지루함",
     "level": "n3"
   },
   {
     "id": 1383,
     "word": "逮捕",
     "reading": "たいほ",
-    "korean": "체포",
+    "korean": "체포, 체포",
     "level": "n3"
   },
   {
     "id": 1384,
     "word": "代金",
     "reading": "だいきん",
-    "korean": "가격",
+    "korean": "가격, 결제",
     "level": "n3"
   },
   {
     "id": 1385,
     "word": "代表",
     "reading": "だいひょう",
-    "korean": "대표",
+    "korean": "대표, 대표",
     "level": "n3"
   },
   {
     "id": 1386,
     "word": "代理",
     "reading": "だいり",
-    "korean": "대표",
+    "korean": "대표, 대행사",
     "level": "n3"
   },
   {
@@ -5512,21 +5512,21 @@
     "id": 1388,
     "word": "大した",
     "reading": "たいした",
-    "korean": "많은",
+    "korean": "상당한, 훌륭한",
     "level": "n3"
   },
   {
     "id": 1389,
     "word": "大家",
     "reading": "おおや",
-    "korean": "집주인",
+    "korean": "부유한 집안, 귀한 집안",
     "level": "n3"
   },
   {
     "id": 1390,
     "word": "大会",
     "reading": "たいかい",
-    "korean": "협약",
+    "korean": "컨벤션, 토너먼트",
     "level": "n3"
   },
   {
@@ -5547,49 +5547,49 @@
     "id": 1393,
     "word": "大臣",
     "reading": "だいじん",
-    "korean": "대신",
+    "korean": "내각 장관",
     "level": "n3"
   },
   {
     "id": 1394,
     "word": "大戦",
     "reading": "たいせん",
-    "korean": "대전",
+    "korean": "큰 전쟁, 큰 전투",
     "level": "n3"
   },
   {
     "id": 1395,
     "word": "大抵",
     "reading": "たいてい",
-    "korean": "대개",
+    "korean": "보통, 일반적으로",
     "level": "n3"
   },
   {
     "id": 1396,
     "word": "大統領",
     "reading": "だいとうりょう",
-    "korean": "대통령",
+    "korean": "사장, 최고 경영자",
     "level": "n3"
   },
   {
     "id": 1397,
     "word": "大半",
     "reading": "たいはん",
-    "korean": "다수",
+    "korean": "대다수, 대부분",
     "level": "n3"
   },
   {
     "id": 1398,
     "word": "大部分",
     "reading": "だいぶぶん",
-    "korean": "대부분",
+    "korean": "대부분, 더 큰 부분",
     "level": "n3"
   },
   {
     "id": 1399,
     "word": "大変",
     "reading": "たいへん",
-    "korean": "끔찍한",
+    "korean": "끔찍하다, 끔찍하다",
     "level": "n3"
   },
   {
@@ -5603,7 +5603,7 @@
     "id": 1401,
     "word": "叩く",
     "reading": "たたく",
-    "korean": "두드리다",
+    "korean": "파업하다, 박수치다",
     "level": "n3"
   },
   {
@@ -5617,35 +5617,35 @@
     "id": 1403,
     "word": "誰か",
     "reading": "だれか",
-    "korean": "누구",
+    "korean": "누군가, 누군가",
     "level": "n3"
   },
   {
     "id": 1404,
     "word": "単なる",
     "reading": "たんなる",
-    "korean": "호수",
+    "korean": "단순한, 단순한",
     "level": "n3"
   },
   {
     "id": 1405,
     "word": "単に",
     "reading": "たんに",
-    "korean": "간단히",
+    "korean": "단순히, 단지",
     "level": "n3"
   },
   {
     "id": 1406,
     "word": "単位",
     "reading": "たんい",
-    "korean": "단위",
+    "korean": "단위, 명칭",
     "level": "n3"
   },
   {
     "id": 1407,
     "word": "単語",
     "reading": "たんご",
-    "korean": "단어",
+    "korean": "단어, 어휘",
     "level": "n3"
   },
   {
@@ -5673,21 +5673,21 @@
     "id": 1411,
     "word": "団体",
     "reading": "だんたい",
-    "korean": "조직",
+    "korean": "조직, 협회",
     "level": "n3"
   },
   {
     "id": 1412,
     "word": "断る",
     "reading": "ことわる",
-    "korean": "거절하다",
+    "korean": "거절하다, 거절하다",
     "level": "n3"
   },
   {
     "id": 1413,
     "word": "暖かい",
     "reading": "あたたか(い)",
-    "korean": "따뜻한",
+    "korean": "따뜻한, 온화한",
     "level": "n3"
   },
   {
@@ -5701,14 +5701,14 @@
     "id": 1415,
     "word": "男子",
     "reading": "だんし",
-    "korean": "청년",
+    "korean": "젊음, 청년",
     "level": "n3"
   },
   {
     "id": 1416,
     "word": "値段",
     "reading": "ねだん",
-    "korean": "가격",
+    "korean": "가격, 비용",
     "level": "n3"
   },
   {
@@ -5722,49 +5722,49 @@
     "id": 1418,
     "word": "知恵",
     "reading": "ちえ",
-    "korean": "지혜",
+    "korean": "지혜, 재치",
     "level": "n3"
   },
   {
     "id": 1419,
     "word": "知事",
     "reading": "ちじ",
-    "korean": "지사",
+    "korean": "현 지사",
     "level": "n3"
   },
   {
     "id": 1420,
     "word": "知識",
     "reading": "ちしき",
-    "korean": "지식",
+    "korean": "지식, 정보",
     "level": "n3"
   },
   {
     "id": 1421,
     "word": "知能",
     "reading": "ちのう",
-    "korean": "지능",
+    "korean": "지능, 두뇌",
     "level": "n3"
   },
   {
     "id": 1422,
     "word": "地位",
     "reading": "ちい",
-    "korean": "위치",
+    "korean": "위치, 지위",
     "level": "n3"
   },
   {
     "id": 1423,
     "word": "地域",
     "reading": "ちいき",
-    "korean": "영역",
+    "korean": "지역, 지역",
     "level": "n3"
   },
   {
     "id": 1424,
     "word": "地下",
     "reading": "ちか",
-    "korean": "최하부",
+    "korean": "지하, 지하",
     "level": "n3"
   },
   {
@@ -5778,7 +5778,7 @@
     "id": 1426,
     "word": "地区",
     "reading": "ちく",
-    "korean": "구역",
+    "korean": "지구, 구역",
     "level": "n3"
   },
   {
@@ -5792,91 +5792,91 @@
     "id": 1428,
     "word": "地方",
     "reading": "ちほう",
-    "korean": "영역",
+    "korean": "지역, 지방",
     "level": "n3"
   },
   {
     "id": 1429,
     "word": "遅刻",
     "reading": "ちこく",
-    "korean": "늦음",
+    "korean": "지각하다, 늦게 오다",
     "level": "n3"
   },
   {
     "id": 1430,
     "word": "中央",
     "reading": "ちゅうおう",
-    "korean": "센터",
+    "korean": "중앙, 중앙",
     "level": "n3"
   },
   {
     "id": 1431,
     "word": "中学",
     "reading": "ちゅうがく",
-    "korean": "중학교",
+    "korean": "중학교, 중학교",
     "level": "n3"
   },
   {
     "id": 1432,
     "word": "中古",
     "reading": "ちゅうこ",
-    "korean": "사용된",
+    "korean": "중고, 중고",
     "level": "n3"
   },
   {
     "id": 1433,
     "word": "中止",
     "reading": "ちゅうし",
-    "korean": "보류",
+    "korean": "정지, 정지",
     "level": "n3"
   },
   {
     "id": 1434,
     "word": "中心",
     "reading": "ちゅうしん",
-    "korean": "센터",
+    "korean": "중심, 핵심",
     "level": "n3"
   },
   {
     "id": 1435,
     "word": "仲間",
     "reading": "なかま",
-    "korean": "회사",
+    "korean": "회사, 동료",
     "level": "n3"
   },
   {
     "id": 1436,
     "word": "昼食",
     "reading": "ちゅうしょく",
-    "korean": "점심",
+    "korean": "점심, 점심식사",
     "level": "n3"
   },
   {
     "id": 1437,
     "word": "注ぐ",
     "reading": "そそぐ",
-    "korean": "붓다",
+    "korean": "붓다, 관개하다",
     "level": "n3"
   },
   {
     "id": 1438,
     "word": "注文",
     "reading": "ちゅうもん",
-    "korean": "주문하다",
+    "korean": "주문, 요청",
     "level": "n3"
   },
   {
     "id": 1439,
     "word": "注目",
     "reading": "ちゅうもく",
-    "korean": "알아채다",
+    "korean": "주목하다, 주목하다",
     "level": "n3"
   },
   {
     "id": 1440,
     "word": "虫歯",
     "reading": "むしば",
-    "korean": "공동",
+    "korean": "충치, 충치",
     "level": "n3"
   },
   {
@@ -5890,7 +5890,7 @@
     "id": 1442,
     "word": "著者",
     "reading": "ちょしゃ",
-    "korean": "작가",
+    "korean": "작가, 작가",
     "level": "n3"
   },
   {
@@ -5904,224 +5904,224 @@
     "id": 1444,
     "word": "張る",
     "reading": "はる",
-    "korean": "막대",
+    "korean": "붙이다, 붙이다",
     "level": "n3"
   },
   {
     "id": 1445,
     "word": "眺め",
     "reading": "ながめ",
-    "korean": "장면",
+    "korean": "장면, 보기",
     "level": "n3"
   },
   {
     "id": 1446,
     "word": "眺める",
     "reading": "ながめる",
-    "korean": "보다",
+    "korean": "보다, 응시하다",
     "level": "n3"
   },
   {
     "id": 1447,
     "word": "調査",
     "reading": "ちょうさ",
-    "korean": "조사",
+    "korean": "조사, 심사",
     "level": "n3"
   },
   {
     "id": 1448,
     "word": "調子",
     "reading": "ちょうし",
-    "korean": "곡조",
+    "korean": "곡조, 음색",
     "level": "n3"
   },
   {
     "id": 1449,
     "word": "長期",
     "reading": "ちょうき",
-    "korean": "장기",
+    "korean": "오랜 기간",
     "level": "n3"
   },
   {
     "id": 1450,
     "word": "頂く",
     "reading": "いただく",
-    "korean": "받다",
+    "korean": "받다, 음식을 먹거나 마시다",
     "level": "n3"
   },
   {
     "id": 1451,
     "word": "頂上",
     "reading": "ちょうじょう",
-    "korean": "정상",
+    "korean": "정상, 정상",
     "level": "n3"
   },
   {
     "id": 1452,
     "word": "直ちに",
     "reading": "ただちに",
-    "korean": "즉시",
+    "korean": "즉시, 즉시",
     "level": "n3"
   },
   {
     "id": 1453,
     "word": "直に",
     "reading": "じかに",
-    "korean": "즉시",
+    "korean": "즉시, 쉽게",
     "level": "n3"
   },
   {
     "id": 1454,
     "word": "直接",
     "reading": "ちょくせつ",
-    "korean": "직접",
+    "korean": "직접적, 즉각적인",
     "level": "n3"
   },
   {
     "id": 1455,
     "word": "沈む",
     "reading": "しずむ",
-    "korean": "싱크대",
+    "korean": "가라앉다, 우울함을 느끼다",
     "level": "n3"
   },
   {
     "id": 1456,
     "word": "追い付く",
     "reading": "おいつく",
-    "korean": "추월하다",
+    "korean": "추월하다, 따라잡다",
     "level": "n3"
   },
   {
     "id": 1457,
     "word": "追う",
     "reading": "おう",
-    "korean": "뒤쫓다다",
+    "korean": "쫓아가다, 뒤쫓다",
     "level": "n3"
   },
   {
     "id": 1458,
     "word": "痛み",
     "reading": "いたみ",
-    "korean": "통증",
+    "korean": "고통, 아픔",
     "level": "n3"
   },
   {
     "id": 1459,
     "word": "通じる",
     "reading": "つうじる",
-    "korean": "달려가다",
+    "korean": "~으로 달려가다, ~로 이끌다",
     "level": "n3"
   },
   {
     "id": 1460,
     "word": "通す",
     "reading": "とおす",
-    "korean": "통과시키다",
+    "korean": "지나가게 하다, 간과하다",
     "level": "n3"
   },
   {
     "id": 1461,
     "word": "通り",
     "reading": "とおり",
-    "korean": "대로",
+    "korean": "~에 따라, ~에 따라",
     "level": "n3"
   },
   {
     "id": 1462,
     "word": "通り過ぎる",
     "reading": "とおりすぎる",
-    "korean": "통과하다",
+    "korean": "통과하다, 통과하다",
     "level": "n3"
   },
   {
     "id": 1463,
     "word": "通過",
     "reading": "つうか",
-    "korean": "통과하다",
+    "korean": "통과하다, 지나가다",
     "level": "n3"
   },
   {
     "id": 1464,
     "word": "通学",
     "reading": "つうがく",
-    "korean": "통학",
+    "korean": "학교로 통근",
     "level": "n3"
   },
   {
     "id": 1465,
     "word": "通行",
     "reading": "つうこう",
-    "korean": "통로",
+    "korean": "통과하다, 지나가다",
     "level": "n3"
   },
   {
     "id": 1466,
     "word": "通信",
     "reading": "つうしん",
-    "korean": "일치",
+    "korean": "서신, 의사소통",
     "level": "n3"
   },
   {
     "id": 1467,
     "word": "掴む",
     "reading": "つかむ",
-    "korean": "잡다",
+    "korean": "붙잡다, 붙잡다",
     "level": "n3"
   },
   {
     "id": 1468,
     "word": "停留所",
     "reading": "ていりゅうじょ",
-    "korean": "정류장",
+    "korean": "버스나 트램 정류장",
     "level": "n3"
   },
   {
     "id": 1469,
     "word": "定期",
     "reading": "ていき",
-    "korean": "정기",
+    "korean": "고정 기간",
     "level": "n3"
   },
   {
     "id": 1470,
     "word": "抵抗",
     "reading": "ていこう",
-    "korean": "전기저항",
+    "korean": "전기 저항, 저항",
     "level": "n3"
   },
   {
     "id": 1471,
     "word": "提案",
     "reading": "ていあん",
-    "korean": "제안",
+    "korean": "제안, 제안",
     "level": "n3"
   },
   {
     "id": 1472,
     "word": "提出",
     "reading": "ていしゅつ",
-    "korean": "프레젠테이션",
+    "korean": "발표, 제출",
     "level": "n3"
   },
   {
     "id": 1473,
     "word": "程度",
     "reading": "ていど",
-    "korean": "도",
+    "korean": "정도, 금액",
     "level": "n3"
   },
   {
     "id": 1474,
     "word": "諦める",
     "reading": "あきらめる",
-    "korean": "포기하다",
+    "korean": "포기하다, 포기하다",
     "level": "n3"
   },
   {
     "id": 1475,
     "word": "適切",
     "reading": "てきせつ",
-    "korean": "적절한",
+    "korean": "적절한, 적절한",
     "level": "n3"
   },
   {
@@ -6142,7 +6142,7 @@
     "id": 1478,
     "word": "溺れる",
     "reading": "おぼれる",
-    "korean": "익사하다",
+    "korean": "익사하다, 탐닉하다",
     "level": "n3"
   },
   {
@@ -6156,14 +6156,14 @@
     "id": 1480,
     "word": "徹底",
     "reading": "てってい",
-    "korean": "완전",
+    "korean": "철저함, 완전함",
     "level": "n3"
   },
   {
     "id": 1481,
     "word": "徹夜",
     "reading": "てつや",
-    "korean": "밤새도록",
+    "korean": "밤새도록, 밤새도록 철야",
     "level": "n3"
   },
   {
@@ -6177,7 +6177,7 @@
     "id": 1483,
     "word": "典型",
     "reading": "てんけい",
-    "korean": "유형",
+    "korean": "종류, 패턴",
     "level": "n3"
   },
   {
@@ -6191,21 +6191,21 @@
     "id": 1485,
     "word": "天然",
     "reading": "てんねん",
-    "korean": "자연",
+    "korean": "자연스러움, 자발성",
     "level": "n3"
   },
   {
     "id": 1486,
     "word": "転ぶ",
     "reading": "ころぶ",
-    "korean": "넘어지다",
+    "korean": "넘어지다, 넘어지다",
     "level": "n3"
   },
   {
     "id": 1487,
     "word": "伝統",
     "reading": "でんとう",
-    "korean": "전통",
+    "korean": "전통, 관습",
     "level": "n3"
   },
   {
@@ -6219,7 +6219,7 @@
     "id": 1489,
     "word": "吐く",
     "reading": "はく",
-    "korean": "토하다",
+    "korean": "숨을 쉬다, 말하다",
     "level": "n3"
   },
   {
@@ -6233,7 +6233,7 @@
     "id": 1491,
     "word": "途端",
     "reading": "とたん",
-    "korean": "방금",
+    "korean": "그냥 (지금, 이 순간",
     "level": "n3"
   },
   {
@@ -6247,28 +6247,28 @@
     "id": 1493,
     "word": "都市",
     "reading": "とし",
-    "korean": "도시",
+    "korean": "마을, 도시",
     "level": "n3"
   },
   {
     "id": 1494,
     "word": "努力",
     "reading": "どりょく",
-    "korean": "노력",
+    "korean": "엄청난 노력, 노력",
     "level": "n3"
   },
   {
     "id": 1495,
     "word": "土産",
     "reading": "みやげ",
-    "korean": "현재의",
+    "korean": "선물, 기념품",
     "level": "n3"
   },
   {
     "id": 1496,
     "word": "土地",
     "reading": "とち",
-    "korean": "토지",
+    "korean": "토지, 부지",
     "level": "n3"
   },
   {
@@ -6282,21 +6282,21 @@
     "id": 1498,
     "word": "倒す",
     "reading": "たおす",
-    "korean": "넘어뜨리다",
+    "korean": "쓰러뜨리다, 때리다",
     "level": "n3"
   },
   {
     "id": 1499,
     "word": "凍る",
     "reading": "こおる",
-    "korean": "얼다",
+    "korean": "얼다, 얼다",
     "level": "n3"
   },
   {
     "id": 1500,
     "word": "投票",
     "reading": "とうひょう",
-    "korean": "투표",
+    "korean": "투표, 여론 조사",
     "level": "n3"
   }
 ]

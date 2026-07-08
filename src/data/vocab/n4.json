@@ -10,14 +10,14 @@
     "id": 2,
     "word": "お見舞い",
     "reading": "おみまい",
-    "korean": "병문안",
+    "korean": "아픈 사람을 방문하다, 문의하다",
     "level": "n4"
   },
   {
     "id": 3,
     "word": "お祭り",
     "reading": "おまつり",
-    "korean": "축제",
+    "korean": "제전",
     "level": "n4"
   },
   {
@@ -31,14 +31,14 @@
     "id": 5,
     "word": "お嬢さん",
     "reading": "おじょうさん",
-    "korean": "아가씨",
+    "korean": "젊은 숙녀",
     "level": "n4"
   },
   {
     "id": 6,
     "word": "お宅",
     "reading": "おたく",
-    "korean": "댁",
+    "korean": "너의 집",
     "level": "n4"
   },
   {
@@ -52,21 +52,21 @@
     "id": 8,
     "word": "お礼",
     "reading": "おれい",
-    "korean": "감사",
+    "korean": "감사의 표현",
     "level": "n4"
   },
   {
     "id": 9,
     "word": "ご存じ",
     "reading": "ごぞんじ",
-    "korean": "아시다",
+    "korean": "아는 것, 아는 것",
     "level": "n4"
   },
   {
     "id": 10,
     "word": "安心",
     "reading": "あんしん",
-    "korean": "안심",
+    "korean": "안도",
     "level": "n4"
   },
   {
@@ -94,14 +94,14 @@
     "id": 14,
     "word": "以外",
     "reading": "いがい",
-    "korean": "이외",
+    "korean": "다음을 제외하고",
     "level": "n4"
   },
   {
     "id": 15,
     "word": "以上",
     "reading": "いじょう",
-    "korean": "이상",
+    "korean": "그 이상은 이게 다야",
     "level": "n4"
   },
   {
@@ -122,7 +122,7 @@
     "id": 18,
     "word": "移る",
     "reading": "うつる",
-    "korean": "이사하다",
+    "korean": "이사를 가거나 이사를 가거나",
     "level": "n4"
   },
   {
@@ -136,14 +136,14 @@
     "id": 20,
     "word": "育てる",
     "reading": "そだてる",
-    "korean": "기르다",
+    "korean": "뒤쪽, 키우다",
     "level": "n4"
   },
   {
     "id": 21,
     "word": "一生懸命",
     "reading": "いっしょうけんめい",
-    "korean": "열심히",
+    "korean": "최선을 다해",
     "level": "n4"
   },
   {
@@ -157,7 +157,7 @@
     "id": 23,
     "word": "引き出し",
     "reading": "ひきだし",
-    "korean": "서랍",
+    "korean": "서랍, 꺼내기",
     "level": "n4"
   },
   {
@@ -178,7 +178,7 @@
     "id": 26,
     "word": "運ぶ",
     "reading": "はこぶ",
-    "korean": "수송",
+    "korean": "옮기다",
     "level": "n4"
   },
   {
@@ -206,7 +206,7 @@
     "id": 30,
     "word": "泳ぎ方",
     "reading": "およぎかた",
-    "korean": "수영법",
+    "korean": "수영하는 방법",
     "level": "n4"
   },
   {
@@ -220,7 +220,7 @@
     "id": 32,
     "word": "遠慮",
     "reading": "えんりょする",
-    "korean": "사양하다",
+    "korean": "보류하다, 제지하다",
     "level": "n4"
   },
   {
@@ -248,7 +248,7 @@
     "id": 36,
     "word": "下げる",
     "reading": "さげる",
-    "korean": "내리다",
+    "korean": "매달다, 낮추다",
     "level": "n4"
   },
   {
@@ -262,7 +262,7 @@
     "id": 38,
     "word": "下る",
     "reading": "さがる",
-    "korean": "내려가다",
+    "korean": "내리다, 하강하다",
     "level": "n4"
   },
   {
@@ -339,7 +339,7 @@
     "id": 49,
     "word": "会場",
     "reading": "かいじょう",
-    "korean": "회장",
+    "korean": "집회장이나 모임 장소",
     "level": "n4"
   },
   {
@@ -381,7 +381,7 @@
     "id": 55,
     "word": "開く",
     "reading": "ひらく",
-    "korean": "열다",
+    "korean": "이벤트를 열어",
     "level": "n4"
   },
   {
@@ -402,7 +402,7 @@
     "id": 58,
     "word": "掛ける",
     "reading": "かける",
-    "korean": "걸다",
+    "korean": "뭔가 걸어",
     "level": "n4"
   },
   {
@@ -416,21 +416,21 @@
     "id": 60,
     "word": "割合",
     "reading": "わりあい",
-    "korean": "비율",
+    "korean": "비율, 비율",
     "level": "n4"
   },
   {
     "id": 61,
     "word": "滑る",
     "reading": "すべる",
-    "korean": "슬라이드",
+    "korean": "미끄러지다, 미끄러지다",
     "level": "n4"
   },
   {
     "id": 62,
     "word": "噛む",
     "reading": "かむ",
-    "korean": "씹다",
+    "korean": "물다, 씹다",
     "level": "n4"
   },
   {
@@ -451,7 +451,7 @@
     "id": 65,
     "word": "看護婦",
     "reading": "かんごふ",
-    "korean": "간호사",
+    "korean": "여성 간호사",
     "level": "n4"
   },
   {
@@ -465,7 +465,7 @@
     "id": 67,
     "word": "間に合う",
     "reading": "まにあう",
-    "korean": "늦지 않다",
+    "korean": "시간에 맞춰",
     "level": "n4"
   },
   {
@@ -521,7 +521,7 @@
     "id": 75,
     "word": "気持ち",
     "reading": "きもち",
-    "korean": "감정",
+    "korean": "기분, 기분",
     "level": "n4"
   },
   {
@@ -535,7 +535,7 @@
     "id": 77,
     "word": "汽車",
     "reading": "きしゃ",
-    "korean": "기차",
+    "korean": "증기 기관차",
     "level": "n4"
   },
   {
@@ -563,21 +563,21 @@
     "id": 81,
     "word": "起す",
     "reading": "おこす",
-    "korean": "깨우다",
+    "korean": "깨어 있다",
     "level": "n4"
   },
   {
     "id": 82,
     "word": "技術",
     "reading": "ぎじゅつ",
-    "korean": "기술",
+    "korean": "예술, 기술",
     "level": "n4"
   },
   {
     "id": 83,
     "word": "久しぶり",
     "reading": "ひさしぶり",
-    "korean": "오랜만",
+    "korean": "오랜 시간이 흐른 뒤에",
     "level": "n4"
   },
   {
@@ -591,7 +591,7 @@
     "id": 85,
     "word": "急行",
     "reading": "きゅうこう",
-    "korean": "급행",
+    "korean": "빠른, 급행",
     "level": "n4"
   },
   {
@@ -654,21 +654,21 @@
     "id": 94,
     "word": "具合",
     "reading": "ぐあい",
-    "korean": "상태",
+    "korean": "상태, 건강",
     "level": "n4"
   },
   {
     "id": 95,
     "word": "空く",
     "reading": "あく",
-    "korean": "비다",
+    "korean": "열려 있다, 비어 있다",
     "level": "n4"
   },
   {
     "id": 96,
     "word": "空気",
     "reading": "くうき",
-    "korean": "공기",
+    "korean": "공기, 분위기",
     "level": "n4"
   },
   {
@@ -682,7 +682,7 @@
     "id": 98,
     "word": "景色",
     "reading": "けしき",
-    "korean": "경치",
+    "korean": "장면, 풍경",
     "level": "n4"
   },
   {
@@ -696,7 +696,7 @@
     "id": 100,
     "word": "経済",
     "reading": "けいざい",
-    "korean": "경제",
+    "korean": "금융, 경제",
     "level": "n4"
   },
   {
@@ -717,7 +717,7 @@
     "id": 103,
     "word": "迎える",
     "reading": "むかえる",
-    "korean": "맞이하다",
+    "korean": "만나러 나가다",
     "level": "n4"
   },
   {
@@ -759,14 +759,14 @@
     "id": 109,
     "word": "研究室",
     "reading": "けんきゅうしつ",
-    "korean": "연구실",
+    "korean": "공부방, 연구실",
     "level": "n4"
   },
   {
     "id": 110,
     "word": "見える",
     "reading": "みえる",
-    "korean": "보이다",
+    "korean": "눈에 띄다",
     "level": "n4"
   },
   {
@@ -794,7 +794,7 @@
     "id": 114,
     "word": "原因",
     "reading": "げんいん",
-    "korean": "원인",
+    "korean": "원인, 출처",
     "level": "n4"
   },
   {
@@ -815,14 +815,14 @@
     "id": 117,
     "word": "交通",
     "reading": "こうつう",
-    "korean": "교통",
+    "korean": "traffic, transportation",
     "level": "n4"
   },
   {
     "id": 118,
     "word": "光る",
     "reading": "ひかる",
-    "korean": "빛나다",
+    "korean": "빛나다, 반짝거리다",
     "level": "n4"
   },
   {
@@ -899,7 +899,7 @@
     "id": 129,
     "word": "降り出す",
     "reading": "ふりだす",
-    "korean": "내리기 시작하다",
+    "korean": "비가 내리기 시작하다",
     "level": "n4"
   },
   {
@@ -948,7 +948,7 @@
     "id": 136,
     "word": "今度",
     "reading": "こんど",
-    "korean": "이번",
+    "korean": "지금, 다음에는",
     "level": "n4"
   },
   {
@@ -969,21 +969,21 @@
     "id": 139,
     "word": "最近",
     "reading": "さいきん",
-    "korean": "최근",
+    "korean": "최신, 요즘",
     "level": "n4"
   },
   {
     "id": 140,
     "word": "最後",
     "reading": "さいご",
-    "korean": "마지막",
+    "korean": "마지막, 끝",
     "level": "n4"
   },
   {
     "id": 141,
     "word": "最初",
     "reading": "さいしょ",
-    "korean": "시작",
+    "korean": "처음, 처음",
     "level": "n4"
   },
   {
@@ -997,14 +997,14 @@
     "id": 143,
     "word": "細かい",
     "reading": "こまかい",
-    "korean": "세밀하다",
+    "korean": "작다, 좋다",
     "level": "n4"
   },
   {
     "id": 144,
     "word": "参る",
     "reading": "まいる",
-    "korean": "가다",
+    "korean": "가다, 오다",
     "level": "n4"
   },
   {
@@ -1060,14 +1060,14 @@
     "id": 152,
     "word": "思う",
     "reading": "おもう",
-    "korean": "생각하다",
+    "korean": "생각하다, 느끼다",
     "level": "n4"
   },
   {
     "id": 153,
     "word": "指輪",
     "reading": "ゆびわ",
-    "korean": "반지",
+    "korean": "손가락 반지",
     "level": "n4"
   },
   {
@@ -1088,7 +1088,7 @@
     "id": 156,
     "word": "止める",
     "reading": "とめる",
-    "korean": "멈추다",
+    "korean": "뭔가 그만해",
     "level": "n4"
   },
   {
@@ -1102,14 +1102,14 @@
     "id": 158,
     "word": "試合",
     "reading": "しあい",
-    "korean": "시합",
+    "korean": "시합, 게임",
     "level": "n4"
   },
   {
     "id": 159,
     "word": "歯医者",
     "reading": "はいしゃ",
-    "korean": "치과",
+    "korean": "치과 의사",
     "level": "n4"
   },
   {
@@ -1144,7 +1144,7 @@
     "id": 164,
     "word": "治る",
     "reading": "なおる",
-    "korean": "치료되다",
+    "korean": "치유되다, 치유되다",
     "level": "n4"
   },
   {
@@ -1165,14 +1165,14 @@
     "id": 167,
     "word": "失敗",
     "reading": "しっぱい",
-    "korean": "실패",
+    "korean": "실패, 실수",
     "level": "n4"
   },
   {
     "id": 168,
     "word": "写す",
     "reading": "うつす",
-    "korean": "복사하다",
+    "korean": "복사하거나 사진을 찍거나",
     "level": "n4"
   },
   {
@@ -1186,14 +1186,14 @@
     "id": 170,
     "word": "社会",
     "reading": "しゃかい",
-    "korean": "사회",
+    "korean": "사회, 대중",
     "level": "n4"
   },
   {
     "id": 171,
     "word": "社長",
     "reading": "しゃちょう",
-    "korean": "사장",
+    "korean": "회사 사장",
     "level": "n4"
   },
   {
@@ -1214,7 +1214,7 @@
     "id": 174,
     "word": "取り替える",
     "reading": "とりかえる",
-    "korean": "교환하다",
+    "korean": "교환",
     "level": "n4"
   },
   {
@@ -1242,7 +1242,7 @@
     "id": 178,
     "word": "受ける",
     "reading": "うける",
-    "korean": "받다",
+    "korean": "수업을 받거나 시험을 봐요",
     "level": "n4"
   },
   {
@@ -1263,7 +1263,7 @@
     "id": 181,
     "word": "拾う",
     "reading": "ひろう",
-    "korean": "줍다",
+    "korean": "집다, 모으다",
     "level": "n4"
   },
   {
@@ -1277,21 +1277,21 @@
     "id": 183,
     "word": "習慣",
     "reading": "しゅうかん",
-    "korean": "습관",
+    "korean": "관습, 매너",
     "level": "n4"
   },
   {
     "id": 184,
     "word": "集める",
     "reading": "あつめる",
-    "korean": "모으다",
+    "korean": "뭔가를 수집하다",
     "level": "n4"
   },
   {
     "id": 185,
     "word": "住所",
     "reading": "じゅうしょ",
-    "korean": "주소",
+    "korean": "주소, 거주지",
     "level": "n4"
   },
   {
@@ -1361,7 +1361,7 @@
     "id": 195,
     "word": "将来",
     "reading": "しょうらい",
-    "korean": "장래",
+    "korean": "미래, 전망",
     "level": "n4"
   },
   {
@@ -1382,7 +1382,7 @@
     "id": 198,
     "word": "小鳥",
     "reading": "ことり",
-    "korean": "새",
+    "korean": "작은 새",
     "level": "n4"
   },
   {
@@ -1410,21 +1410,21 @@
     "id": 202,
     "word": "焼く",
     "reading": "やく",
-    "korean": "굽다",
+    "korean": "굽다, 굽다",
     "level": "n4"
   },
   {
     "id": 203,
     "word": "焼ける",
     "reading": "やける",
-    "korean": "타다",
+    "korean": "태우다, 구워지다",
     "level": "n4"
   },
   {
     "id": 204,
     "word": "笑う",
     "reading": "わらう",
-    "korean": "웃다",
+    "korean": "웃다, 웃다",
     "level": "n4"
   },
   {
@@ -1438,14 +1438,14 @@
     "id": 206,
     "word": "上る",
     "reading": "あがる",
-    "korean": "오르다",
+    "korean": "증가",
     "level": "n4"
   },
   {
     "id": 207,
     "word": "乗り換える",
     "reading": "のりかえる",
-    "korean": "갈아타다",
+    "korean": "버스나 기차로 환승",
     "level": "n4"
   },
   {
@@ -1480,7 +1480,7 @@
     "id": 212,
     "word": "植える",
     "reading": "うえる",
-    "korean": "심다",
+    "korean": "심다, 자라다",
     "level": "n4"
   },
   {
@@ -1501,14 +1501,14 @@
     "id": 215,
     "word": "食料品",
     "reading": "しょくりょうひん",
-    "korean": "식료품",
+    "korean": "식료 잡화류",
     "level": "n4"
   },
   {
     "id": 216,
     "word": "寝坊",
     "reading": "ねぼう",
-    "korean": "늦잠",
+    "korean": "늦잠을 자다",
     "level": "n4"
   },
   {
@@ -1536,7 +1536,7 @@
     "id": 220,
     "word": "申し上げる",
     "reading": "もうしあげる",
-    "korean": "말하다",
+    "korean": "말하다, 말하다",
     "level": "n4"
   },
   {
@@ -1564,14 +1564,14 @@
     "id": 224,
     "word": "進む",
     "reading": "すすむ",
-    "korean": "나아가다",
+    "korean": "진전을 이루다",
     "level": "n4"
   },
   {
     "id": 225,
     "word": "人形",
     "reading": "にんぎょう",
-    "korean": "인형",
+    "korean": "인형, 피규어",
     "level": "n4"
   },
   {
@@ -1606,7 +1606,7 @@
     "id": 230,
     "word": "数学",
     "reading": "すうがく",
-    "korean": "수학",
+    "korean": "수학, 산수",
     "level": "n4"
   },
   {
@@ -1634,7 +1634,7 @@
     "id": 234,
     "word": "政治",
     "reading": "せいじ",
-    "korean": "정치",
+    "korean": "정치, 정부",
     "level": "n4"
   },
   {
@@ -1669,14 +1669,14 @@
     "id": 239,
     "word": "盛ん",
     "reading": "さかん",
-    "korean": "인기",
+    "korean": "인기, 번영",
     "level": "n4"
   },
   {
     "id": 240,
     "word": "西洋",
     "reading": "せいよう",
-    "korean": "서양",
+    "korean": "서방 국가",
     "level": "n4"
   },
   {
@@ -1690,14 +1690,14 @@
     "id": 242,
     "word": "折る",
     "reading": "おる",
-    "korean": "접다",
+    "korean": "부러지거나 접히거나",
     "level": "n4"
   },
   {
     "id": 243,
     "word": "折れる",
     "reading": "おれる",
-    "korean": "꺾이다",
+    "korean": "부러지거나 접히다",
     "level": "n4"
   },
   {
@@ -1725,7 +1725,7 @@
     "id": 247,
     "word": "浅い",
     "reading": "あさい",
-    "korean": "얕은",
+    "korean": "얕은, 피상적인",
     "level": "n4"
   },
   {
@@ -1774,7 +1774,7 @@
     "id": 254,
     "word": "騒ぐ",
     "reading": "さわぐ",
-    "korean": "떠들다",
+    "korean": "소리를 내다, 흥분하다",
     "level": "n4"
   },
   {
@@ -1802,14 +1802,14 @@
     "id": 258,
     "word": "足す",
     "reading": "たす",
-    "korean": "더하다",
+    "korean": "번호 추가",
     "level": "n4"
   },
   {
     "id": 259,
     "word": "足りる",
     "reading": "たりる",
-    "korean": "충분하다",
+    "korean": "be enough",
     "level": "n4"
   },
   {
@@ -1837,7 +1837,7 @@
     "id": 263,
     "word": "太る",
     "reading": "ふとる",
-    "korean": "찌다",
+    "korean": "살이 찌다",
     "level": "n4"
   },
   {
@@ -1851,14 +1851,14 @@
     "id": 265,
     "word": "退院",
     "reading": "たいいんする",
-    "korean": "퇴원",
+    "korean": "병원을 떠나다",
     "level": "n4"
   },
   {
     "id": 266,
     "word": "代わり",
     "reading": "かわり",
-    "korean": "대리자",
+    "korean": "대체하다, 대체하다",
     "level": "n4"
   },
   {
@@ -1879,7 +1879,7 @@
     "id": 269,
     "word": "大事",
     "reading": "だいじ",
-    "korean": "중요한",
+    "korean": "중요한, 가치 있는",
     "level": "n4"
   },
   {
@@ -1949,7 +1949,7 @@
     "id": 279,
     "word": "致す",
     "reading": "いたす",
-    "korean": "드리다",
+    "korean": "할 일",
     "level": "n4"
   },
   {
@@ -1970,21 +1970,21 @@
     "id": 282,
     "word": "中学校",
     "reading": "ちゅうがっこう",
-    "korean": "중학교",
+    "korean": "중학교, 중학교",
     "level": "n4"
   },
   {
     "id": 283,
     "word": "昼間",
     "reading": "ひるま",
-    "korean": "낮",
+    "korean": "낮, 낮에",
     "level": "n4"
   },
   {
     "id": 284,
     "word": "昼休み",
     "reading": "ひるやすみ",
-    "korean": "점심시간",
+    "korean": "정오 휴식",
     "level": "n4"
   },
   {
@@ -2012,7 +2012,7 @@
     "id": 288,
     "word": "丁寧",
     "reading": "ていねい",
-    "korean": "정중하다",
+    "korean": "예의 바른",
     "level": "n4"
   },
   {
@@ -2026,14 +2026,14 @@
     "id": 290,
     "word": "直す",
     "reading": "なおす",
-    "korean": "고치다",
+    "korean": "고치다, 수리하다",
     "level": "n4"
   },
   {
     "id": 291,
     "word": "直る",
     "reading": "なおる",
-    "korean": "고정되다",
+    "korean": "고쳐지다, 고쳐지다",
     "level": "n4"
   },
   {
@@ -2061,7 +2061,7 @@
     "id": 295,
     "word": "漬ける",
     "reading": "つける",
-    "korean": "담그다",
+    "korean": "담그다, 담그다",
     "level": "n4"
   },
   {
@@ -2089,7 +2089,7 @@
     "id": 299,
     "word": "天気予報",
     "reading": "てんきよほう",
-    "korean": "일기예보",
+    "korean": "일기 예보",
     "level": "n4"
   },
   {
@@ -2117,7 +2117,7 @@
     "id": 303,
     "word": "田舎",
     "reading": "いなか",
-    "korean": "시골",
+    "korean": "한 지방",
     "level": "n4"
   },
   {
@@ -2138,28 +2138,28 @@
     "id": 306,
     "word": "塗る",
     "reading": "ぬる",
-    "korean": "페인트",
+    "korean": "칠하다, 회반죽하다",
     "level": "n4"
   },
   {
     "id": 307,
     "word": "途中",
     "reading": "とちゅう",
-    "korean": "도중",
+    "korean": "가는 길에",
     "level": "n4"
   },
   {
     "id": 308,
     "word": "都合",
     "reading": "つごう",
-    "korean": "상황",
+    "korean": "상황, 편의",
     "level": "n4"
   },
   {
     "id": 309,
     "word": "怒る",
     "reading": "おこる",
-    "korean": "화내다",
+    "korean": "화를 내다, 화를 내다",
     "level": "n4"
   },
   {
@@ -2173,7 +2173,7 @@
     "id": 311,
     "word": "投げる",
     "reading": "なげる",
-    "korean": "던지다",
+    "korean": "던지거나 버리거나",
     "level": "n4"
   },
   {
@@ -2215,14 +2215,14 @@
     "id": 317,
     "word": "道具",
     "reading": "どうぐ",
-    "korean": "도구",
+    "korean": "도구, 수단",
     "level": "n4"
   },
   {
     "id": 318,
     "word": "特に",
     "reading": "とくに",
-    "korean": "특히",
+    "korean": "특히, 특히",
     "level": "n4"
   },
   {
@@ -2264,7 +2264,7 @@
     "id": 324,
     "word": "入学",
     "reading": "にゅうがくする",
-    "korean": "입학",
+    "korean": "학교나 대학교에 입학하다",
     "level": "n4"
   },
   {
@@ -2278,14 +2278,14 @@
     "id": 326,
     "word": "背中",
     "reading": "せなか",
-    "korean": "등",
+    "korean": "몸의 뒤쪽",
     "level": "n4"
   },
   {
     "id": 327,
     "word": "売り場",
     "reading": "うりば",
-    "korean": "매장",
+    "korean": "물건 파는 곳",
     "level": "n4"
   },
   {
@@ -2313,7 +2313,7 @@
     "id": 331,
     "word": "番組",
     "reading": "ばんぐみ",
-    "korean": "프로그램",
+    "korean": "텔레비전이나 라디오 프로그램",
     "level": "n4"
   },
   {
@@ -2327,7 +2327,7 @@
     "id": 333,
     "word": "彼女",
     "reading": "かのじょ",
-    "korean": "그녀",
+    "korean": "그, 여자친구",
     "level": "n4"
   },
   {
@@ -2376,7 +2376,7 @@
     "id": 340,
     "word": "必ず",
     "reading": "かならず",
-    "korean": "틀림없이",
+    "korean": "확실히, 필연적으로",
     "level": "n4"
   },
   {
@@ -2404,14 +2404,14 @@
     "id": 344,
     "word": "付く",
     "reading": "つく",
-    "korean": "붙다",
+    "korean": "애착을 ​​가지다",
     "level": "n4"
   },
   {
     "id": 345,
     "word": "布団",
     "reading": "ふとん",
-    "korean": "이불",
+    "korean": "일본식 침구, 이불",
     "level": "n4"
   },
   {
@@ -2425,7 +2425,7 @@
     "id": 347,
     "word": "普通",
     "reading": "ふつう",
-    "korean": "보통",
+    "korean": "보통, 아니면 모든 역에 정차하는 기차",
     "level": "n4"
   },
   {
@@ -2439,7 +2439,7 @@
     "id": 349,
     "word": "部長",
     "reading": "ぶちょう",
-    "korean": "부장",
+    "korean": "섹션의 책임자",
     "level": "n4"
   },
   {
@@ -2453,7 +2453,7 @@
     "id": 351,
     "word": "複雑",
     "reading": "ふくざつ",
-    "korean": "복잡성",
+    "korean": "복잡함, 복잡함",
     "level": "n4"
   },
   {
@@ -2467,7 +2467,7 @@
     "id": 353,
     "word": "沸く",
     "reading": "わく",
-    "korean": "종기",
+    "korean": "끓이다, 뜨거워지다",
     "level": "n4"
   },
   {
@@ -2544,7 +2544,7 @@
     "id": 364,
     "word": "暮れる",
     "reading": "くれる",
-    "korean": "어두워지다",
+    "korean": "어두워지다, 끝나다",
     "level": "n4"
   },
   {
@@ -2607,7 +2607,7 @@
     "id": 373,
     "word": "漫画",
     "reading": "まんが",
-    "korean": "만화",
+    "korean": "만화 잡지",
     "level": "n4"
   },
   {
@@ -2635,7 +2635,7 @@
     "id": 377,
     "word": "無くなる",
     "reading": "なくなる",
-    "korean": "사라지다",
+    "korean": "사라지다, 길을 잃다",
     "level": "n4"
   },
   {
@@ -2719,7 +2719,7 @@
     "id": 389,
     "word": "予習",
     "reading": "よしゅう",
-    "korean": "예습",
+    "korean": "수업 준비",
     "level": "n4"
   },
   {
@@ -2740,7 +2740,7 @@
     "id": 392,
     "word": "揺れる",
     "reading": "ゆれる",
-    "korean": "떨림",
+    "korean": "흔들리다, 흔들리다",
     "level": "n4"
   },
   {
@@ -2754,7 +2754,7 @@
     "id": 394,
     "word": "用事",
     "reading": "ようじ",
-    "korean": "볼일",
+    "korean": "해야 할 일",
     "level": "n4"
   },
   {
@@ -2796,21 +2796,21 @@
     "id": 400,
     "word": "立てる",
     "reading": "たてる",
-    "korean": "세우다",
+    "korean": "뭔가 일어서다",
     "level": "n4"
   },
   {
     "id": 401,
     "word": "留守",
     "reading": "るす",
-    "korean": "부재",
+    "korean": "결석",
     "level": "n4"
   },
   {
     "id": 402,
     "word": "旅館",
     "reading": "りょかん",
-    "korean": "여관",
+    "korean": "일본 호텔",
     "level": "n4"
   },
   {
@@ -2838,7 +2838,7 @@
     "id": 406,
     "word": "冷房",
     "reading": "れいぼう",
-    "korean": "냉방",
+    "korean": "공기 조절",
     "level": "n4"
   },
   {
@@ -2859,7 +2859,7 @@
     "id": 409,
     "word": "為",
     "reading": "ため",
-    "korean": "위해",
+    "korean": "~하기 위해",
     "level": "n4"
   },
   {
@@ -2880,7 +2880,7 @@
     "id": 412,
     "word": "音",
     "reading": "おと",
-    "korean": "소리",
+    "korean": "소리, 메모",
     "level": "n4"
   },
   {
@@ -2908,21 +2908,21 @@
     "id": 416,
     "word": "気",
     "reading": "き",
-    "korean": "영혼",
+    "korean": "정신, 기분",
     "level": "n4"
   },
   {
     "id": 417,
     "word": "客",
     "reading": "きゃく",
-    "korean": "손님",
+    "korean": "손님, 고객",
     "level": "n4"
   },
   {
     "id": 418,
     "word": "急",
     "reading": "きゅう",
-    "korean": "긴급한",
+    "korean": "급한, 가파른",
     "level": "n4"
   },
   {
@@ -2936,7 +2936,7 @@
     "id": 420,
     "word": "隅",
     "reading": "すみ",
-    "korean": "모서리",
+    "korean": "모퉁이, 구석",
     "level": "n4"
   },
   {
@@ -3006,7 +3006,7 @@
     "id": 430,
     "word": "坂",
     "reading": "さか",
-    "korean": "경사",
+    "korean": "경사면, 언덕",
     "level": "n4"
   },
   {
@@ -3034,7 +3034,7 @@
     "id": 434,
     "word": "枝",
     "reading": "えだ",
-    "korean": "나뭇가지",
+    "korean": "가지, 나뭇가지",
     "level": "n4"
   },
   {
@@ -3076,14 +3076,14 @@
     "id": 440,
     "word": "畳",
     "reading": "たたみ",
-    "korean": "다다미",
+    "korean": "일본식 밀짚매트",
     "level": "n4"
   },
   {
     "id": 441,
     "word": "心",
     "reading": "こころ",
-    "korean": "핵심",
+    "korean": "핵심, 심장",
     "level": "n4"
   },
   {
@@ -3118,7 +3118,7 @@
     "id": 446,
     "word": "昔",
     "reading": "むかし",
-    "korean": "옛날",
+    "korean": "옛날, 옛날",
     "level": "n4"
   },
   {
@@ -3160,7 +3160,7 @@
     "id": 452,
     "word": "点",
     "reading": "てん",
-    "korean": "가리키다",
+    "korean": "점, 점",
     "level": "n4"
   },
   {
@@ -3195,7 +3195,7 @@
     "id": 457,
     "word": "日",
     "reading": "ひ",
-    "korean": "해",
+    "korean": "일, 태양",
     "level": "n4"
   },
   {
@@ -3223,7 +3223,7 @@
     "id": 461,
     "word": "彼",
     "reading": "かれ",
-    "korean": "그",
+    "korean": "그, 남자친구",
     "level": "n4"
   },
   {
@@ -3244,7 +3244,7 @@
     "id": 464,
     "word": "米",
     "reading": "こめ",
-    "korean": "쌀",
+    "korean": "생 쌀",
     "level": "n4"
   },
   {
@@ -3300,14 +3300,14 @@
     "id": 472,
     "word": "毛",
     "reading": "け",
-    "korean": "털",
+    "korean": "머리카락이나 털",
     "level": "n4"
   },
   {
     "id": 473,
     "word": "訳",
     "reading": "わけ",
-    "korean": "의미",
+    "korean": "의미, 이유",
     "level": "n4"
   },
   {
@@ -3335,14 +3335,14 @@
     "id": 477,
     "word": "力",
     "reading": "ちから",
-    "korean": "힘",
+    "korean": "힘, 권력",
     "level": "n4"
   },
   {
     "id": 478,
     "word": "林",
     "reading": "はやし",
-    "korean": "숲",
+    "korean": "숲, 삼림 관리인",
     "level": "n4"
   },
   {
@@ -3356,21 +3356,21 @@
     "id": 480,
     "word": "さ来月",
     "reading": "さらいげつ",
-    "korean": "내달",
+    "korean": "다음 달 다음 달",
     "level": "n4"
   },
   {
     "id": 481,
     "word": "さ来週",
     "reading": "さらいしゅう",
-    "korean": "내주",
+    "korean": "다음 주",
     "level": "n4"
   },
   {
     "id": 482,
     "word": "楽む",
     "reading": "たのしむ",
-    "korean": "즐기다",
+    "korean": "즐겁게 지내다",
     "level": "n4"
   },
   {
@@ -3384,7 +3384,7 @@
     "id": 484,
     "word": "御主人",
     "reading": "ごしゅじん",
-    "korean": "남편",
+    "korean": "당신의 남편",
     "level": "n4"
   },
   {
@@ -3398,7 +3398,7 @@
     "id": 486,
     "word": "申す",
     "reading": "もうす",
-    "korean": "불려지다",
+    "korean": "부르다, 말하다",
     "level": "n4"
   },
   {
@@ -3419,14 +3419,14 @@
     "id": 489,
     "word": "沸かす",
     "reading": "わかす",
-    "korean": "종기",
+    "korean": "끓이다, 가열하다",
     "level": "n4"
   },
   {
     "id": 490,
     "word": "落る",
     "reading": "おちる",
-    "korean": "떨어지다",
+    "korean": "떨어지거나 떨어지다",
     "level": "n4"
   },
   {
@@ -3440,7 +3440,7 @@
     "id": 492,
     "word": "けんかする",
     "reading": "けんかする",
-    "korean": "싸움하다",
+    "korean": "싸움",
     "level": "n4"
   },
   {
@@ -3629,7 +3629,7 @@
     "id": 519,
     "word": "ステレオ",
     "reading": "ステレオ",
-    "korean": "스테레오",
+    "korean": "스테레오 재생",
     "level": "n4"
   },
   {
@@ -3643,14 +3643,14 @@
     "id": 521,
     "word": "タイプ",
     "reading": "タイプ",
-    "korean": "유형",
+    "korean": "유형, 스타일",
     "level": "n4"
   },
   {
     "id": 522,
     "word": "テキスト",
     "reading": "テキスト",
-    "korean": "텍스트",
+    "korean": "텍스트, 교과서",
     "level": "n4"
   },
   {
@@ -3671,7 +3671,7 @@
     "id": 525,
     "word": "パソコン",
     "reading": "パソコン",
-    "korean": "컴퓨터",
+    "korean": "개인용 컴퓨터",
     "level": "n4"
   },
   {
@@ -3692,7 +3692,7 @@
     "id": 528,
     "word": "ビル",
     "reading": "ビル",
-    "korean": "빌딩",
+    "korean": "건물이나 청구서",
     "level": "n4"
   },
   {
@@ -3727,7 +3727,7 @@
     "id": 533,
     "word": "ワープロ",
     "reading": "ワープロ",
-    "korean": "워드프로세서",
+    "korean": "워드 프로세서",
     "level": "n4"
   },
   {
@@ -3769,7 +3769,7 @@
     "id": 539,
     "word": "いらっしゃる",
     "reading": "いらっしゃる",
-    "korean": "계시다",
+    "korean": "되거나, 오거나 가거나",
     "level": "n4"
   },
   {
@@ -3811,7 +3811,7 @@
     "id": 545,
     "word": "おかしい",
     "reading": "おかしい",
-    "korean": "이상하다",
+    "korean": "이상하거나 재미있다",
     "level": "n4"
   },
   {
@@ -3825,7 +3825,7 @@
     "id": 547,
     "word": "おつり",
     "reading": "おつり",
-    "korean": "거스름돈",
+    "korean": "구매, 잔액 변경",
     "level": "n4"
   },
   {
@@ -3874,14 +3874,14 @@
     "id": 554,
     "word": "こと",
     "reading": "こと",
-    "korean": "물건",
+    "korean": "것, 문제",
     "level": "n4"
   },
   {
     "id": 555,
     "word": "このごろ",
     "reading": "このごろ",
-    "korean": "요즘",
+    "korean": "요즘 요즘",
     "level": "n4"
   },
   {
@@ -3895,7 +3895,7 @@
     "id": 557,
     "word": "これから",
     "reading": "これから",
-    "korean": "앞으로",
+    "korean": "이 후에",
     "level": "n4"
   },
   {
@@ -3909,7 +3909,7 @@
     "id": 559,
     "word": "しっかり",
     "reading": "しっかり",
-    "korean": "단단히",
+    "korean": "확고히, 꾸준히",
     "level": "n4"
   },
   {
@@ -3923,7 +3923,7 @@
     "id": 561,
     "word": "じゃま",
     "reading": "じゃま",
-    "korean": "방해",
+    "korean": "방해, 침입",
     "level": "n4"
   },
   {
@@ -3951,7 +3951,7 @@
     "id": 565,
     "word": "すばらしい",
     "reading": "すばらしい",
-    "korean": "훌륭하다",
+    "korean": "아주 멋진",
     "level": "n4"
   },
   {
@@ -3965,7 +3965,7 @@
     "id": 567,
     "word": "すると",
     "reading": "すると",
-    "korean": "그러자",
+    "korean": "그 다음에",
     "level": "n4"
   },
   {
@@ -3979,7 +3979,7 @@
     "id": 569,
     "word": "ぜんぜん",
     "reading": "ぜんぜん",
-    "korean": "전혀",
+    "korean": "완전히는 아니지만",
     "level": "n4"
   },
   {
@@ -3993,7 +3993,7 @@
     "id": 571,
     "word": "それで",
     "reading": "それで",
-    "korean": "그래서",
+    "korean": "그것 때문에",
     "level": "n4"
   },
   {
@@ -4007,35 +4007,35 @@
     "id": 573,
     "word": "それほど",
     "reading": "それほど",
-    "korean": "그만큼",
+    "korean": "그 정도",
     "level": "n4"
   },
   {
     "id": 574,
     "word": "そろそろ",
     "reading": "そろそろ",
-    "korean": "서서히",
+    "korean": "점차적으로, 곧",
     "level": "n4"
   },
   {
     "id": 575,
     "word": "そんな",
     "reading": "そんな",
-    "korean": "그런",
+    "korean": "그런 종류의",
     "level": "n4"
   },
   {
     "id": 576,
     "word": "そんなに",
     "reading": "そんなに",
-    "korean": "그렇게",
+    "korean": "너무 많이, 그렇게",
     "level": "n4"
   },
   {
     "id": 577,
     "word": "だから",
     "reading": "だから",
-    "korean": "그래서",
+    "korean": "그래서, 그러므로",
     "level": "n4"
   },
   {
@@ -4063,7 +4063,7 @@
     "id": 581,
     "word": "ちゃん",
     "reading": "ちゃん",
-    "korean": "접미사",
+    "korean": "친숙한 여성을 가리키는 접미사",
     "level": "n4"
   },
   {
@@ -4091,21 +4091,21 @@
     "id": 585,
     "word": "とうとう",
     "reading": "とうとう",
-    "korean": "마침내",
+    "korean": "결국 결국",
     "level": "n4"
   },
   {
     "id": 586,
     "word": "どんどん",
     "reading": "どんどん",
-    "korean": "점점",
+    "korean": "점점 더",
     "level": "n4"
   },
   {
     "id": 587,
     "word": "なさる",
     "reading": "なさる",
-    "korean": "하시다",
+    "korean": "할 일",
     "level": "n4"
   },
   {
@@ -4119,7 +4119,7 @@
     "id": 589,
     "word": "なるほど",
     "reading": "なるほど",
-    "korean": "그렇구나",
+    "korean": "이제 나는 이해한다",
     "level": "n4"
   },
   {
