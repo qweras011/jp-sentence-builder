@@ -1,3 +1,4 @@
+import { getVocabCounts, getVocabTargets } from "../data/vocab";
 import type { VocabDirection } from "../types/vocab";
 import { VOCAB_DAILY_GOAL } from "../utils/daily";
 import { VocabDirectionToggle } from "./VocabDirectionToggle";
@@ -20,11 +21,15 @@ export function VocabHeader({
   onDirectionChange,
 }: VocabHeaderProps) {
   const progress = Math.round((completed / VOCAB_DAILY_GOAL) * 100);
+  const counts = getVocabCounts();
+  const targets = getVocabTargets();
 
   return (
     <header className="rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm dark:border-slate-700 dark:bg-slate-800">
       <div className="flex items-center justify-between gap-2">
-        <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">단어 외우기</p>
+        <p className="text-sm font-semibold text-slate-800 dark:text-slate-100">
+          단어 외우기 · N4·N3 필수
+        </p>
         <div className="flex items-center gap-2">
           <VocabDirectionToggle direction={direction} onChange={onDirectionChange} />
           <p className="shrink-0 text-xs text-slate-400 dark:text-slate-500">{dateLabel}</p>
@@ -38,6 +43,9 @@ export function VocabHeader({
           복습 {reviewCount} · 신규 {freshCount}
         </span>
       </div>
+      <p className="mt-1 text-[11px] text-slate-400 dark:text-slate-500">
+        단어장 {counts.total}/{targets.total} (N4 {counts.n4}/{targets.n4} · N3 {counts.n3}/{targets.n3})
+      </p>
       <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
         <div
           className="h-full rounded-full bg-emerald-500 transition-all duration-300"

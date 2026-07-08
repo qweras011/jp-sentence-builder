@@ -1,7 +1,6 @@
 import { SENTENCE_DAILY_GOAL, getLocalDateString } from "./daily";
 import type { SentenceItem } from "../types/sentence";
-import { loadSrsCards } from "./vocabSrs";
-import { countReviewAndNew, selectDailySentences } from "./selectDaily";
+import { countSentenceUnseenAndRepeat, selectDailySentences } from "./selectDaily";
 
 const STORAGE_KEY = "jp-sentence-builder-daily-progress";
 
@@ -44,9 +43,8 @@ export function saveDailyProgress(completed: number, sentenceIds: number[]): voi
 export function resolveTodaySentences(
   pool: SentenceItem[],
   count = SENTENCE_DAILY_GOAL,
-): { sentences: SentenceItem[]; review: number; fresh: number } {
+): { sentences: SentenceItem[]; unseenCount: number; repeatCount: number } {
   const saved = loadDailyProgress();
-  const cards = loadSrsCards();
   const today = getLocalDateString();
 
   let sentences: SentenceItem[];
@@ -57,15 +55,15 @@ export function resolveTodaySentences(
       .filter((item): item is SentenceItem => Boolean(item));
 
     if (sentences.length < count) {
-      const picked = selectDailySentences(pool, cards, count, today);
+      const picked = selectDailySentences(pool, count, today);
       sentences = picked;
       saveDailyProgress(saved.completed, picked.map((s) => s.id));
     }
   } else {
-    sentences = selectDailySentences(pool, cards, count, today);
+    sentences = selectDailySentences(pool, count, today);
     saveDailyProgress(0, sentences.map((s) => s.id));
   }
 
-  const { review, fresh } = countReviewAndNew(sentences, cards, today);
-  return { sentences, review, fresh };
+  const { unseen, repeat } = countSentenceUnseenAndRepeat(sentences);
+  return { sentences, unseenCount: unseen, repeatCount: repeat };
 }

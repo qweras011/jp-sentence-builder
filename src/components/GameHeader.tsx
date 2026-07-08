@@ -3,15 +3,15 @@ import { SENTENCE_DAILY_GOAL } from "../utils/daily";
 interface GameHeaderProps {
   completed: number;
   dateLabel: string;
-  reviewCount: number;
-  freshCount: number;
+  unseenCount: number;
+  repeatCount: number;
 }
 
 export function GameHeader({
   completed,
   dateLabel,
-  reviewCount,
-  freshCount,
+  unseenCount,
+  repeatCount,
 }: GameHeaderProps) {
   const progress = Math.round((completed / SENTENCE_DAILY_GOAL) * 100);
 
@@ -26,7 +26,7 @@ export function GameHeader({
           오늘 {completed} / {SENTENCE_DAILY_GOAL}
         </span>
         <span className="text-slate-500 dark:text-slate-400">
-          복습 {reviewCount} · 신규 {freshCount}
+          {repeatCount > 0 ? `처음 ${unseenCount} · 다시 ${repeatCount}` : `처음 ${unseenCount}`}
         </span>
       </div>
       <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">

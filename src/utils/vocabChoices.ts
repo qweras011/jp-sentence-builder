@@ -27,7 +27,7 @@ export function buildVocabChoices(
   ).slice(0, 2);
 
   while (distractors.length < 2) {
-    distractors.push({ id: -1, word: "—", reading: "", korean: "—" });
+    distractors.push({ id: -1, word: "—", reading: "", korean: "—", level: "n4" });
   }
 
   const options = shuffle([
@@ -45,7 +45,7 @@ function buildReverseVocabChoices(item: VocabItem, pool: VocabItem[]): VocabChoi
   ).slice(0, 2);
 
   while (distractors.length < 2) {
-    distractors.push({ id: -1, word: "—", reading: "", korean: "—" });
+    distractors.push({ id: -1, word: "—", reading: "", korean: "—", level: "n4" });
   }
 
   const options = shuffle([

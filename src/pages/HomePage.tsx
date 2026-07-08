@@ -5,7 +5,7 @@ interface HomePageProps {
 
 const features = [
   {
-    title: "하루 5문장 · 10단어",
+    title: "하루 5문장 · 12단어",
     desc: "문장과 단어를 나눠 부담 없이 매일 학습",
   },
   {
@@ -32,7 +32,7 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
             일본어 학습
           </h1>
           <p className="mx-auto mt-3 max-w-lg text-base leading-relaxed text-slate-600 dark:text-slate-400">
-            문장 만들기와 단어 외우기로 N3–N4 일본어를 매일 조금씩 쌓아 보세요.
+            N4·N3 필수 단어와 문장으로 매일 조금씩 — 단어는 암기, 문장은 구조 연습.
           </p>
         </header>
 
@@ -54,7 +54,7 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
           <article className="flex flex-col rounded-2xl border border-emerald-200 bg-white p-5 shadow-sm dark:border-emerald-800 dark:bg-slate-800">
             <h2 className="font-kr text-xl font-bold text-slate-900 dark:text-slate-100">단어 외우기</h2>
             <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-              일→한 · 한→일 모드, 하루 10단어, 틀린 단어는 망각곡선 복습.
+              N4·N3 필수 단어, 하루 12개(신규 5+복습). 일→한 · 한→일, SM-2 망각곡선.
             </p>
             <button
               type="button"
@@ -86,7 +86,7 @@ export function HomePage({ onStartSentence, onStartVocab }: HomePageProps) {
         </section>
 
         <footer className="mt-10 text-center text-xs text-slate-400">
-          N3–N4 문장 · 단어 학습 앱
+          N4·N3 필수 단어 · 문장 학습
         </footer>
       </main>
     </div>

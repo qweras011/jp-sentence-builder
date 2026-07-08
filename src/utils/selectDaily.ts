@@ -1,7 +1,6 @@
 import type { SentenceItem } from "../types/sentence";
-import type { SrsCard } from "../types/srs";
-import { SENTENCE_DAILY_GOAL, getLocalDateString } from "./daily";
-import { daysBetween, isDue } from "./srs";
+import { SENTENCE_DAILY_GOAL, getLocalDateString, hashString } from "./daily";
+import { loadCompletedSentenceIds } from "./sentenceCompleted";
 
 const SKIP_PIECES = new Set(["。", "、", "？", "！"]);
 
@@ -13,65 +12,47 @@ export function getTrackablePieces(pieces: string[]): string[] {
   return [...new Set(pieces.filter(isTrackablePiece))];
 }
 
-export function sentencePriority(
-  sentence: SentenceItem,
-  cards: Record<string, SrsCard>,
-  today = getLocalDateString(),
-): number {
-  const pieces = getTrackablePieces(sentence.shuffled);
-  if (pieces.length === 0) return 0;
-
-  let score = 0;
-  for (const piece of pieces) {
-    const card = cards[piece];
-    if (!card) {
-      score += 40;
-      continue;
-    }
-    if (isDue(card, today)) {
-      score += 120 + daysBetween(card.nextReview, today) * 15;
-    } else {
-      score += 5;
-    }
-  }
-
-  return score / pieces.length;
+function sortByDailyHash<T extends { id: number }>(items: T[], today: string): T[] {
+  return [...items].sort(
+    (a, b) => hashString(`${today}-${a.id}`) - hashString(`${today}-${b.id}`),
+  );
 }
 
-export function countReviewAndNew(
-  sentences: SentenceItem[],
-  cards: Record<string, SrsCard>,
-  today = getLocalDateString(),
-): { review: number; fresh: number } {
-  let review = 0;
-  let fresh = 0;
-
-  for (const sentence of sentences) {
-    const pieces = getTrackablePieces(sentence.shuffled);
-    const hasDue = pieces.some((piece) => {
-      const card = cards[piece];
-      return card ? isDue(card, today) : false;
-    });
-    const hasNew = pieces.some((piece) => !cards[piece]);
-
-    if (hasDue) review += 1;
-    else if (hasNew) fresh += 1;
-    else review += 1;
-  }
-
-  return { review, fresh };
-}
-
+/** 미학습 문장 우선, 부족하면 이전에 맞힌 문장으로 채움 (SRS 없음) */
 export function selectDailySentences(
   pool: SentenceItem[],
-  cards: Record<string, SrsCard>,
   count = SENTENCE_DAILY_GOAL,
   today = getLocalDateString(),
 ): SentenceItem[] {
-  const ranked = [...pool].sort((a, b) => {
-    const diff = sentencePriority(b, cards, today) - sentencePriority(a, cards, today);
-    return diff !== 0 ? diff : a.id - b.id;
-  });
+  const completed = loadCompletedSentenceIds();
+  const unseen = pool.filter((item) => !completed.has(item.id));
+  const seen = pool.filter((item) => completed.has(item.id));
 
-  return ranked.slice(0, count);
+  const picked = sortByDailyHash(unseen, today).slice(0, count);
+  if (picked.length < count) {
+    const pickedIds = new Set(picked.map((item) => item.id));
+    const extra = sortByDailyHash(
+      seen.filter((item) => !pickedIds.has(item.id)),
+      today,
+    ).slice(0, count - picked.length);
+    picked.push(...extra);
+  }
+
+  return picked;
+}
+
+export function countSentenceUnseenAndRepeat(sentences: SentenceItem[]): {
+  unseen: number;
+  repeat: number;
+} {
+  const completed = loadCompletedSentenceIds();
+  let unseen = 0;
+  let repeat = 0;
+
+  for (const sentence of sentences) {
+    if (completed.has(sentence.id)) repeat += 1;
+    else unseen += 1;
+  }
+
+  return { unseen, repeat };
 }

@@ -1,5 +1,6 @@
 export const SENTENCE_DAILY_GOAL = 5;
-export const VOCAB_DAILY_GOAL = 10;
+export const VOCAB_DAILY_GOAL = 12;
+export const VOCAB_DAILY_NEW = 5;
 
 /** @deprecated Use SENTENCE_DAILY_GOAL or VOCAB_DAILY_GOAL */
 export const DAILY_GOAL = SENTENCE_DAILY_GOAL;
@@ -11,7 +12,7 @@ export function getLocalDateString(date = new Date()): string {
   return `${year}-${month}-${day}`;
 }
 
-function hashString(value: string): number {
+export function hashString(value: string): number {
   let hash = 0;
   for (let i = 0; i < value.length; i += 1) {
     hash = (hash << 5) - hash + value.charCodeAt(i);

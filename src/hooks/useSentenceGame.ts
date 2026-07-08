@@ -5,12 +5,13 @@ import { SENTENCE_DAILY_GOAL, getLocalDateString } from "../utils/daily";
 import { loadDailyProgress, resolveTodaySentences, saveDailyProgress } from "../utils/dailyProgress";
 import { getTrackablePieces } from "../utils/selectDaily";
 import { compareSentencePieces } from "../utils/sentenceCompare";
+import { markSentenceCompleted } from "../utils/sentenceCompleted";
 import { normalizeForAnswer, shuffle } from "../utils/shuffle";
 
 const allPool = data as SentenceItem[];
 
 function buildTodaySession() {
-  const { sentences, review, fresh } = resolveTodaySentences(allPool, SENTENCE_DAILY_GOAL);
+  const { sentences, unseenCount, repeatCount } = resolveTodaySentences(allPool, SENTENCE_DAILY_GOAL);
   const saved = loadDailyProgress();
   const alreadyDone = Math.min(saved.completed, SENTENCE_DAILY_GOAL);
 
@@ -18,8 +19,8 @@ function buildTodaySession() {
     todaySentences: sentences,
     initialCompleted: alreadyDone,
     initialQueue: sentences.slice(alreadyDone),
-    reviewCount: review,
-    freshCount: fresh,
+    unseenCount,
+    repeatCount,
     sentenceIds: sentences.map((s) => s.id),
   };
 }
@@ -33,8 +34,8 @@ export function useSentenceGame() {
   const [selectedPieces, setSelectedPieces] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<FeedbackState>("idle");
   const [shuffleSeed, setShuffleSeed] = useState(0);
-  const [reviewCount] = useState(session.reviewCount);
-  const [freshCount] = useState(session.freshCount);
+  const [unseenCount] = useState(session.unseenCount);
+  const [repeatCount] = useState(session.repeatCount);
   const [sentenceIds] = useState(session.sentenceIds);
 
   const totalUnique = SENTENCE_DAILY_GOAL;
@@ -103,6 +104,7 @@ export function useSentenceGame() {
     if (feedback === "idle") return;
 
     if (feedback === "correct") {
+      if (current) markSentenceCompleted(current.id);
       setQueue((prev) => prev.slice(1));
       setCompletedCount((count) => {
         const next = Math.min(count + 1, SENTENCE_DAILY_GOAL);
@@ -119,7 +121,7 @@ export function useSentenceGame() {
     setSelectedPieces([]);
     setFeedback("idle");
     setShuffleSeed((seed) => seed + 1);
-  }, [feedback, sentenceIds]);
+  }, [feedback, sentenceIds, current]);
 
   const restart = useCallback(() => {
     const { sentences } = resolveTodaySentences(allPool, SENTENCE_DAILY_GOAL);
@@ -139,8 +141,8 @@ export function useSentenceGame() {
     remainingCount: queue.length,
     isComplete,
     dateLabel,
-    reviewCount,
-    freshCount,
+    unseenCount,
+    repeatCount,
     selectedPieces,
     availablePieces,
     feedback,

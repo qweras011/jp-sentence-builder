@@ -1,5 +1,5 @@
 import type { VocabItem } from "../types/vocab";
-import { VOCAB_DAILY_GOAL, getLocalDateString } from "./daily";
+import { VOCAB_DAILY_GOAL, VOCAB_DAILY_NEW, getLocalDateString } from "./daily";
 import type { SrsCard } from "../types/srs";
 import { daysBetween, isDue } from "./srs";
 import { loadWordQuizCards, vocabSrsKey } from "./wordQuizSrs";
@@ -42,47 +42,85 @@ export function saveVocabDailyProgress(completed: number, vocabIds: number[]): v
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
 }
 
-function vocabPriority(item: VocabItem, cards: Record<string, SrsCard>, today: string): number {
+function reviewPriority(item: VocabItem, cards: Record<string, SrsCard>, today: string): number {
   const card = cards[vocabSrsKey(item.id)];
-  if (!card) return 100;
-  if (isDue(card, today)) {
-    let score = 200 + daysBetween(card.nextReview, today) * 10;
-    if (card.repetitions === 0) score += 100;
-    if (card.interval <= 1) score += 40;
-    return score;
-  }
-  return 10;
+  if (!card || !isDue(card, today)) return 0;
+
+  let score = 200 + daysBetween(card.nextReview, today) * 10;
+  if (card.repetitions === 0) score += 100;
+  if (card.interval <= 1) score += 40;
+  return score;
 }
 
 function countVocabReviewAndNew(
   items: VocabItem[],
   cards: Record<string, SrsCard>,
-  today: string,
 ): { review: number; fresh: number } {
   let review = 0;
   let fresh = 0;
 
   for (const item of items) {
-    const card = cards[vocabSrsKey(item.id)];
-    if (!card) fresh += 1;
-    else if (isDue(card, today)) review += 1;
-    else review += 1;
+    if (cards[vocabSrsKey(item.id)]) review += 1;
+    else fresh += 1;
   }
 
   return { review, fresh };
 }
 
+/** 최소 신규 VOCAB_DAILY_NEW(5)개 + 복습 우선, 부족하면 신규 추가 */
 export function selectDailyVocab(
   pool: VocabItem[],
   count = VOCAB_DAILY_GOAL,
   today = getLocalDateString(),
 ): VocabItem[] {
   const cards = loadWordQuizCards();
-  const ranked = [...pool].sort((a, b) => {
-    const diff = vocabPriority(b, cards, today) - vocabPriority(a, cards, today);
-    return diff !== 0 ? diff : a.id - b.id;
-  });
-  return ranked.slice(0, count);
+  const usedIds = new Set<number>();
+  const result: VocabItem[] = [];
+
+  const newWords = pool
+    .filter((item) => !cards[vocabSrsKey(item.id)])
+    .sort((a, b) => a.id - b.id);
+
+  const newTarget = Math.min(VOCAB_DAILY_NEW, count, newWords.length);
+  for (let i = 0; i < newTarget; i += 1) {
+    result.push(newWords[i]);
+    usedIds.add(newWords[i].id);
+  }
+
+  const dueReview = pool
+    .filter((item) => {
+      if (usedIds.has(item.id)) return false;
+      const card = cards[vocabSrsKey(item.id)];
+      return card && isDue(card, today);
+    })
+    .sort(
+      (a, b) =>
+        reviewPriority(b, cards, today) - reviewPriority(a, cards, today) || a.id - b.id,
+    );
+
+  for (const item of dueReview) {
+    if (result.length >= count) break;
+    result.push(item);
+    usedIds.add(item.id);
+  }
+
+  for (const item of newWords) {
+    if (result.length >= count) break;
+    if (usedIds.has(item.id)) continue;
+    result.push(item);
+    usedIds.add(item.id);
+  }
+
+  const filler = pool
+    .filter((item) => !usedIds.has(item.id))
+    .sort((a, b) => a.id - b.id);
+
+  for (const item of filler) {
+    if (result.length >= count) break;
+    result.push(item);
+  }
+
+  return result;
 }
 
 export function resolveTodayVocab(
@@ -109,6 +147,6 @@ export function resolveTodayVocab(
     saveVocabDailyProgress(0, items.map((item) => item.id));
   }
 
-  const { review, fresh } = countVocabReviewAndNew(items, cards, today);
+  const { review, fresh } = countVocabReviewAndNew(items, cards);
   return { items, review, fresh };
 }

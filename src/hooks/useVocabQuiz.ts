@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import vocabData from "../data/vocab.json";
+import { getVocabPool } from "../data/vocab";
 import type { VocabDirection, VocabFeedback, VocabItem } from "../types/vocab";
 import { VOCAB_DAILY_GOAL, getLocalDateString } from "../utils/daily";
 import { buildVocabChoices } from "../utils/vocabChoices";
@@ -10,7 +10,7 @@ import {
 } from "../utils/vocabDailyProgress";
 import { reviewWord, reviewWordWrong } from "../utils/wordQuizSrs";
 
-const allPool = vocabData as VocabItem[];
+const allPool = getVocabPool();
 
 function buildTodaySession() {
   const { items, review, fresh } = resolveTodayVocab(allPool, VOCAB_DAILY_GOAL);

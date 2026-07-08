@@ -18,8 +18,8 @@ export function GamePage({ onHome, showFurigana }: GamePageProps) {
     totalUnique,
     isComplete,
     dateLabel,
-    reviewCount,
-    freshCount,
+    unseenCount,
+    repeatCount,
     selectedPieces,
     availablePieces,
     feedback,
@@ -45,8 +45,8 @@ export function GamePage({ onHome, showFurigana }: GamePageProps) {
           <GameHeader
             completed={completedCount}
             dateLabel={dateLabel}
-            reviewCount={reviewCount}
-            freshCount={freshCount}
+            unseenCount={unseenCount}
+            repeatCount={repeatCount}
           />
           <div className="rounded-xl border border-slate-200 bg-white p-6 text-center shadow-sm dark:border-slate-700 dark:bg-slate-800">
             <p className="text-sm font-medium text-indigo-600 dark:text-indigo-400">오늘 목표 달성</p>
@@ -88,8 +88,8 @@ export function GamePage({ onHome, showFurigana }: GamePageProps) {
         <GameHeader
           completed={completedCount}
           dateLabel={dateLabel}
-          reviewCount={reviewCount}
-          freshCount={freshCount}
+          unseenCount={unseenCount}
+          repeatCount={repeatCount}
         />
 
         <PromptCard korean={current.korean} />
